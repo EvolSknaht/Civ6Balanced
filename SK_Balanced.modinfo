@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ff025d0c-2307-18b2-35bc-85b6774a4df7" version="1.0">
+    <Properties>
+        <Name>SK_BALANCED_NAME</Name>
+		<Stability>Alpha</Stability>
+        <Teaser>SK_BALANCED_TEASER</Teaser>
+        <Description>SK_BALANCED_DESCRIPTION</Description>
+        <Authors>SK_BALANCED_AUTHOR</Authors>
+        <SpecialThanks>SK_BALANCED_THANKS</SpecialThanks>
+    </Properties>
+	<Files>
+		<File>SK_Balanced.xml</File>
+		<File>SK_Balanced_Resource.xml</File>
+		<File>SK_Balanced_StrategicYields.xml</File>
+		<File>SK_Districts_Changes.xml</File>
+		<File>SK_Text.xml</File>
+	</Files>
+	
+	<Settings>
+		<Custom id="SK_SETTING">
+			<Items>
+				<Component>SK_DATABASE</Component>
+				<Component>SK_TEXT</Component>
+			</Items>
+		</Custom>
+	</Settings>
+	
+	<Components>
+        <UpdateDatabase id="SK_DATABASE">
+			<Properties>
+				<Name>SK_BALANCED_NAME</Name>
+	    	</Properties>
+			<Items>
+				<File>SK_Balanced.xml</File>
+				<File>SK_Balanced_Resource.xml</File>
+				<File>SK_Balanced_StrategicYields.xml</File>
+				<File>SK_Districts_Changes.xml</File>
+			</Items>
+        </UpdateDatabase>
+		<LocalizedText id = "SK_TEXT">
+			<Items>
+				<File>SK_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+	
+    <LocalizedText>
+        <Text id="SK_BALANCED_NAME">
+            <en_US>SK_Balanced 1.0</en_US>
+			<zh_Hans_CN>Civ6平衡性调整 1.0</zh_Hans_CN>
+        </Text>
+		<Text id="SK_BALANCED_TEASER">
+			<en_US>Whole civilization balanced. Buildings districts buffs bonus, luxury, and strategic resources.</en_US>
+			<zh_Hans_CN>全文明特性改动，调整地块产出，兵种战斗力平衡。使建筑和区域能够让奖励资源，奢侈品和战略资源增加产出。</zh_Hans_CN>
+		</Text>
+		<Text id="SK_BALANCED_DESCRIPTION">
+            <en_US>Whole civilization balanced. Buildings districts buffs bonus, luxury, and strategic resources.</en_US>
+			<zh_Hans_CN>全文明特性改动，调整地块产出，兵种战斗力平衡。使建筑和区域能够让奖励资源，奢侈品和战略资源增加产出。</zh_Hans_CN>
+        </Text>
+		<Text id="SK_BALANCED_AUTHOR">
+            <en_US>Sknaht</en_US>
+			<zh_Hans_CN>Sknaht</zh_Hans_CN>
+        </Text>
+		<Text id="SK_BALANCED_THANKS">
+            <en_US></en_US>
+			<zh_Hans_CN></zh_Hans_CN>
+        </Text>
+    </LocalizedText>
+</Mod>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+    <LocalizedText>
+    <!-- en_US -->
+        <Replace Tag="LOC_SK_BUILDING_WATER_MILL_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Food] Food to [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_CATTLE] Cattle, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_DEER] Deer, [ICON_RESOURCE_RICE] Rice, [ICON_RESOURCE_SHEEP] Sheep, and [ICON_RESOURCE_WHEAT] Wheat resources. City must be adjacent to a River.</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_BUILDING_BARRACKS_DESCRIPTION" Language="en_US">
+            <Text>+25% combat experience for all melee and ranged land units trained in this city.[NEWLINE][NEWLINE]May not be built in an Encampment district that already has a Stable.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_COPPER] Copper resources.</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_BUILDING_STABLE_DESCRIPTION" Language="en_US">
+            <Text>+25% combat experience for all cavalry class units trained in this city. May not be built in an Encampment district that already has a Barracks.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_HORSES] Horse resources.</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_BUILDING_ARMORY_DESCRIPTION" Language="en_US">
+            <Text>+25% combat experience for all land units trained in this city.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_IRON] Iron and [ICON_RESOURCE_NITER] Niter resources.</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_BUILDING_SHRINE_DESCRIPTION" Language="en_US">
+            <Text>Allows the purchasing of Missionaries. Missionaries can only be purchased with [ICON_Faith] Faith.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith to [ICON_RESOURCE_STONE] Stone, [ICON_RESOURCE_INCENSE] Incense, and [ICON_RESOURCE_WINE] Wine resources.</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_BUILDING_AMPHITHEATER_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Culture] Culture to [ICON_RESOURCE_COFFEE] Coffee, [ICON_RESOURCE_TEA] Tea, [ICON_RESOURCE_MARBLE] Marble, [ICON_RESOURCE_DIAMONDS] Diamonds, and [ICON_RESOURCE_JADE] Jade resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_ARENA_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Gold] Gold to [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TRUFFLES] Truffles, and [ICON_RESOURCE_IVORY] Ivory resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_ZOO_DESCRIPTION" Language="en_US">
+            <Text>Bonus extends to each city center within 6 tiles.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture to [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TRUFFLES] Truffles, and [ICON_RESOURCE_IVORY] Ivory resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_AQUEDUCT_DESCRIPTION" Language="en_US">
+            <Text>A district that provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. Must be built adjacent to the City Center.[NEWLINE][NEWLINE]+1 [ICON_Food] Food to tiles up to two away.[NEWLINE]+2 [ICON_Food] Food to Oases.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_CAMPUS_DESCRIPTION" Language="en_US">
+            <Text>A district in your city for scientific endeavors.[NEWLINE][NEWLINE]+1 [ICON_Science] Science to [ICON_RESOURCE_MERCURY] Mercury and [ICON_RESOURCE_URANIUM] Uranium resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_COMMERCIAL_HUB_DESCRIPTION" Language="en_US">
+            <Text>A district in your city specializing in finance and trade.[NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold to [ICON_RESOURCE_FURS] Furs, [ICON_RESOURCE_SALT] Salt, [ICON_RESOURCE_COTTON] Cotton, [ICON_RESOURCE_DYES] Dyes, [ICON_RESOURCE_SILK] Silk, [ICON_RESOURCE_SPICES] Spices, [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_TOBACCO] Tobacco, and [ICON_RESOURCE_SILVER] Silver resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_ENCAMPMENT_DESCRIPTION" Language="en_US">
+            <Text>A district in your city for military facilities.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_COPPER] Copper, [ICON_RESOURCE_IRON] Iron, [ICON_RESOURCE_HORSES] Horses, and [ICON_RESOURCE_NITER] Niter resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_STREET_CARNIVAL_DESCRIPTION" Language="en_US">
+            <Text>A district unique to Brazil. Replaces the Entertainment Complex district, and provides +2 [ICON_Amenities] Amenities. Also unlocks the Carnival project, which grants an additional +1 [ICON_Amenities] Amenity when underway and a variety of [ICON_GreatPerson] Great People points once completed.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold to [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TRUFFLES] Truffles, and [ICON_RESOURCE_IVORY] Ivory resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_HOLY_SITE_DESCRIPTION" Language="en_US">
+            <Text>A district in your city for religious worship.[NEWLINE][NEWLINE]+2 [ICON_Faith] Faith to [ICON_RESOURCE_STONE] Stone, [ICON_RESOURCE_INCENSE] Incense, and [ICON_RESOURCE_WINE] Wine resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION" Language="en_US">
+            <Text>A district in your city for industrial activity.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_GYPSUM] Gypsum, [ICON_RESOURCE_ALUMINUM] Aluminum, [ICON_RESOURCE_COAL] Coal, and [ICON_RESOURCE_OIL] Oil resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_THEATER_DESCRIPTION" Language="en_US">
+            <Text>A district in your city for cultural sites.[NEWLINE][NEWLINE]+2 [ICON_Culture] Culture to [ICON_RESOURCE_COFFEE] Coffee, [ICON_RESOURCE_TEA] Tea, [ICON_RESOURCE_MARBLE] Marble, [ICON_RESOURCE_DIAMONDS] Diamonds, and [ICON_RESOURCE_JADE] Jade resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_BATH_DESCRIPTION" Language="en_US">
+            <Text>A district unique to Rome for city growth. Replaces the Aqueduct district.[NEWLINE][NEWLINE]It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. Must be built adjacent to the City Center. In either case, the Bath provides an additional bonus of +4 [ICON_Housing] Housing and +2 [ICON_Amenities] Amenity. Must be built adjacent to the City Center.[NEWLINE][NEWLINE]+1 [ICON_Food] Food to tiles up to two away.[NEWLINE]+2 [ICON_Food] Food to Oases.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="en_US">
+            <Text>A district in your city dedicated to keeping your people happy by increasing [ICON_Amenities] Amenities.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold to [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TRUFFLES] Truffles, and [ICON_RESOURCE_IVORY] Ivory resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_LAVRA_DESCRIPTION" Language="en_US">
+            <Text>A district unique to Russia for religious activity. Replaces the Holy Site district.[NEWLINE][NEWLINE]Your city border grows by one tile each time a Great Person is expended in this city.[NEWLINE][NEWLINE]+2 [ICON_Faith] Faith to [ICON_RESOURCE_STONE] Stone, [ICON_RESOURCE_INCENSE] Incense, and [ICON_RESOURCE_WINE] Wine resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_DISTRICT_HANSA_DESCRIPTION" Language="en_US">
+            <Text>A district unique to Germany for industrial activity. Replaces the Industrial Zone district.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_GYPSUM] Gypsum, [ICON_RESOURCE_ALUMINUM] Aluminum, [ICON_RESOURCE_COAL] Coal, and [ICON_RESOURCE_OIL] Oil resources.</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_DISTRICT_ACROPOLIS_DESCRIPTION" Language="en_US">
+            <Text>A district unique to Greece for cultural sites. Replaces the Theater Square district.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture to [ICON_RESOURCE_COFFEE] Coffee, [ICON_RESOURCE_TEA] Tea, and [ICON_RESOURCE_MARBLE] Marble resources.</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_DISTRICT_ROYAL_NAVY_DOCKYARD_DESCRIPTION" Language="en_US">
+			<Text>A district unique to England for naval activity in your city. Replaces the Harbor district. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land.[NEWLINE][NEWLINE]+1 [ICON_Movement] Movement for all naval units built in Dockyard[NEWLINE]+4 [ICON_Gold] Gold when built on a foreign continent[NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_BUILDING_COLOSSEUM_DESCRIPTION" Language="en_US">
+			<Text>The Colosseum's [ICON_Culture] Culture and [ICON_Amenities] Amenities are extended to each city center within 9 tiles. Must be built on flat land adjacent to an Entertainment Complex district.</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Japan. +10 [ICON_Production] Production to all cities within 6 tiles. After researching the Electricity technology this building provides an additional +4 [ICON_Culture] Culture to its city.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_CAMP_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Camps.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold and +1 [ICON_Production] Production. Can only be built on [ICON_RESOURCE_FURS] Fur, [ICON_RESOURCE_IVORY] Ivory, [ICON_RESOURCE_DEER] Deer, or [ICON_RESOURCE_TRUFFLES] Truffle resources.[NEWLINE][NEWLINE]If built on a Luxury resource like [ICON_RESOURCE_FURS] Fur, [ICON_RESOURCE_TRUFFLES] Truffles, or [ICON_RESOURCE_IVORY] Ivory, the city will gain use of that resource.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_QUARRY_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Quarries.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold and +1 [ICON_Production] Production. Can only be built on [ICON_RESOURCE_STONE] Stone, [ICON_RESOURCE_MARBLE] Marble, or [ICON_RESOURCE_GYPSUM] Gypsum resources.[NEWLINE][NEWLINE]If built on a Luxury resource, the city will gain use of that resource.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_PLANTATION_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Plantations.[NEWLINE][NEWLINE]+1 [ICON_Food] Food and +1 [ICON_Gold] Gold. Can only be built on [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_COFFEE] Coffee, [ICON_RESOURCE_COTTON] Cotton, [ICON_RESOURCE_DYES] Dyes, [ICON_RESOURCE_SILK] Silk, [ICON_RESOURCE_SPICES] Spices, [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_TEA] Tea, [ICON_RESOURCE_TOBACCO] Tobacco, or [ICON_RESOURCE_WINE] Wine resources.[NEWLINE][NEWLINE]If built on a Luxury resource, the city will gain use of that resource.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_FISHING_BOATS_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct Fishing Boats.[NEWLINE][NEWLINE]+1 [ICON_Food] Food and +1 [ICON_Gold] Gold. Can only be built on Coast or Ocean resources.[NEWLINE][NEWLINE]If built on [ICON_RESOURCE_PEARLS] Pearls or [ICON_RESOURCE_WHALES] Whales, the city will gain use of that resource.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_SPHINX_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Sphinx, unique to Egypt.[NEWLINE][NEWLINE]+2 [ICON_Faith] Faith and +2 [ICON_Culture] Culture. +2 [ICON_Faith] Faith if next to a wonder. Cannot be built next to another Sphinx. Can be built on Floodplains.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_CHATEAU_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Chateau, unique to France.[NEWLINE][NEWLINE]+2 [ICON_Culture] Culture and +2 [ICON_Gold] Gold. +2 [ICON_Culture] Culture if next to a wonder. +1 [ICON_Gold] Gold if next to a Luxury resource. Can only be built adjacent to Rivers.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_STEPWELL_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Stepwell, unique to India.[NEWLINE][NEWLINE]+1 [ICON_Food] Food, +1 [ICON_Faith] Faith and +1 [ICON_Housing] Housing. +1 [ICON_Faith] Faith if adjacent to a Holy Site district. +1 [ICON_Food] Food if adjacent to a Farm. Cannot be built on Hills or adjacent to another Stepwell.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_MISSION_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Mission, unique to Spain.[NEWLINE][NEWLINE]+4 [ICON_Faith] Faith and +4 [ICON_Science] Science. +2 [ICON_Faith] Faith if on a different continent than your [ICON_Capital] Capital. +1 [ICON_Science] Science if built next to a Campus district.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Ziggurat, unique to Sumeria.[NEWLINE][NEWLINE]+1 [ICON_Science] Science and +2 [ICON_Gold] Gold. +1 [ICON_Culture] Culture if next to River. Cannot be built on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_KURGAN_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Kurgan, unique to Scythia.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith. +2 [ICON_Gold] Gold. +1 [ICON_Faith] Faith for each adjacent Pasture. Cannot be built on Hills.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_GREAT_WALL_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct the Great Wall, unique to China.[NEWLINE][NEWLINE]Provides an increase to [ICON_Strength] Defense. +1 [ICON_Gold] Gold and +1 [ICON_Culture] Culture. Bonus to [ICON_Gold] Gold if adjacent to other segments. Additional [ICON_Culture] Culture and [ICON_Tourism] Tourism as you advance through the Technology Tree for adjacent segments. Must be built in a line along the borders of your empire.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="en_US">
+			<Text>Chinese unique Medieval era unit. Ranged unit with a [ICON_Range] Range of 2 and high combat strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION" Language="en_US">
+			<Text>After recruiting or patronizing a [ICON_GreatPerson] Great Person, 25% of its [ICON_GreatPerson] Great Person point cost is refunded.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_LEADER_MEDITERRANEAN_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes to other civilizations provide +6 [ICON_Gold] Gold for Egypt. Other civilizations' [ICON_TradeRoute] Trade Routes to Egypt provide +2 [ICON_Food] Food for them and +2 [ICON_Gold] Gold for Egypt.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Faith] Faith for each civilization (including India) they have met that has founded a Religion and is not currently at war. Opposing civilizations receive double the war weariness for fighting against Gandhi.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_LEADER_FIRST_EMPEROR_DESCRIPTION" Language="en_US">
+			<Text>When building Ancient, Classical and Medieval wonders you may spend Builder charges to complete 15% of the original wonder cost. Builders receive an additional charge.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="en_US">
+			<Text>Automatically receive the final Great Prophet when the next-to-last one is claimed (if you have not earned a Great Prophet already). +2 [ICON_Science] Science and +2 [ICON_Culture] Culture for each foreign city following Arabia's Religion.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_CIVILIZATION_ITERU_DESCRIPTION" Language="en_US">
+			<Text>+25% [ICON_Production] Production towards districts and wonders if placed next to a River. Floodplains do not block placement of districts and wonders.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION" Language="en_US">
+			<Text>+30% [ICON_Production] Production toward Medieval, Renaissance, and Industrial era wonders. [ICON_Tourism] Tourism from wonders of any era is doubled.</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_CIVILIZATION_NKISI_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Food] Food, +2 [ICON_Production] Production, and +4 [ICON_Gold] Gold from each [ICON_GreatWork_Relic] Relic, [ICON_GreatWork_Artifact] Artifact, and Sculpture [ICON_GreatWork_Sculpture] Great Work of Art in addition to the usual [ICON_Culture] Culture. Palace has slots for 5 Great Works.</Text>
+		</Replace>
+    <!-- zh_Hans_CN -->
+        <Replace Tag="LOC_SK_BUILDING_WATER_MILL_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_BANANAS] 香蕉、 [ICON_RESOURCE_CATTLE] 牛、 [ICON_RESOURCE_CITRUS] 柑橘、 [ICON_RESOURCE_DEER] 鹿、 [ICON_RESOURCE_RICE] 大米、 [ICON_RESOURCE_SHEEP] 羊和 [ICON_RESOURCE_WHEAT] 小麦资源分别+1 [ICON_Food] 食物。城市必须靠近河流。</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_BUILDING_BARRACKS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>该城市训练的所有近战和远程陆地单位战斗经验值+25%。[NEWLINE][NEWLINE]不能建造在已有马厩的军营区域.[NEWLINE][NEWLINE][ICON_RESOURCE_COPPER] 铜资源+1 [ICON_Production] 生产力。</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_BUILDING_STABLE_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>在该城市训练的所有骑兵单位+25%战斗经验值。不能建在已有兵营的军营区域。[NEWLINE][NEWLINE][ICON_RESOURCE_HORSES] 马匹资源+1 [ICON_Production] 生产力。</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_BUILDING_ARMORY_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>在该城市训练的所有陆地单位战斗经验值+25%。[NEWLINE][NEWLINE][ICON_RESOURCE_IRON] 铁和 [ICON_RESOURCE_NITER] 硝石资源分别+1 [ICON_Production] 生产力。</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_BUILDING_SHRINE_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>允许购买传教士。只能使用 [ICON_Faith] 信仰值进行购买。[NEWLINE][NEWLINE][ICON_RESOURCE_STONE] 石头、 [ICON_RESOURCE_INCENSE] 熏香和 [ICON_RESOURCE_WINE] 红酒资源分别+1 [ICON_Faith] 信仰值。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_AMPHITHEATER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_COFFEE] 咖啡、 [ICON_RESOURCE_TEA] 茶、 [ICON_RESOURCE_MARBLE] 大理石、 [ICON_RESOURCE_DIAMONDS] 钻石和 [ICON_RESOURCE_JADE] 玉石资源分别+1 [ICON_Culture] 文化值。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_ARENA_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_COCOA] 可可、 [ICON_RESOURCE_TRUFFLES] 松露和 [ICON_RESOURCE_IVORY] 象牙资源分别+1 [ICON_Gold] 金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_ZOO_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>6个单元格以内的城市中心都将获得加成。[NEWLINE][NEWLINE][ICON_RESOURCE_COCOA] 可可、 [ICON_RESOURCE_TRUFFLES] 松露和 [ICON_RESOURCE_IVORY] 象牙资源分别+1 [ICON_Culture] 文化值。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_AQUEDUCT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>区域从相邻的河流、湖泊、绿洲或山脉引水，为该城市提供淡水资源。没有淡水资源的城市最多获得6个 [ICON_Housing] 住房。相反，已有淡水资源的城市 [ICON_Housing] 住房数量+2。必须靠近城市中心修建。[NEWLINE][NEWLINE]2个单元格之间的所有地块+1 [ICON_Food] 食物。[NEWLINE]绿洲+2 [ICON_Food] 食物。</Text>
+		</Replace>
+        <Replace Tag="LOC_SK_DISTRICT_CAMPUS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>您城市中的科学发展区。[NEWLINE][NEWLINE] [ICON_RESOURCE_MERCURY] 水银和 [ICON_RESOURCE_URANIUM] 铀资源分别+1 [ICON_Science] 科研值。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_COMMERCIAL_HUB_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>您城市里用于金融和贸易的区域。[NEWLINE][NEWLINE]+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE][ICON_RESOURCE_FURS] 皮草、 [ICON_RESOURCE_SALT] 盐、 [ICON_RESOURCE_COTTON] 棉花、 [ICON_RESOURCE_DYES] 染料、 [ICON_RESOURCE_SILK] 丝绸、 [ICON_RESOURCE_SPICES] 香料、 [ICON_RESOURCE_SUGAR] 糖、 [ICON_RESOURCE_TOBACCO] 烟草和 [ICON_RESOURCE_SILVER] 白银资源分别+1 [ICON_Gold] 金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_ENCAMPMENT_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>您城市里的军事机构区。[NEWLINE][NEWLINE][ICON_RESOURCE_COPPER] 铜、 [ICON_RESOURCE_IRON] 铁、 [ICON_RESOURCE_HORSES] 马和 [ICON_RESOURCE_NITER] 硝石资源分别+1 [ICON_Production] 生产力。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>您城市里的该区域致力于通过增加 [ICON_Amenities] 宜居度让您的人民开心。[NEWLINE][NEWLINE][ICON_RESOURCE_COCOA] 可可、 [ICON_RESOURCE_TRUFFLES] 松露和 [ICON_RESOURCE_IVORY] 象牙资源分别+1 [ICON_Culture] 文化值和 [ICON_Gold] 金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_HOLY_SITE_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>您城市里的宗教祭祀区。[NEWLINE][NEWLINE][ICON_RESOURCE_STONE] 石头、 [ICON_RESOURCE_INCENSE] 熏香和 [ICON_RESOURCE_WINE] 红酒资源分别+2 [ICON_Faith] 信仰值。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>您城市里的工业活动区。[NEWLINE][NEWLINE][ICON_RESOURCE_GYPSUM] 石膏、 [ICON_RESOURCE_ALUMINUM] 铝、 [ICON_RESOURCE_COAL] 煤和 [ICON_RESOURCE_OIL] 石油资源分别+1 [ICON_Production] 生产力。</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_DISTRICT_THEATER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>您城市里的文化遗址区。[NEWLINE][NEWLINE][ICON_RESOURCE_COFFEE] 咖啡、 [ICON_RESOURCE_TEA] 茶、 [ICON_RESOURCE_MARBLE] 大理石、 [ICON_RESOURCE_DIAMONDS] 钻石和 [ICON_RESOURCE_JADE] 玉石资源分别+2 [ICON_Culture] 文化值。</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_DISTRICT_BATH_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>促进城市发展的罗马特色区。取代水渠。[NEWLINE][NEWLINE]从相邻的河流、湖泊、绿洲或山脉引水，为该城市提供淡水资源。没有淡水资源的城市最多获得6个 [ICON_Housing] 住房。已有淡水资源的城市 [ICON_Housing] 住房数量+2。无论哪种情况浴场都能提供额外+4 [ICON_Housing] 住房和+2 [ICON_Amenities] 宜居度加成。必须靠近城市中心修建。[NEWLINE][NEWLINE]2个单元格之间的所有地块+1 [ICON_Food] 食物。[NEWLINE]绿洲+2 [ICON_Food] 食物。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_STREET_CARNIVAL_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>巴西特色区域。代替娱乐宜居度区，提供+2 [ICON_Amenities] 宜居度。同时解锁狂欢节项目，狂欢节项目开始时即可提供+1 [ICON_Amenities] 宜居度，项目完成后可获得若干 [ICON_GreatPerson] 伟人点数。[NEWLINE][NEWLINE][ICON_RESOURCE_COCOA] 可可、 [ICON_RESOURCE_TRUFFLES] 松露和 [ICON_RESOURCE_IVORY] 象牙资源分别+1 [ICON_Culture] 文化值和 [ICON_Gold] 金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_LAVRA_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>您城市里的俄罗斯特色宗教活动区域。代替圣地区域。[NEWLINE][NEWLINE]修道院所在城市每消耗一位伟人，则城市边境扩展一单元格。[NEWLINE][NEWLINE][ICON_RESOURCE_STONE] 石头、 [ICON_RESOURCE_INCENSE] 熏香和 [ICON_RESOURCE_WINE] 红酒资源分别+2 [ICON_Faith] 信仰值。</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_DISTRICT_DISTRICT_HANSA_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>您城市里的德国特色工业活动区。代替工业区。[NEWLINE][NEWLINE][ICON_RESOURCE_GYPSUM] 石膏、 [ICON_RESOURCE_ALUMINUM] 铝、 [ICON_RESOURCE_COAL] 煤和 [ICON_RESOURCE_OIL] 石油资源分别+1 [ICON_Production] 生产力。</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_DISTRICT_ACROPOLIS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>希腊特色文化遗址区。代替剧院广场区。[NEWLINE][NEWLINE][NEWLINE][NEWLINE][ICON_RESOURCE_COFFEE] 咖啡、 [ICON_RESOURCE_TEA] 茶和 [ICON_RESOURCE_MARBLE] 大理石资源分别+1 [ICON_Culture] 文化值。</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_DISTRICT_ROYAL_NAVY_DOCKYARD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您城市里的英国特色海军活动区。取代港口。同时移除该单元格的上船、下船 [ICON_Movement] 移动力减益。必须建在靠近陆地的海岸或湖泊地形上。[NEWLINE][NEWLINE]为造船厂所建的所有海军单位+1 [ICON_Movement] 移动力[NEWLINE]当建造在海外大陆时，+4 [ICON_Gold] 金币[NEWLINE]+1 [ICON_TradeRoute] 贸易路线容量</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_BUILDING_COLOSSEUM_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>罗马斗兽场的 [ICON_Culture] 文化值和 [ICON_Amenities] 宜居度延伸至9个单元格以内的所有市中心。必须建在靠近娱乐中心的平地上。</Text>
+        </Replace>
+		<Replace Tag="LOC_SK_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>日本特色建筑。为6个单元格以内的所有城市+10 [ICON_Production] 生产力。研究完成电力后，此建筑为该城市提供额外+4 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_CAMP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造营地的能力。[NEWLINE][NEWLINE]+1 [ICON_Gold] 金币和+1 [ICON_Production] 生产力。只能用 [ICON_RESOURCE_FURS] 毛皮资源、 [ICON_RESOURCE_IVORY] 象牙资源、 [ICON_RESOURCE_DEER] 鹿资源、或 [ICON_RESOURCE_TRUFFLES] 松露资源建造而成。[NEWLINE][NEWLINE]如果建在 [ICON_RESOURCE_FURS] 毛皮、 [ICON_RESOURCE_TRUFFLES] 松露或 [ICON_RESOURCE_IVORY] 象牙这样的奢侈资源，城市将能使用这种资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_QUARRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造采石场的能力。[NEWLINE][NEWLINE]+1 [ICON_Gold] 金币和+1 [ICON_Production] 生产力。只能建在 [ICON_RESOURCE_STONE] 石头、 [ICON_RESOURCE_MARBLE] 大理石、或 [ICON_RESOURCE_GYPSUM] 石膏资源上。[NEWLINE][NEWLINE]如果建在奢侈资源上，城市将能使用这种资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_PLANTATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造种植园的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物和+1 [ICON_Gold] 金币。只能建在 [ICON_RESOURCE_BANANAS] 香蕉、 [ICON_RESOURCE_CITRUS] 柑橘、 [ICON_RESOURCE_COCOA] 可可豆、 [ICON_RESOURCE_COFFEE] 咖啡、 [ICON_RESOURCE_COTTON] 棉花、 [ICON_RESOURCE_DYES] 染料、 [ICON_RESOURCE_SILK] 丝绸、 [ICON_RESOURCE_SPICES] 香料、  [ICON_RESOURCE_SUGAR] 糖、 [ICON_RESOURCE_TEA] 茶、 [ICON_RESOURCE_TOBACCO] 烟草或 [ICON_RESOURCE_WINE] 葡萄酒资源上。[NEWLINE][NEWLINE]如果建造在奢侈资源上，城市将能使用这种资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_SPHINX_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造埃及特色狮身人面像的能力。[NEWLINE][NEWLINE]+2 [ICON_Faith] 信仰值和+2 [ICON_Culture] 文化值。如果紧挨着1个奇观，+2 [ICON_Faith] 信仰值。不能建在另一个狮身人面像旁边。建在泛滥平原上。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_FISHING_BOATS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造渔船的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物和+1 [ICON_Gold] 金币。只能在海岸或海洋资源上建造。[NEWLINE][NEWLINE]如果在 [ICON_RESOURCE_PEARLS] 珍珠或 [ICON_RESOURCE_WHALES] 鲸鱼资源上建造，城市将能使用这些资源。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_CHATEAU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造法国特色城堡的能力。[NEWLINE][NEWLINE]+2 [ICON_Culture] 文化值和+2 [ICON_Gold] 金币。如果紧挨一处奇观，+2 [ICON_Culture] 文化值。如果紧挨一种奢侈资源，+1 [ICON_Gold] 金币。只能建在靠近河流的地方。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_STEPWELL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造印度特色梯井的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物，+2 [ICON_Faith] 信仰值和+1 [ICON_Housing] 住房。如果靠近圣地地区，+1 [ICON_Faith] 信仰值。如果靠近农场，+1 [ICON_Food] 食物。不能建在丘陵上，不能靠近另一个梯井。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_MISSION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造传教团的能力，西班牙特色改良设施。[NEWLINE][NEWLINE]+4 [ICON_Faith] 信仰值和+1 [ICON_Science] 科研值。如果在您[ICON_Capital] 首都所在大陆以外的大陆上，+2[ICON_Faith] 信仰值。如果紧挨学院区建造，+1 [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造苏美尔特色金字形神塔的能力。[NEWLINE][NEWLINE]+1 [ICON_Science] 科技值和+2 [ICON_Gold] 金币。如果紧挨着河流，+1 [ICON_Culture] 文化值。不能建在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_KURGAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造塞西亚特色坟墩的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值。+2 [ICON_Gold] 金币。每个相邻牧场+1 [ICON_Faith] 信仰值。不能建在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_IMPROVEMENT_GREAT_WALL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造长城（中国特有）的能力。[NEWLINE][NEWLINE]提高[ICON_Strength] 防御力。+1 [ICON_Gold] 金币和+1 [ICON_Culture] 文化值。如果和其他段相邻，获得 [ICON_Gold] 金币加成。随着您在科技不断取得进步，与长城相邻也可获得额外的 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。必须沿着您的帝国边界线建造。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中国中世纪特色单位。 [ICON_Range] 射程为2的高战斗力远程单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>招募或赞助一位 [ICON_GreatPerson] 伟人后，将返还所消耗 [ICON_GreatPerson] 伟人点数的25%。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_LEADER_MEDITERRANEAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您前往其他文明的 [ICON_TradeRoute] 贸易路线为埃及+6 [ICON_Gold] 金币。其他文明来埃及的 [ICON_TradeRoute] 贸易路线能为他们+2 [ICON_Food] 食物，为埃及+2 [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当遇见的每个已创建了宗教且不在战争状态下的文明（包括印度）获得+15信仰值 [ICON_Faith] 。与甘地交战的文明获得双倍厌战情绪。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_LEADER_FIRST_EMPEROR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造远古、古典和中世纪奇观时，可以消耗建造者劳动力来推进15%的奇观建造进程。建造者会获得额外建造劳动力。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当倒数第二个大预言家被招募后（如果您尚未获得大预言家），则自动获得最后一个大预言家。可从每座信奉阿拉伯宗教的外国城市+2 [ICON_Science] 科技值和+2 [ICON_Culture] 文化值。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_CIVILIZATION_ITERU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>区域和奇观可建在泛滥平原上，如建在河边则+25% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为中世纪、文艺复兴时期和工业时代的奇观+30% [ICON_Production] 生产力。 所有奇观的 [ICON_Tourism] 旅游业绩都翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_SK_TRAIT_CIVILIZATION_NKISI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>除了通常的 [ICON_Culture] 文化值，还会从每个 [ICON_GreatWork_Relic] 遗物、 [ICON_GreatWork_Artifact] 文物以及 [ICON_GreatWork_Sculpture] 艺术巨作中获得+2 [ICON_Food] 食物、+2 [ICON_Science] 科技值、+4 [ICON_Gold] 金币。宫殿有5个巨作槽位。</Text>
+		</Replace>
+    </LocalizedText>
+</GameData>
