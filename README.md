@@ -1,6 +1,4 @@
 # Civ6Balanced
-#### A  mod of Sid Meier's Civilization VI for game balanced.
----
 # Features
 Working...
 # How to use
