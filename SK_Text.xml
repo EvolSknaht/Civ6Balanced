@@ -105,7 +105,7 @@
 			<Text>Unlocks the Builder ability to construct a Kurgan, unique to Scythia.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith. +2 [ICON_Gold] Gold. +1 [ICON_Faith] Faith for each adjacent Pasture. Cannot be built on Hills.</Text>
 		</Replace>
 		<Replace Tag="LOC_SK_IMPROVEMENT_GREAT_WALL_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct the Great Wall, unique to China.[NEWLINE][NEWLINE]Provides an increase to [ICON_Strength] Defense. +1 [ICON_Gold] Gold and +1 [ICON_Culture] Culture. Bonus to [ICON_Gold] Gold if adjacent to other segments. Additional [ICON_Culture] Culture and [ICON_Tourism] Tourism as you advance through the Technology Tree for adjacent segments. Must be built in a line along the borders of your empire.</Text>
+			<Text>Unlocks the Builder ability to construct the Great Wall, unique to China.[NEWLINE][NEWLINE]Provides an increase to [ICON_Strength] Defense. +1 [ICON_Gold] Gold and +1 [ICON_Culture] Culture. Bonus to [ICON_Gold] Gold if adjacent to other segments. Additional [ICON_Culture] Culture and [ICON_Tourism] Tourism as you advance through the Technology Tree for adjacent segments.</Text>
 		</Replace>
 		<Replace Tag="LOC_SK_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="en_US">
 			<Text>Chinese unique Medieval era unit. Ranged unit with a [ICON_Range] Range of 2 and high combat strength.</Text>
@@ -117,7 +117,7 @@
 			<Text>Your [ICON_TradeRoute] Trade Routes to other civilizations provide +6 [ICON_Gold] Gold for Egypt. Other civilizations' [ICON_TradeRoute] Trade Routes to Egypt provide +2 [ICON_Food] Food for them and +2 [ICON_Gold] Gold for Egypt.</Text>
 		</Replace>
 		<Replace Tag="LOC_SK_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION" Language="en_US">
-			<Text>+15 [ICON_Faith] Faith for each civilization (including India) they have met that has founded a Religion and is not currently at war. Opposing civilizations receive double the war weariness for fighting against Gandhi.</Text>
+			<Text>+10 [ICON_Faith] Faith for each civilization (including India) they have met that has founded a Religion and is not currently at war. Opposing civilizations receive double the war weariness for fighting against Gandhi.</Text>
 		</Replace>
 		<Replace Tag="LOC_SK_TRAIT_LEADER_FIRST_EMPEROR_DESCRIPTION" Language="en_US">
 			<Text>When building Ancient, Classical and Medieval wonders you may spend Builder charges to complete 15% of the original wonder cost. Builders receive an additional charge.</Text>
@@ -238,7 +238,7 @@
 			<Text>解锁建造者建造塞西亚特色坟墩的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值。+2 [ICON_Gold] 金币。每个相邻牧场+1 [ICON_Faith] 信仰值。不能建在丘陵上。</Text>
 		</Replace>
 		<Replace Tag="LOC_SK_IMPROVEMENT_GREAT_WALL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁建造者建造长城（中国特有）的能力。[NEWLINE][NEWLINE]提高[ICON_Strength] 防御力。+1 [ICON_Gold] 金币和+1 [ICON_Culture] 文化值。如果和其他段相邻，获得 [ICON_Gold] 金币加成。随着您在科技不断取得进步，与长城相邻也可获得额外的 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。必须沿着您的帝国边界线建造。</Text>
+			<Text>解锁建造者建造长城（中国特有）的能力。[NEWLINE][NEWLINE]提高[ICON_Strength] 防御力。+1 [ICON_Gold] 金币和+1 [ICON_Culture] 文化值。如果和其他段相邻，获得 [ICON_Gold] 金币加成。随着您在科技不断取得进步，与长城相邻也可获得额外的 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。</Text>
 		</Replace>
 		<Replace Tag="LOC_SK_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>中国中世纪特色单位。 [ICON_Range] 射程为2的高战斗力远程单位。</Text>
@@ -250,7 +250,7 @@
 			<Text>您前往其他文明的 [ICON_TradeRoute] 贸易路线为埃及+6 [ICON_Gold] 金币。其他文明来埃及的 [ICON_TradeRoute] 贸易路线能为他们+2 [ICON_Food] 食物，为埃及+2 [ICON_Gold] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_SK_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>当遇见的每个已创建了宗教且不在战争状态下的文明（包括印度）获得+15信仰值 [ICON_Faith] 。与甘地交战的文明获得双倍厌战情绪。</Text>
+			<Text>当遇见的每个已创建了宗教且不在战争状态下的文明（包括印度）获得+10信仰值 [ICON_Faith] 。与甘地交战的文明获得双倍厌战情绪。</Text>
 		</Replace>
 		<Replace Tag="LOC_SK_TRAIT_LEADER_FIRST_EMPEROR_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>建造远古、古典和中世纪奇观时，可以消耗建造者劳动力来推进15%的奇观建造进程。建造者会获得额外建造劳动力。</Text>

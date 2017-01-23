@@ -402,7 +402,7 @@
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_CHINESE_CROUCHING_TIGER"/>
-			<Set Range="2" Cost="180"/>
+			<Set Range="2" Cost="160"/>
 		</Update>
 		<Update>
 			<Where UnitType="UNIT_EGYPTIAN_CHARIOT_ARCHER"/>
@@ -707,7 +707,7 @@
 		<Row>
 			<ModifierId>TRAIT_FAITH_PEACEFUL_FOUNDERS</ModifierId>
 			<Name>Amount</Name>
-			<Value>15</Value>
+			<Value>10</Value>
 		</Row>
 		<!--KONGO-->
 		<Delete ModifierId="TRAIT_DOUBLE_WRITER_POINTS" />
@@ -979,4 +979,16 @@
 			<Extra>-1</Extra>
 		</Row>
 	</ModifierArguments>
+	<RequirementSetRequirements>
+		<DELETE RequirementSetId="CITY_HAS_CHICHEN_ITZA_REQUIREMENTS" RequirementId="REQUIRES_CITY_HAS_CHICHEN_ITZA"/>
+		<Row>
+			<RequirementSetId>CITY_HAS_CHICHEN_ITZA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER</RequirementId>
+		</Row>
+		<DELETE RequirementSetId="CITY_HAS_PETRA_REQUIREMENTS" RequirementId="REQUIRES_CITY_HAS_PETRA"/>
+		<Row>
+			<RequirementSetId>CITY_HAS_PETRA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
 </GameInfo>
