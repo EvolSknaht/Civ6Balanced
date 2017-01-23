@@ -126,6 +126,7 @@
 		<Row FeatureType="FEATURE_YOSEMITE" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row FeatureType="FEATURE_YOSEMITE" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 	</Feature_AdjacentYields>
+	
 	<Improvement_YieldChanges>
 		<Delete ImprovementType="IMPROVEMENT_QUARRY" />
 		<Row ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_GOLD" YieldChange="1"/>
@@ -162,6 +163,12 @@
 		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 	</Improvement_YieldChanges>
+	<Improvements>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_GREAT_WALL"/>
+			<Set BuildInLine="true" BuildOnFrontier="false" CanBuildOutsideTerritory="true"/>
+		</Update>	
+    </Improvements>
 	<Resource_ValidTerrains>
 		<Delete ResourceType="RESOURCE_COPPER" />
 		<Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_GRASS_HILLS"/>
