@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+    <Resource_ValidTerrains>
+        <Delete ResourceType="RESOURCE_COPPER" />
+        <Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_GRASS_HILLS"/>
+        <Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+        <Delete ResourceType="RESOURCE_SHEEP" />
+        <Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_GRASS_HILLS"/>
+        <Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+        <Delete ResourceType="RESOURCE_STONE" />
+        <Row ResourceType="RESOURCE_STONE" TerrainType="TERRAIN_GRASS"/>
+        <!--Luxury -->
+        <Delete ResourceType="RESOURCE_COFFEE" />
+        <Delete ResourceType="RESOURCE_DIAMONDS" />
+        <Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_GRASS_HILLS"/>
+        <Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+        <Delete ResourceType="RESOURCE_FURS" />
+        <Row ResourceType="RESOURCE_FURS" TerrainType="TERRAIN_TUNDRA"/>
+        <Row ResourceType="RESOURCE_FURS" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+        <Delete ResourceType="RESOURCE_GYPSUM" />
+        <Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_PLAINS"/>
+        <Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+        <Delete ResourceType="RESOURCE_INCENSE" />
+        <Row ResourceType="RESOURCE_INCENSE" TerrainType="TERRAIN_GRASS"/>
+        <Row ResourceType="RESOURCE_INCENSE" TerrainType="TERRAIN_PLAINS"/>
+        <Delete ResourceType="RESOURCE_IVORY" />
+        <Delete ResourceType="RESOURCE_MARBLE" />
+        <Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_GRASS_HILLS"/>
+        <Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Delete ResourceType="RESOURCE_MERCURY" />
+        <Row ResourceType="RESOURCE_MERCURY" TerrainType="TERRAIN_PLAINS"/>
+        <Row ResourceType="RESOURCE_MERCURY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Delete ResourceType="RESOURCE_SALT" />
+        <Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_PLAINS"/>
+        <Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_TUNDRA"/>
+        <Delete ResourceType="RESOURCE_SILVER" />
+        <Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_PLAINS"/>
+        <Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_TUNDRA"/>
+        <Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+        <Delete ResourceType="RESOURCE_TEA" />
+        <Row ResourceType="RESOURCE_TEA" TerrainType="TERRAIN_GRASS"/>
+        <Row ResourceType="RESOURCE_TEA" TerrainType="TERRAIN_PLAINS"/>
+        <Delete ResourceType="RESOURCE_TOBACCO" />
+        <!--Strategic -->
+        <Delete ResourceType="RESOURCE_ALUMINUM" />
+        <Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_DESERT_HILLS"/>
+        <Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_DESERT"/>
+        <Delete ResourceType="RESOURCE_IRON" />
+        <Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_GRASS_HILLS"/>
+        <Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+        <Delete ResourceType="RESOURCE_NITER" />
+        <Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_GRASS"/>
+        <Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_PLAINS"/>
+        <Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_TUNDRA"/>
+    </Resource_ValidTerrains>
+    <Resource_ValidFeatures>
+        <!--Luxury -->
+        <Delete ResourceType="RESOURCE_COCOA" />
+        <Row ResourceType="RESOURCE_COCOA" FeatureType="FEATURE_JUNGLE"/>
+        <Row ResourceType="RESOURCE_COCOA" FeatureType="FEATURE_FOREST"/>
+        <Delete ResourceType="RESOURCE_COFFEE" />
+        <Row ResourceType="RESOURCE_COFFEE" FeatureType="FEATURE_JUNGLE"/>
+        <Row ResourceType="RESOURCE_COFFEE" FeatureType="FEATURE_FOREST"/>
+        <Delete ResourceType="RESOURCE_COTTON" />
+        <Delete ResourceType="RESOURCE_DIAMONDS" />
+        <Delete ResourceType="RESOURCE_SPICES" />
+        <Row ResourceType="RESOURCE_SPICES" FeatureType="FEATURE_JUNGLE"/>
+        <Delete ResourceType="RESOURCE_WINE" />
+        <!--Strategic -->
+        <Delete ResourceType="RESOURCE_NITER" />
+    </Resource_ValidFeatures>
+    <Resource_YieldChanges>
+        <!--Bonus-->
+        <Delete ResourceType="RESOURCE_CATTLE" />
+        <Row ResourceType="RESOURCE_CATTLE" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_CATTLE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Delete ResourceType="RESOURCE_COPPER" />
+        <Row ResourceType="RESOURCE_COPPER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_COPPER" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_CRABS" />
+        <Row ResourceType="RESOURCE_CRABS" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_CRABS" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_DEER" />
+        <Row ResourceType="RESOURCE_DEER" YieldType="YIELD_FOOD" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_FISH" />
+        <Row ResourceType="RESOURCE_FISH" YieldType="YIELD_FOOD" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_RICE" />
+        <Row ResourceType="RESOURCE_RICE" YieldType="YIELD_FOOD" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_STONE" />
+        <Row ResourceType="RESOURCE_STONE" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_WHEAT" />
+        <Row ResourceType="RESOURCE_WHEAT" YieldType="YIELD_FOOD" YieldChange="2"/>
+        <!--Luxury-->
+        <Delete ResourceType="RESOURCE_CITRUS" />
+        <Row ResourceType="RESOURCE_CITRUS" YieldType="YIELD_FOOD" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_CITRUS" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_COCOA" />
+        <Row ResourceType="RESOURCE_COCOA" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_COCOA" YieldType="YIELD_GOLD" YieldChange="3"/>
+        <Delete ResourceType="RESOURCE_COFFEE" />
+        <Row ResourceType="RESOURCE_COFFEE" YieldType="YIELD_GOLD" YieldChange="3"/>
+        <Row ResourceType="RESOURCE_COFFEE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+        <Delete ResourceType="RESOURCE_COTTON" />
+        <Row ResourceType="RESOURCE_COTTON" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_COTTON" YieldType="YIELD_GOLD" YieldChange="4"/>
+        <Delete ResourceType="RESOURCE_DIAMONDS" />
+        <Row ResourceType="RESOURCE_DIAMONDS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_DIAMONDS" YieldType="YIELD_GOLD" YieldChange="4"/>
+        <Delete ResourceType="RESOURCE_DYES" />
+        <Row ResourceType="RESOURCE_DYES" YieldType="YIELD_GOLD" YieldChange="3"/>
+        <Row ResourceType="RESOURCE_DYES" YieldType="YIELD_FAITH" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_FURS" />
+        <Row ResourceType="RESOURCE_FURS" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_FURS" YieldType="YIELD_GOLD" YieldChange="3"/>
+        <Delete ResourceType="RESOURCE_GYPSUM" />
+        <Row ResourceType="RESOURCE_GYPSUM" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_GYPSUM" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_INCENSE" />
+        <Row ResourceType="RESOURCE_INCENSE" YieldType="YIELD_FAITH" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_INCENSE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_IVORY" />
+        <Row ResourceType="RESOURCE_IVORY" YieldType="YIELD_GOLD" YieldChange="3"/>
+        <Row ResourceType="RESOURCE_IVORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Delete ResourceType="RESOURCE_JADE" />
+        <Row ResourceType="RESOURCE_JADE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_JADE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Delete ResourceType="RESOURCE_MARBLE" />
+        <Row ResourceType="RESOURCE_MARBLE" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_MARBLE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+        <Delete ResourceType="RESOURCE_MERCURY" />
+        <Row ResourceType="RESOURCE_MERCURY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_MERCURY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_PEARLS" />
+        <Row ResourceType="RESOURCE_PEARLS" YieldType="YIELD_GOLD" YieldChange="3"/>
+        <Row ResourceType="RESOURCE_PEARLS" YieldType="YIELD_FAITH" YieldChange="3"/>
+        <Delete ResourceType="RESOURCE_SALT" />
+        <Row ResourceType="RESOURCE_SALT" YieldType="YIELD_FOOD" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_SALT" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Delete ResourceType="RESOURCE_SILK" />
+        <Row ResourceType="RESOURCE_SILK" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_SILK" YieldType="YIELD_CULTURE" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_SILVER" />
+        <Row ResourceType="RESOURCE_SILVER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_SILVER" YieldType="YIELD_GOLD" YieldChange="4"/>
+        <Delete ResourceType="RESOURCE_SPICES" />
+        <Row ResourceType="RESOURCE_SPICES" YieldType="YIELD_FOOD" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_SPICES" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_SUGAR" />
+        <Row ResourceType="RESOURCE_SUGAR" YieldType="YIELD_FOOD" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_SUGAR" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_TEA" />
+        <Row ResourceType="RESOURCE_TEA" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_TEA" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_TOBACCO" />
+        <Row ResourceType="RESOURCE_TOBACCO" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_TOBACCO" YieldType="YIELD_FAITH" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_TRUFFLES" />
+        <Row ResourceType="RESOURCE_TRUFFLES" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_TRUFFLES" YieldType="YIELD_GOLD" YieldChange="3"/>
+        <Delete ResourceType="RESOURCE_WHALES" />
+        <Row ResourceType="RESOURCE_WHALES" YieldType="YIELD_FOOD" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_WHALES" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_WINE" />
+        <Row ResourceType="RESOURCE_WINE" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_WINE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+        <!--Strategic-->
+        <Delete ResourceType="RESOURCE_ALUMINUM" />
+        <Row ResourceType="RESOURCE_ALUMINUM" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_ALUMINUM" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+        <Delete ResourceType="RESOURCE_COAL" />
+        <Row ResourceType="RESOURCE_COAL" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+        <Delete ResourceType="RESOURCE_HORSES" />
+        <Row ResourceType="RESOURCE_HORSES" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_HORSES" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_IRON" />
+        <Row ResourceType="RESOURCE_IRON" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_IRON" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_NITER" />
+        <Row ResourceType="RESOURCE_NITER" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_NITER" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+        <Delete ResourceType="RESOURCE_OIL" />
+        <Row ResourceType="RESOURCE_OIL" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+        <Delete ResourceType="RESOURCE_URANIUM" />
+        <Row ResourceType="RESOURCE_URANIUM" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+        <Row ResourceType="RESOURCE_URANIUM" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+    </Resource_YieldChanges>
+</GameInfo>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+    <Improvement_YieldChanges>
+        <Delete ImprovementType="IMPROVEMENT_QUARRY" />
+        <Row ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_GOLD" YieldChange="1"/>
+        <Row ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Delete ImprovementType="IMPROVEMENT_FISHING_BOATS" />
+        <Row ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_GOLD" YieldChange="1"/>
+        <Delete ImprovementType="IMPROVEMENT_PLANTATION" />
+        <Row ImprovementType="IMPROVEMENT_PLANTATION" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ImprovementType="IMPROVEMENT_PLANTATION" YieldType="YIELD_GOLD" YieldChange="1"/>
+        <Delete ImprovementType="IMPROVEMENT_CAMP" />
+        <Row ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_GOLD" YieldChange="1"/>
+        <Row ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <!--Unique Improvements -->
+        <Delete ImprovementType="IMPROVEMENT_CHATEAU" />
+        <Row ImprovementType="IMPROVEMENT_CHATEAU" YieldType="YIELD_CULTURE" YieldChange="2"/>
+        <Row ImprovementType="IMPROVEMENT_CHATEAU" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Delete ImprovementType="IMPROVEMENT_GREAT_WALL" />
+        <Row ImprovementType="IMPROVEMENT_GREAT_WALL" YieldType="YIELD_GOLD" YieldChange="1"/>
+        <Row ImprovementType="IMPROVEMENT_GREAT_WALL" YieldType="YIELD_CULTURE" YieldChange="1"/>
+        <Delete ImprovementType="IMPROVEMENT_KURGAN" />
+        <Row ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Row ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_FAITH" YieldChange="1"/>
+        <Delete ImprovementType="IMPROVEMENT_MISSION" />
+        <Row ImprovementType="IMPROVEMENT_MISSION" YieldType="YIELD_FAITH" YieldChange="4"/>
+        <Row ImprovementType="IMPROVEMENT_MISSION" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+        <Delete ImprovementType="IMPROVEMENT_SPHINX" />
+        <Row ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE" YieldChange="2"/>
+        <Row ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_FAITH" YieldChange="2"/>
+        <Delete ImprovementType="IMPROVEMENT_STEPWELL" />
+        <Row ImprovementType="IMPROVEMENT_STEPWELL" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ImprovementType="IMPROVEMENT_STEPWELL" YieldType="YIELD_FAITH" YieldChange="2"/>
+        <Delete ImprovementType="IMPROVEMENT_ZIGGURAT" />
+        <Row ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Row ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+    </Improvement_YieldChanges>
+    <Improvements>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_GREAT_WALL"/>
+            <Set BuildInLine="true" BuildOnFrontier="false" CanBuildOutsideTerritory="true"/>
+        </Update>
+    </Improvements>
+    <Improvements>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_CAMP"/>
+            <Set Description="LOC_SK_IMPROVEMENT_CAMP_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_QUARRY"/>
+            <Set Description="LOC_SK_IMPROVEMENT_QUARRY_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_PLANTATION"/>
+            <Set Description="LOC_SK_IMPROVEMENT_PLANTATION_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_FISHING_BOATS"/>
+            <Set Description="LOC_SK_IMPROVEMENT_FISHING_BOATS_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_SPHINX"/>
+            <Set Description="LOC_SK_IMPROVEMENT_SPHINX_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_CHATEAU"/>
+            <Set Description="LOC_SK_IMPROVEMENT_CHATEAU_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_STEPWELL"/>
+            <Set Description="LOC_SK_IMPROVEMENT_STEPWELL_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_MISSION"/>
+            <Set Description="LOC_SK_IMPROVEMENT_MISSION_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_ZIGGURAT"/>
+            <Set Description="LOC_SK_IMPROVEMENT_ZIGGURAT_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_KURGAN"/>
+            <Set Description="LOC_SK_IMPROVEMENT_KURGAN_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where ImprovementType="IMPROVEMENT_GREAT_WALL"/>
+            <Set Description="LOC_SK_IMPROVEMENT_GREAT_WALL_DESCRIPTION"/>
+        </Update>
+    </Improvements>
+</GameInfo>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+    <Modifiers>
+        <!--ARABIA-->
+        <Row>
+            <ModifierId>TRAIT_CULTURE_PER_FOREIGN_CITY_FOLLOWING_RELIGION</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_RELIGION_ADD_PLAYER_BELIEF_YIELD</ModifierType>
+        </Row>
+    </Modifiers>
+    <TraitModifiers>
+        <!--ARABIA-->
+        <Row>
+            <TraitType>TRAIT_CIVILIZATION_LAST_PROPHET</TraitType>
+            <ModifierId>TRAIT_CULTURE_PER_FOREIGN_CITY_FOLLOWING_RELIGION</ModifierId>
+        </Row>
+    </TraitModifiers>
+    <ModifierArguments>
+        <!--ARABIA-->
+        <Delete ModifierId="TRAIT_SCIENCE_PER_FOREIGN_CITY_FOLLOWING_RELIGION" />
+        <Row>
+            <ModifierId>TRAIT_SCIENCE_PER_FOREIGN_CITY_FOLLOWING_RELIGION</ModifierId>
+            <Name>BeliefYieldType</Name>
+            <Value>BELIEF_YIELD_PER_FOREIGN_CITY</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_SCIENCE_PER_FOREIGN_CITY_FOLLOWING_RELIGION</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_SCIENCE</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_SCIENCE_PER_FOREIGN_CITY_FOLLOWING_RELIGION</ModifierId>
+            <Name>Amount</Name>
+            <Value>2</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_SCIENCE_PER_FOREIGN_CITY_FOLLOWING_RELIGION</ModifierId>
+            <Name>PerXItems</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_CULTURE_PER_FOREIGN_CITY_FOLLOWING_RELIGION</ModifierId>
+            <Name>BeliefYieldType</Name>
+            <Value>BELIEF_YIELD_PER_FOREIGN_CITY</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_CULTURE_PER_FOREIGN_CITY_FOLLOWING_RELIGION</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_CULTURE</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_CULTURE_PER_FOREIGN_CITY_FOLLOWING_RELIGION</ModifierId>
+            <Name>Amount</Name>
+            <Value>2</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_CULTURE_PER_FOREIGN_CITY_FOLLOWING_RELIGION</ModifierId>
+            <Name>PerXItems</Name>
+            <Value>1</Value>
+        </Row>
+        <!--BRAZIL-->
+        <Delete ModifierId="TRAIT_GREAT_PERSON_REFUND" />
+        <Row>
+            <ModifierId>TRAIT_GREAT_PERSON_REFUND</ModifierId>
+            <Name>Amount</Name>
+            <Value>25</Value>
+        </Row>
+        <!--CHINA-->
+        <Delete ModifierId="TRAIT_ADJUST_BUILDER_CHARGES" />
+        <Row>
+            <ModifierId>TRAIT_ADJUST_BUILDER_CHARGES</ModifierId>
+            <Name>Amount</Name>
+            <Value>2</Value>
+        </Row>
+        <!--EGYPT-->
+        <Delete ModifierId="TRAIT_INTERNATIONAL_TRADE_GAIN_GOLD" />
+        <Row>
+            <ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_GOLD</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_GOLD</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_GOLD</ModifierId>
+            <Name>Amount</Name>
+            <Value>6</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_GOLD</ModifierId>
+            <Name>Intercontinental</Name>
+            <Value>false</Value>
+        </Row>
+        <Delete ModifierId="TRAIT_RIVER_FASTER_BUILDTIME_DISTRICT" />
+        <Delete ModifierId="TRAIT_RIVER_FASTER_BUILDTIME_WONDER" />
+        <Row>
+            <ModifierId>TRAIT_RIVER_FASTER_BUILDTIME_DISTRICT</ModifierId>
+            <Name>Amount</Name>
+            <Value>25</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_RIVER_FASTER_BUILDTIME_WONDER</ModifierId>
+            <Name>Amount</Name>
+            <Value>25</Value>
+        </Row>
+        <!--ENGLAND-->
+        <Delete ModifierId="ROYAL_NAVY_DOCKYARD_GOLD_FROM_FOREIGN_CONTINENT" />
+        <Row>
+            <ModifierId>ROYAL_NAVY_DOCKYARD_GOLD_FROM_FOREIGN_CONTINENT</ModifierId>
+            <Name>Amount</Name>
+            <Value>4</Value>
+        </Row>
+        <Row>
+            <ModifierId>ROYAL_NAVY_DOCKYARD_GOLD_FROM_FOREIGN_CONTINENT</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_GOLD</Value>
+        </Row>
+        <!--FRANCE-->
+        <Delete ModifierId="TRAIT_ALHAMBRAPRODUCTION" />
+        <Delete ModifierId="TRAIT_CHICHENITZAPRODUCTION" />
+        <Delete ModifierId="TRAIT_FORBIDDENCITYPRODUCTION" />
+        <Delete ModifierId="TRAIT_GREATZIMBABWEPRODUCTION" />
+        <Delete ModifierId="TRAIT_HAGIASOPHIAPRODUCTION" />
+        <Delete ModifierId="TRAIT_VENETIANARSENALPRODUCTION" />
+        <Delete ModifierId="TRAIT_MONTSTMICHELPRODUCTION" />
+        <Delete ModifierId="TRAIT_POTALAPALACEPRODUCTION" />
+        <Delete ModifierId="TRAIT_BOLSHOITHEATREPRODUCTION" />
+        <Delete ModifierId="TRAIT_HERMITAGEPRODUCTION" />
+        <Delete ModifierId="TRAIT_RUHRVALLEYPRODUCTION" />
+        <Delete ModifierId="TRAIT_OXFORDUNIVERSITYPRODUCTION" />
+        <Delete ModifierId="TRAIT_TRAIT_BIGBENPRODUCTION" />
+        <Row>
+            <ModifierId>TRAIT_ALHAMBRAPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_ALHAMBRA</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ALHAMBRAPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_CHICHENITZAPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_CHICHEN_ITZA</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_CHICHENITZAPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_FORBIDDENCITYPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_FORBIDDEN_CITY</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_FORBIDDENCITYPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_GREATZIMBABWEPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_GREAT_ZIMBABWE</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_GREATZIMBABWEPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_HAGIASOPHIAPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_HAGIA_SOPHIA</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_HAGIASOPHIAPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_VENETIANARSENALPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_VENETIAN_ARSENAL</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_VENETIANARSENALPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_MONTSTMICHELPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_MONT_ST_MICHEL</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_MONTSTMICHELPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_POTALAPALACEPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_POTALA_PALACE</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_POTALAPALACEPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_BOLSHOITHEATREPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_BOLSHOI_THEATRE</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_BOLSHOITHEATREPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_HERMITAGEPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_HERMITAGE</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_HERMITAGEPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_RUHRVALLEYPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_RUHR_VALLEY</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_RUHRVALLEYPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_OXFORDUNIVERSITYPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_OXFORD_UNIVERSITY</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_OXFORDUNIVERSITYPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_BIGBENPRODUCTION</ModifierId>
+            <Name>BuildingType</Name>
+            <Value>BUILDING_BIG_BEN</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_BIGBENPRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>30</Value>
+        </Row>
+        <!--INDIA-->
+        <Delete ModifierId="TRAIT_FAITH_PEACEFUL_FOUNDERS" />
+        <Row>
+            <ModifierId>TRAIT_FAITH_PEACEFUL_FOUNDERS</ModifierId>
+            <Name>Amount</Name>
+            <Value>10</Value>
+        </Row>
+        <!--KONGO-->
+        <Delete ModifierId="TRAIT_DOUBLE_WRITER_POINTS" />
+        <Delete ModifierId="TRAIT_DOUBLE_ARTIST_POINTS" />
+        <Delete ModifierId="TRAIT_DOUBLE_MUSICIAN_POINTS" />
+        <Delete ModifierId="TRAIT_DOUBLE_MERCHANT_POINTS" />
+        <!--SPAIN-->
+        <Delete ModifierId="TRAIT_INTERCONTINENTAL_INTERNATIONAL_GOLD" />
+        <Delete ModifierId="TRAIT_INTERCONTINENTAL_DOMESTIC_FOOD" />
+        <Delete ModifierId="TRAIT_INTERCONTINENTAL_DOMESTIC_PRODUCTION" />
+        <Row>
+            <ModifierId>TRAIT_INTERCONTINENTAL_INTERNATIONAL_GOLD</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_GOLD</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_INTERCONTINENTAL_INTERNATIONAL_GOLD</ModifierId>
+            <Name>Amount</Name>
+            <Value>6</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_INTERCONTINENTAL_INTERNATIONAL_GOLD</ModifierId>
+            <Name>Intercontinental</Name>
+            <Value>true</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_INTERCONTINENTAL_DOMESTIC_FOOD</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_FOOD</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_INTERCONTINENTAL_DOMESTIC_FOOD</ModifierId>
+            <Name>Amount</Name>
+            <Value>2</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_INTERCONTINENTAL_DOMESTIC_FOOD</ModifierId>
+            <Name>Intercontinental</Name>
+            <Value>true</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_INTERCONTINENTAL_DOMESTIC_PRODUCTION</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_PRODUCTION</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_INTERCONTINENTAL_DOMESTIC_PRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>2</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_INTERCONTINENTAL_DOMESTIC_PRODUCTION</ModifierId>
+            <Name>Intercontinental</Name>
+            <Value>true</Value>
+        </Row>
+    </ModifierArguments>
+
+    <Traits>
+        <Update>
+            <Where TraitType="TRAIT_LEADER_MAGNANIMOUS"/>
+            <Set Description="LOC_SK_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where TraitType="TRAIT_LEADER_MEDITERRANEAN"/>
+            <Set Description="LOC_SK_TRAIT_LEADER_MEDITERRANEAN_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where TraitType="TRAIT_LEADER_SATYAGRAHA"/>
+            <Set Description="LOC_SK_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where TraitType="FIRST_EMPEROR_TRAIT"/>
+            <Set Description="LOC_SK_TRAIT_LEADER_FIRST_EMPEROR_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where TraitType="TRAIT_CIVILIZATION_LAST_PROPHET"/>
+            <Set Description="LOC_SK_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where TraitType="TRAIT_CIVILIZATION_ITERU"/>
+            <Set Description="LOC_SK_TRAIT_CIVILIZATION_ITERU_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where TraitType="TRAIT_CIVILIZATION_WONDER_TOURISM"/>
+            <Set Description="LOC_SK_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where TraitType="TRAIT_CIVILIZATION_NKISI"/>
+            <Set Description="LOC_SK_TRAIT_CIVILIZATION_NKISI_DESCRIPTION"/>
+        </Update>
+    </Traits>
+</GameInfo>

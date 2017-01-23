@@ -9,15 +9,25 @@
         <SpecialThanks>SK_BALANCED_THANKS</SpecialThanks>
     </Properties>
 	<Files>
-		<File>SK_Balanced.xml</File>
-		<File>SK_Balanced_Resource.xml</File>
-		<File>SK_Balanced_StrategicYields.xml</File>
-		<File>SK_Districts_Changes.xml</File>
-		<File>SK_Text.xml</File>
+		<File>/Assets/Buildings/Buildings.xml</File>
+		<File>/Assets/Districts/Districts.xml</File>
+		<File>/Assets/Features/Features.xml</File>
+		<File>/Assets/Improvements/Improvements.xml</File>
+		<File>/Assets/Leaders/Leaders.xml</File>
+		<File>/Assets/Resources/Buffered_Resource.xml</File>
+		<File>/Assets/Resources/Buffered_StrategicYields.xml</File>
+		<File>/Assets/Resources/Resources.xml</File>
+		<File>/Assets/Units/Units.xlm<File>
+		<File>/Assets/Buildings/Text/Buildings_Text.xml</File>
+        <File>/Assets/Districts/Text/Districts_Text.xml</File>
+        <File>/Assets/Features/Text/Features_Text.xml</File>
+        <File>/Assets/Improvements/Text/Improvements_Text.xml</File>
+        <File>/Assets/Leaders/Text/Leaders_Text.xml</File>
+        <File>/Assets/Resources/Text/Resources_Text.xml</File>
+        <File>/Assets/Units/Text/Units_Text.xlm<File>
 	</Files>
-	
 	<Settings>
-		<Custom id="SK_SETTING">
+		<Custom id="SK_Resources_Text">
 			<Items>
 				<Component>SK_DATABASE</Component>
 				<Component>SK_TEXT</Component>
@@ -31,15 +41,26 @@
 				<Name>SK_BALANCED_NAME</Name>
 	    	</Properties>
 			<Items>
-				<File>SK_Balanced.xml</File>
-				<File>SK_Balanced_Resource.xml</File>
-				<File>SK_Balanced_StrategicYields.xml</File>
-				<File>SK_Districts_Changes.xml</File>
+				<File>/Assets/Buildings/Buildings.xml</File>
+                <File>/Assets/Districts/Districts.xml</File>
+                <File>/Assets/Features/Features.xml</File>
+                <File>/Assets/Improvements/Improvements.xml</File>
+                <File>/Assets/Leaders/Leaders.xml</File>
+                <File>/Assets/Resources/Buffered_Resource.xml</File>
+                <File>/Assets/Resources/Buffered_StrategicYields.xml</File>
+                <File>/Assets/Resources/Resources.xml</File>
+                <File>/Assets/Units/Units.xlm<File>
 			</Items>
         </UpdateDatabase>
 		<LocalizedText id = "SK_TEXT">
 			<Items>
-				<File>SK_Text.xml</File>
+				<File>/Assets/Buildings/Text/Buildings_Text.xml</File>
+                <File>/Assets/Districts/Text/Districts_Text.xml</File>
+                <File>/Assets/Features/Text/Features_Text.xml</File>
+                <File>/Assets/Improvements/Text/Improvements_Text.xml</File>
+                <File>/Assets/Leaders/Text/Leaders_Text.xml</File>
+                <File>/Assets/Resources/Text/Resources_Text.xml</File>
+                <File>/Assets/Units/Text/Units_Text.xlm<File>
 			</Items>
 		</LocalizedText>
 	</Components>

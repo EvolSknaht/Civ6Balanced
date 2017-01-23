@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+    <Districts>
+        <Delete DistrictType="DISTRICT_MBANZA" />
+        <Row DistrictType="DISTRICT_MBANZA" Name="LOC_DISTRICT_MBANZA_NAME" Description="LOC_DISTRICT_MBANZA_DESCRIPTION" PrereqCivic="CIVIC_URBANIZATION" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="30" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1000" RequiresPlacement="true" RequiresPopulation="false" OnePerCity="false" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="5" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_MBANZA"/>
+        <Delete DistrictType="DISTRICT_BATH" />
+        <Row DistrictType="DISTRICT_BATH" Name="LOC_DISTRICT_BATH_NAME" Description="LOC_DISTRICT_BATH_DESCRIPTION" PrereqTech="TECH_ENGINEERING" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="25" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1000" RequiresPlacement="true" RequiresPopulation="false" Aqueduct="true" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="4" Entertainment="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_BATH"/>
+    </Districts>
+    <District_GreatPersonPoints>
+        <Delete DistrictType="DISTRICT_LAVRA" />
+        <Row DistrictType="DISTRICT_LAVRA" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="2"/>
+        <Row DistrictType="DISTRICT_STREET_CARNIVAL" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+        <Row DistrictType="DISTRICT_STREET_CARNIVAL" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+        <Row DistrictType="DISTRICT_STREET_CARNIVAL" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
+    </District_GreatPersonPoints>
+    <Districts>
+        <Update>
+            <Where DistrictType="DISTRICT_AQUEDUCT"/>
+            <Set Description="LOC_SK_DISTRICT_AQUEDUCT_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_CAMPUS"/>
+            <Set Description="LOC_SK_DISTRICT_CAMPUS_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_COMMERCIAL_HUB"/>
+            <Set Description="LOC_SK_DISTRICT_COMMERCIAL_HUB_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_ENCAMPMENT"/>
+            <Set Description="LOC_SK_DISTRICT_ENCAMPMENT_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+            <Set Description="LOC_SK_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_HOLY_SITE"/>
+            <Set Description="LOC_SK_DISTRICT_HOLY_SITE_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+            <Set Description="LOC_SK_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_THEATER"/>
+            <Set Description="LOC_SK_DISTRICT_THEATER_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_BATH"/>
+            <Set Description="LOC_SK_DISTRICT_BATH_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_STREET_CARNIVAL"/>
+            <Set Description="LOC_SK_DISTRICT_STREET_CARNIVAL_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_LAVRA"/>
+            <Set Description="LOC_SK_DISTRICT_LAVRA_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_HANSA"/>
+            <Set Description="LOC_SK_DISTRICT_DISTRICT_HANSA_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_ACROPOLIS"/>
+            <Set Description="LOC_SK_DISTRICT_ACROPOLIS_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+            <Set Description="LOC_SK_DISTRICT_ROYAL_NAVY_DOCKYARD_DESCRIPTION"/>
+        </Update>
+    </Districts>
+</GameInfo>

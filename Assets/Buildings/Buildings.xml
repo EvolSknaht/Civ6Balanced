@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+    <Buildings>
+        <Delete BuildingType="BUILDING_ARENA" />
+        <Row BuildingType="BUILDING_ARENA" Name="LOC_BUILDING_ARENA_NAME" PrereqCivic="CIVIC_GAMES_RECREATION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="135" AdvisorType="ADVISOR_GENERIC" Maintenance="1" Entertainment="2"/>
+        <Update>
+            <Where BuildingType="BUILDING_SEWER"/>
+            <Set Housing="4"/>
+        </Update>
+        <Delete BuildingType="BUILDING_ZOO" />
+        <Row BuildingType="BUILDING_ZOO" Name="LOC_BUILDING_ZOO_NAME" Description="LOC_BUILDING_ZOO_DESCRIPTION" PrereqCivic="CIVIC_NATURAL_HISTORY" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="405" AdvisorType="ADVISOR_GENERIC" Maintenance="2" Entertainment="3" RegionalRange="6"/>
+        <Delete BuildingType="BUILDING_STADIUM" />
+        <Row BuildingType="BUILDING_STADIUM" Name="LOC_BUILDING_STADIUM_NAME" Description="LOC_BUILDING_STADIUM_DESCRIPTION" PrereqCivic="CIVIC_PROFESSIONAL_SPORTS" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="600" AdvisorType="ADVISOR_GENERIC" Maintenance="3" Entertainment="4" RegionalRange="6"/>
+        <Delete BuildingType="BUILDING_MADRASA" />
+        <Row BuildingType="BUILDING_MADRASA" Name="LOC_BUILDING_MADRASA_NAME" Description="LOC_BUILDING_MADRASA_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="2" Housing="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_MADRASA"/>
+        <!--Wonders -->
+        <Delete BuildingType="BUILDING_HANGING_GARDENS" />
+        <Row BuildingType="BUILDING_HANGING_GARDENS" Name="LOC_BUILDING_HANGING_GARDENS_NAME" Description="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" PrereqTech="TECH_IRRIGATION" Cost="180" Housing="4" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" RequiresRiver="true" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_HANGING_GARDENS_QUOTE" QuoteAudio="Play_HANGINGGARDENS_QUOTE"/>
+        <Delete BuildingType="BUILDING_GREAT_LIGHTHOUSE" />
+        <Row BuildingType="BUILDING_GREAT_LIGHTHOUSE" Name="LOC_BUILDING_GREAT_LIGHTHOUSE_NAME" Description="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" Cost="290" Housing="2" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_HARBOR" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_GREAT_LIGHTHOUSE_QUOTE" QuoteAudio="Play_GREATLIGHTHOUSE_QUOTE"/>
+        <Delete BuildingType="BUILDING_COLOSSEUM" />
+        <Row BuildingType="BUILDING_COLOSSEUM" Name="LOC_BUILDING_COLOSSEUM_NAME" Description="LOC_BUILDING_COLOSSEUM_DESCRIPTION" PrereqCivic="CIVIC_GAMES_RECREATION" Cost="400" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="3" RegionalRange="9" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_COLOSSEUM_QUOTE" QuoteAudio="Play_COLOSSEUM_QUOTE"/>
+        <Delete BuildingType="BUILDING_ESTADIO_DO_MARACANA" />
+        <Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" Name="LOC_BUILDING_ESTADIO_DO_MARACANA_NAME" Description="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION" PrereqCivic="CIVIC_PROFESSIONAL_SPORTS" Cost="1740" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="4" RegionalRange="100000" Quote="LOC_BUILDING_ESTADIO_DO_MARACANA_QUOTE" QuoteAudio="Play_ESTADIODOMARACANA_QUOTE"/>
+    </Buildings>
+    <Building_YieldChanges>
+        <Delete BuildingType="BUILDING_WATER_MILL"/>
+        <Row BuildingType="BUILDING_GRANARY" YieldType="YIELD_FOOD" YieldChange="2"/>
+        <Row BuildingType="BUILDING_WATER_MILL" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row BuildingType="BUILDING_WATER_MILL" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Delete BuildingType="BUILDING_WORKSHOP" />
+        <Row BuildingType="BUILDING_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+        <Delete BuildingType="BUILDING_POWER_PLANT" />
+        <Row BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="10"/>
+        <Delete BuildingType="BUILDING_FACTORY" />
+        <Row BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="8"/>
+        <Delete BuildingType="BUILDING_ELECTRONICS_FACTORY" />
+        <Row BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="10"/>
+        <Delete BuildingType="BUILDING_STAVE_CHURCH" />
+        <Row BuildingType="BUILDING_STAVE_CHURCH" YieldType="YIELD_FAITH" YieldChange="6"/>
+        <!--Wonders -->
+        <Delete BuildingType="BUILDING_STONEHENGE" />
+        <Row BuildingType="BUILDING_STONEHENGE" YieldType="YIELD_FAITH" YieldChange="4"/>
+        <Row BuildingType="BUILDING_HANGING_GARDENS" YieldType="YIELD_FOOD" YieldChange="4"/>
+        <Delete BuildingType="BUILDING_GREAT_LIGHTHOUSE" />
+        <Row BuildingType="BUILDING_GREAT_LIGHTHOUSE" YieldType="YIELD_GOLD" YieldChange="4"/>
+        <Delete BuildingType="BUILDING_ORACLE" />
+        <Row BuildingType="BUILDING_ORACLE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+        <Row BuildingType="BUILDING_ORACLE" YieldType="YIELD_FAITH" YieldChange="2"/>
+        <Delete BuildingType="BUILDING_COLOSSUS" />
+        <Row BuildingType="BUILDING_COLOSSUS" YieldType="YIELD_GOLD" YieldChange="6"/>
+        <Row BuildingType="BUILDING_TERRACOTTA_ARMY" YieldType="YIELD_CULTURE" YieldChange="4"/>
+        <Delete BuildingType="BUILDING_GREAT_LIBRARY" />
+        <Row BuildingType="BUILDING_GREAT_LIBRARY" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+        <Delete BuildingType="BUILDING_MAHABODHI_TEMPLE" />
+        <Row BuildingType="BUILDING_MAHABODHI_TEMPLE" YieldType="YIELD_FAITH" YieldChange="8"/>
+        <Delete BuildingType="BUILDING_HAGIA_SOPHIA" />
+        <Row BuildingType="BUILDING_HAGIA_SOPHIA" YieldType="YIELD_FAITH" YieldChange="8"/>
+        <Delete BuildingType="BUILDING_MONT_ST_MICHEL" />
+        <Row BuildingType="BUILDING_MONT_ST_MICHEL" YieldType="YIELD_FAITH" YieldChange="8"/>
+        <Delete BuildingType="BUILDING_GREAT_ZIMBABWE" />
+        <Row BuildingType="BUILDING_GREAT_ZIMBABWE" YieldType="YIELD_GOLD" YieldChange="8"/>
+        <Delete BuildingType="BUILDING_POTALA_PALACE" />
+        <Row BuildingType="BUILDING_POTALA_PALACE" YieldType="YIELD_CULTURE" YieldChange="3"/>
+        <Row BuildingType="BUILDING_POTALA_PALACE" YieldType="YIELD_FAITH" YieldChange="6"/>
+        <Row BuildingType="BUILDING_RUHR_VALLEY" YieldType="YIELD_PRODUCTION" YieldChange="6"/>
+        <Row BuildingType="BUILDING_OXFORD_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+        <Row BuildingType="BUILDING_BOLSHOI_THEATRE" YieldType="YIELD_CULTURE" YieldChange="6"/>
+        <Delete BuildingType="BUILDING_BIG_BEN" />
+        <Row BuildingType="BUILDING_BIG_BEN" YieldType="YIELD_GOLD" YieldChange="8"/>
+        <Row BuildingType="BUILDING_HERMITAGE" YieldType="YIELD_CULTURE" YieldChange="6"/>
+        <Row BuildingType="BUILDING_BROADWAY" YieldType="YIELD_CULTURE" YieldChange="4"/>
+        <Row BuildingType="BUILDING_EIFFEL_TOWER" YieldType="YIELD_CULTURE" YieldChange="4"/>
+        <Delete BuildingType="BUILDING_GRANARY"/>
+
+    </Building_YieldChanges>
+    <Building_GreatPersonPoints>
+        <!-- Wonders -->
+        <Delete BuildingType="BUILDING_HERMITAGE" />
+        <Row BuildingType="BUILDING_HERMITAGE" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="6"/>
+        <Delete BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" />
+        <Row BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="8"/>
+    </Building_GreatPersonPoints>
+    <Building_GreatWorks>
+        <!-- Wonders -->
+        <Delete BuildingType="BUILDING_BOLSHOI_THEATRE" />
+        <Row BuildingType="BUILDING_BOLSHOI_THEATRE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+        <Row BuildingType="BUILDING_BOLSHOI_THEATRE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="1"/>
+        <Delete BuildingType="BUILDING_HERMITAGE" />
+        <Row BuildingType="BUILDING_HERMITAGE" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="6"/>
+        <Delete BuildingType="BUILDING_BROADWAY" />
+        <Row BuildingType="BUILDING_BROADWAY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+        <Row BuildingType="BUILDING_BROADWAY" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="2"/>
+        <Delete BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" />
+        <Row BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="5"/>
+    </Building_GreatWorks>
+    <Buildings>
+        <Update>
+            <Where BuildingType="BUILDING_WATER_MILL"/>
+            <Set Description="LOC_SK_BUILDING_WATER_MILL_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_BARRACKS"/>
+            <Set Description="LOC_SK_BUILDING_BARRACKS_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_STABLE"/>
+            <Set Description="LOC_SK_BUILDING_STABLE_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_ARMORY"/>
+            <Set Description="LOC_SK_BUILDING_ARMORY_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_GRANARY"/>
+            <Set Housing="2"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_SHRINE"/>
+            <Set Description="LOC_SK_BUILDING_SHRINE_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_AMPHITHEATER"/>
+            <Set Description="LOC_SK_BUILDING_AMPHITHEATER_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_ARENA"/>
+            <Set Description="LOC_SK_BUILDING_ARENA_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_ZOO"/>
+            <Set Description="LOC_SK_BUILDING_ZOO_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_COLOSSEUM"/>
+            <Set Description="LOC_SK_BUILDING_COLOSSEUM_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_ELECTRONICS_FACTORY"/>
+            <Set Description="LOC_SK_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION"/>
+        </Update>
+    </Buildings>
+    <RequirementSetRequirements>
+        <DELETE RequirementSetId="CITY_HAS_CHICHEN_ITZA_REQUIREMENTS" RequirementId="REQUIRES_CITY_HAS_CHICHEN_ITZA"/>
+        <Row>
+            <RequirementSetId>CITY_HAS_CHICHEN_ITZA_REQUIREMENTS</RequirementSetId>
+            <RequirementId>REQUIRES_PLAYER</RequirementId>
+        </Row>
+        <DELETE RequirementSetId="CITY_HAS_PETRA_REQUIREMENTS" RequirementId="REQUIRES_CITY_HAS_PETRA"/>
+        <Row>
+            <RequirementSetId>CITY_HAS_PETRA_REQUIREMENTS</RequirementSetId>
+            <RequirementId>REQUIRES_PLAYER</RequirementId>
+        </Row>
+    </RequirementSetRequirements>
+
+</GameInfo>

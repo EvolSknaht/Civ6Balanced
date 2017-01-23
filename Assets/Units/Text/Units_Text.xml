@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+    <LocalizedText>
+        <!-- en_US -->
+        <Replace Tag="LOC_SK_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="en_US">
+            <Text>Chinese unique Medieval era unit. Ranged unit with a [ICON_Range] Range of 2 and high combat
+                strength.
+            </Text>
+        </Replace>
+        <!-- zh_Hans_CN -->
+        <Replace Tag="LOC_SK_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>中国中世纪特色单位。 [ICON_Range] 射程为2的高战斗力远程单位。</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>
