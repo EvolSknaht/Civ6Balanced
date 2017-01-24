@@ -2,63 +2,70 @@
 <GameInfo>
     <Resource_ValidTerrains>
         <Delete ResourceType="RESOURCE_COPPER" />
+        <Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_DESERT_HILLS"/>
         <Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_GRASS_HILLS"/>
         <Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_PLAINS_HILLS"/>
         <Row ResourceType="RESOURCE_COPPER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
-        <Delete ResourceType="RESOURCE_SHEEP" />
-        <Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_GRASS_HILLS"/>
-        <Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_PLAINS_HILLS"/>
-        <Row ResourceType="RESOURCE_SHEEP" TerrainType="TERRAIN_TUNDRA_HILLS"/>
         <Delete ResourceType="RESOURCE_STONE" />
         <Row ResourceType="RESOURCE_STONE" TerrainType="TERRAIN_GRASS"/>
         <!--Luxury -->
         <Delete ResourceType="RESOURCE_COFFEE" />
-        <Delete ResourceType="RESOURCE_DIAMONDS" />
-        <Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_GRASS_HILLS"/>
-        <Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_PLAINS_HILLS"/>
-        <Row ResourceType="RESOURCE_DIAMONDS" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+        <Row ResourceType="RESOURCE_COFFEE" TerrainType="TERRAIN_GRASS"/>
+        <Row ResourceType="RESOURCE_COFFEE" TerrainType="TERRAIN_PLAINS"/>
         <Delete ResourceType="RESOURCE_FURS" />
+        <Row ResourceType="RESOURCE_IVORY" TerrainType="TERRAIN_PLAINS"/>
         <Row ResourceType="RESOURCE_FURS" TerrainType="TERRAIN_TUNDRA"/>
-        <Row ResourceType="RESOURCE_FURS" TerrainType="TERRAIN_TUNDRA_HILLS"/>
         <Delete ResourceType="RESOURCE_GYPSUM" />
         <Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_PLAINS"/>
-        <Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_DESERT_HILLS"/>
         <Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_TUNDRA_HILLS"/>
         <Delete ResourceType="RESOURCE_INCENSE" />
+        <Row ResourceType="RESOURCE_INCENSE" TerrainType="TERRAIN_DESERT"/>
         <Row ResourceType="RESOURCE_INCENSE" TerrainType="TERRAIN_GRASS"/>
         <Row ResourceType="RESOURCE_INCENSE" TerrainType="TERRAIN_PLAINS"/>
         <Delete ResourceType="RESOURCE_IVORY" />
+        <Row ResourceType="RESOURCE_IVORY" TerrainType="TERRAIN_GRASS"/>
+        <Row ResourceType="RESOURCE_IVORY" TerrainType="TERRAIN_DESERT"/>
+        <Row ResourceType="RESOURCE_IVORY" TerrainType="TERRAIN_PLAINS"/>
+        <Delete ResourceType="RESOURCE_JADE" />
+        <Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_GRASS"/>
+        <Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_GRASS_HILLS"/>
+        <Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_PLAINS"/>
+        <Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_TUNDRA"/>
+        <Row ResourceType="RESOURCE_JADE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
         <Delete ResourceType="RESOURCE_MARBLE" />
-        <Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_GRASS_HILLS"/>
-        <Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_GRASS"/>
+        <Row ResourceType="RESOURCE_MARBLE" TerrainType="TERRAIN_PLAINS"/>
         <Delete ResourceType="RESOURCE_MERCURY" />
         <Row ResourceType="RESOURCE_MERCURY" TerrainType="TERRAIN_PLAINS"/>
         <Row ResourceType="RESOURCE_MERCURY" TerrainType="TERRAIN_PLAINS_HILLS"/>
         <Delete ResourceType="RESOURCE_SALT" />
         <Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_PLAINS"/>
+        <Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_DESERT"/>
+        <Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_DESERT_HILLS"/>
         <Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_TUNDRA"/>
+        <Row ResourceType="RESOURCE_SALT" TerrainType="TERRAIN_TUNDRA_HILLS"/>
         <Delete ResourceType="RESOURCE_SILVER" />
         <Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_PLAINS"/>
         <Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_DESERT"/>
+        <Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_DESERT_HILLS"/>
         <Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_TUNDRA"/>
         <Row ResourceType="RESOURCE_SILVER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
         <Delete ResourceType="RESOURCE_TEA" />
         <Row ResourceType="RESOURCE_TEA" TerrainType="TERRAIN_GRASS"/>
         <Row ResourceType="RESOURCE_TEA" TerrainType="TERRAIN_PLAINS"/>
         <Delete ResourceType="RESOURCE_TOBACCO" />
+        <Row ResourceType="RESOURCE_TOBACCO" TerrainType="TERRAIN_GRASS"/>
+        <Row ResourceType="RESOURCE_TOBACCO" TerrainType="TERRAIN_PLAINS"/>
         <!--Strategic -->
         <Delete ResourceType="RESOURCE_ALUMINUM" />
         <Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+        <Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_PLAINS"/>
         <Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_DESERT_HILLS"/>
         <Row ResourceType="RESOURCE_ALUMINUM" TerrainType="TERRAIN_DESERT"/>
-        <Delete ResourceType="RESOURCE_IRON" />
-        <Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_GRASS_HILLS"/>
-        <Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_PLAINS_HILLS"/>
-        <Row ResourceType="RESOURCE_IRON" TerrainType="TERRAIN_TUNDRA_HILLS"/>
-        <Delete ResourceType="RESOURCE_NITER" />
-        <Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_GRASS"/>
-        <Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_PLAINS"/>
-        <Row ResourceType="RESOURCE_NITER" TerrainType="TERRAIN_TUNDRA"/>
     </Resource_ValidTerrains>
     <Resource_ValidFeatures>
         <!--Luxury -->
@@ -68,16 +75,12 @@
         <Delete ResourceType="RESOURCE_COFFEE" />
         <Row ResourceType="RESOURCE_COFFEE" FeatureType="FEATURE_JUNGLE"/>
         <Row ResourceType="RESOURCE_COFFEE" FeatureType="FEATURE_FOREST"/>
-        <Delete ResourceType="RESOURCE_COTTON" />
-        <Delete ResourceType="RESOURCE_DIAMONDS" />
-        <Delete ResourceType="RESOURCE_SPICES" />
-        <Row ResourceType="RESOURCE_SPICES" FeatureType="FEATURE_JUNGLE"/>
-        <Delete ResourceType="RESOURCE_WINE" />
-        <!--Strategic -->
-        <Delete ResourceType="RESOURCE_NITER" />
     </Resource_ValidFeatures>
     <Resource_YieldChanges>
         <!--Bonus-->
+        <Delete ResourceType="RESOURCE_BANANAS" />
+        <Row ResourceType="RESOURCE_BANANAS" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ResourceType="RESOURCE_BANANAS" YieldType="YIELD_GOLD" YieldChange="1"/>
         <Delete ResourceType="RESOURCE_CATTLE" />
         <Row ResourceType="RESOURCE_CATTLE" YieldType="YIELD_FOOD" YieldChange="1"/>
         <Row ResourceType="RESOURCE_CATTLE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>

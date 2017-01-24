@@ -11,34 +11,35 @@
         <Delete FeatureType="FEATURE_CLIFFS_DOVER"/>
         <Row FeatureType="FEATURE_CLIFFS_DOVER" YieldType="YIELD_FOOD" YieldChange="2"/>
         <Row FeatureType="FEATURE_CLIFFS_DOVER" YieldType="YIELD_CULTURE" YieldChange="4"/>
-        <Row FeatureType="FEATURE_CLIFFS_DOVER" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Row FeatureType="FEATURE_CLIFFS_DOVER" YieldType="YIELD_GOLD" YieldChange="4"/>
         <Delete FeatureType="FEATURE_CRATER_LAKE"/>
         <Row FeatureType="FEATURE_CRATER_LAKE" YieldType="YIELD_FAITH" YieldChange="5"/>
         <Row FeatureType="FEATURE_CRATER_LAKE" YieldType="YIELD_SCIENCE" YieldChange="5"/>
         <Delete FeatureType="FEATURE_DEAD_SEA"/>
         <Row FeatureType="FEATURE_DEAD_SEA" YieldType="YIELD_CULTURE" YieldChange="4"/>
-        <Row FeatureType="FEATURE_DEAD_SEA" YieldType="YIELD_FAITH" YieldChange="4"/>
+        <Row FeatureType="FEATURE_DEAD_SEA" YieldType="YIELD_FAITH" YieldChange="5"/>
         <Delete FeatureType="FEATURE_PANTANAL"/>
-        <Row FeatureType="FEATURE_PANTANAL" YieldType="YIELD_CULTURE" YieldChange="2"/>
-        <Row FeatureType="FEATURE_PANTANAL" YieldType="YIELD_FOOD" YieldChange="4"/>
+        <Row FeatureType="FEATURE_PANTANAL" YieldType="YIELD_CULTURE" YieldChange="3"/>
+        <Row FeatureType="FEATURE_PANTANAL" YieldType="YIELD_FOOD" YieldChange="3"/>
+        <Row FeatureType="FEATURE_PANTANAL" YieldType="YIELD_FAITH" YieldChange="1"/>
     </Feature_YieldChanges>
     <Feature_AdjacentYields>
         <Delete FeatureType="FEATURE_EVEREST"/>
-        <Row FeatureType="FEATURE_EVEREST" YieldType="YIELD_FAITH" YieldChange="3"/>
-        <Row FeatureType="FEATURE_EVEREST" YieldType="YIELD_SCIENCE" YieldChange="1"/>
-        <Delete FeatureType="FEATURE_GALAPAGOS"/>
-        <Row FeatureType="FEATURE_GALAPAGOS" YieldType="YIELD_FOOD" YieldChange="2"/>
-        <Row FeatureType="FEATURE_GALAPAGOS" YieldType="YIELD_SCIENCE" YieldChange="2"/>
-        <Delete FeatureType="FEATURE_KILIMANJARO"/>
-        <Row FeatureType="FEATURE_KILIMANJARO" YieldType="YIELD_FOOD" YieldChange="3"/>
+        <Row FeatureType="FEATURE_EVEREST" YieldType="YIELD_FAITH" YieldChange="4"/>
         <Delete FeatureType="FEATURE_TSINGY"/>
+        <Row FeatureType="FEATURE_TSINGY" YieldType="YIELD_GOLD" YieldChange="1"/>
         <Row FeatureType="FEATURE_TSINGY" YieldType="YIELD_CULTURE" YieldChange="1"/>
         <Row FeatureType="FEATURE_TSINGY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+        <Delete FeatureType="FEATURE_GALAPAGOS"/>
+        <Row FeatureType="FEATURE_GALAPAGOS" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Row FeatureType="FEATURE_GALAPAGOS" YieldType="YIELD_SCIENCE" YieldChange="2"/>
         <Delete FeatureType="FEATURE_PIOPIOTAHI"/>
-        <Row FeatureType="FEATURE_PIOPIOTAHI" YieldType="YIELD_CULTURE" YieldChange="1"/>
+        <Row FeatureType="FEATURE_PIOPIOTAHI" YieldType="YIELD_CULTURE" YieldChange="2"/>
         <Row FeatureType="FEATURE_PIOPIOTAHI" YieldType="YIELD_GOLD" YieldChange="2"/>
         <Delete FeatureType="FEATURE_YOSEMITE"/>
         <Row FeatureType="FEATURE_YOSEMITE" YieldType="YIELD_GOLD" YieldChange="2"/>
-        <Row FeatureType="FEATURE_YOSEMITE" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+        <Row FeatureType="FEATURE_YOSEMITE" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+        <Delete FeatureType="FEATURE_KILIMANJARO"/>
+        <Row FeatureType="FEATURE_KILIMANJARO" YieldType="YIELD_FOOD" YieldChange="3"/>
     </Feature_AdjacentYields>
 </GameInfo>

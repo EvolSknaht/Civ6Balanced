@@ -15,7 +15,7 @@
         <Row BuildingType="BUILDING_MADRASA" Name="LOC_BUILDING_MADRASA_NAME" Description="LOC_BUILDING_MADRASA_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="2" Housing="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_MADRASA"/>
         <!--Wonders -->
         <Delete BuildingType="BUILDING_HANGING_GARDENS" />
-        <Row BuildingType="BUILDING_HANGING_GARDENS" Name="LOC_BUILDING_HANGING_GARDENS_NAME" Description="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" PrereqTech="TECH_IRRIGATION" Cost="180" Housing="4" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" RequiresRiver="true" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_HANGING_GARDENS_QUOTE" QuoteAudio="Play_HANGINGGARDENS_QUOTE"/>
+        <Row BuildingType="BUILDING_HANGING_GARDENS" Name="LOC_BUILDING_HANGING_GARDENS_NAME" Description="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" PrereqTech="TECH_IRRIGATION" Cost="200" Housing="4" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" RequiresRiver="true" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_HANGING_GARDENS_QUOTE" QuoteAudio="Play_HANGINGGARDENS_QUOTE"/>
         <Delete BuildingType="BUILDING_GREAT_LIGHTHOUSE" />
         <Row BuildingType="BUILDING_GREAT_LIGHTHOUSE" Name="LOC_BUILDING_GREAT_LIGHTHOUSE_NAME" Description="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" Cost="290" Housing="2" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_HARBOR" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_GREAT_LIGHTHOUSE_QUOTE" QuoteAudio="Play_GREATLIGHTHOUSE_QUOTE"/>
         <Delete BuildingType="BUILDING_COLOSSEUM" />
@@ -24,8 +24,9 @@
         <Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" Name="LOC_BUILDING_ESTADIO_DO_MARACANA_NAME" Description="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION" PrereqCivic="CIVIC_PROFESSIONAL_SPORTS" Cost="1740" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="4" RegionalRange="100000" Quote="LOC_BUILDING_ESTADIO_DO_MARACANA_QUOTE" QuoteAudio="Play_ESTADIODOMARACANA_QUOTE"/>
     </Buildings>
     <Building_YieldChanges>
-        <Delete BuildingType="BUILDING_WATER_MILL"/>
+        <Delete BuildingType="BUILDING_GRANARY"/>
         <Row BuildingType="BUILDING_GRANARY" YieldType="YIELD_FOOD" YieldChange="2"/>
+        <Delete BuildingType="BUILDING_WATER_MILL"/>
         <Row BuildingType="BUILDING_WATER_MILL" YieldType="YIELD_FOOD" YieldChange="1"/>
         <Row BuildingType="BUILDING_WATER_MILL" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
         <Delete BuildingType="BUILDING_WORKSHOP" />
@@ -53,11 +54,11 @@
         <Delete BuildingType="BUILDING_GREAT_LIBRARY" />
         <Row BuildingType="BUILDING_GREAT_LIBRARY" YieldType="YIELD_SCIENCE" YieldChange="4"/>
         <Delete BuildingType="BUILDING_MAHABODHI_TEMPLE" />
-        <Row BuildingType="BUILDING_MAHABODHI_TEMPLE" YieldType="YIELD_FAITH" YieldChange="8"/>
+        <Row BuildingType="BUILDING_MAHABODHI_TEMPLE" YieldType="YIELD_FAITH" YieldChange="6"/>
         <Delete BuildingType="BUILDING_HAGIA_SOPHIA" />
-        <Row BuildingType="BUILDING_HAGIA_SOPHIA" YieldType="YIELD_FAITH" YieldChange="8"/>
+        <Row BuildingType="BUILDING_HAGIA_SOPHIA" YieldType="YIELD_FAITH" YieldChange="6"/>
         <Delete BuildingType="BUILDING_MONT_ST_MICHEL" />
-        <Row BuildingType="BUILDING_MONT_ST_MICHEL" YieldType="YIELD_FAITH" YieldChange="8"/>
+        <Row BuildingType="BUILDING_MONT_ST_MICHEL" YieldType="YIELD_FAITH" YieldChange="6"/>
         <Delete BuildingType="BUILDING_GREAT_ZIMBABWE" />
         <Row BuildingType="BUILDING_GREAT_ZIMBABWE" YieldType="YIELD_GOLD" YieldChange="8"/>
         <Delete BuildingType="BUILDING_POTALA_PALACE" />
@@ -71,8 +72,6 @@
         <Row BuildingType="BUILDING_HERMITAGE" YieldType="YIELD_CULTURE" YieldChange="6"/>
         <Row BuildingType="BUILDING_BROADWAY" YieldType="YIELD_CULTURE" YieldChange="4"/>
         <Row BuildingType="BUILDING_EIFFEL_TOWER" YieldType="YIELD_CULTURE" YieldChange="4"/>
-        <Delete BuildingType="BUILDING_GRANARY"/>
-
     </Building_YieldChanges>
     <Building_GreatPersonPoints>
         <!-- Wonders -->

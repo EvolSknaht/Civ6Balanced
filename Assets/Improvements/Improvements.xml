@@ -22,7 +22,7 @@
         <Row ImprovementType="IMPROVEMENT_GREAT_WALL" YieldType="YIELD_CULTURE" YieldChange="1"/>
         <Delete ImprovementType="IMPROVEMENT_KURGAN" />
         <Row ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_GOLD" YieldChange="2"/>
-        <Row ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_FAITH" YieldChange="1"/>
+        <Row ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_FAITH" YieldChange="2"/>
         <Delete ImprovementType="IMPROVEMENT_MISSION" />
         <Row ImprovementType="IMPROVEMENT_MISSION" YieldType="YIELD_FAITH" YieldChange="4"/>
         <Row ImprovementType="IMPROVEMENT_MISSION" YieldType="YIELD_SCIENCE" YieldChange="1"/>
@@ -33,8 +33,8 @@
         <Row ImprovementType="IMPROVEMENT_STEPWELL" YieldType="YIELD_FOOD" YieldChange="1"/>
         <Row ImprovementType="IMPROVEMENT_STEPWELL" YieldType="YIELD_FAITH" YieldChange="2"/>
         <Delete ImprovementType="IMPROVEMENT_ZIGGURAT" />
-        <Row ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_GOLD" YieldChange="2"/>
-        <Row ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+        <Row ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_GOLD" YieldChange="1"/>
+        <Row ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
     </Improvement_YieldChanges>
     <Improvements>
         <Update>
