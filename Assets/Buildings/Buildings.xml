@@ -12,7 +12,7 @@
         <Delete BuildingType="BUILDING_STADIUM" />
         <Row BuildingType="BUILDING_STADIUM" Name="LOC_BUILDING_STADIUM_NAME" Description="LOC_BUILDING_STADIUM_DESCRIPTION" PrereqCivic="CIVIC_PROFESSIONAL_SPORTS" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="600" AdvisorType="ADVISOR_GENERIC" Maintenance="3" Entertainment="4" RegionalRange="6"/>
         <Delete BuildingType="BUILDING_MADRASA" />
-        <Row BuildingType="BUILDING_MADRASA" Name="LOC_BUILDING_MADRASA_NAME" Description="LOC_BUILDING_MADRASA_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="2" Housing="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_MADRASA"/>
+        <Row BuildingType="BUILDING_MADRASA" Name="LOC_BUILDING_MADRASA_NAME" Description="LOC_SK_BUILDING_MADRASA_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="2" Housing="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_MADRASA"/>
         <!--Wonders -->
         <Delete BuildingType="BUILDING_HANGING_GARDENS" />
         <Row BuildingType="BUILDING_HANGING_GARDENS" Name="LOC_BUILDING_HANGING_GARDENS_NAME" Description="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" PrereqTech="TECH_IRRIGATION" Cost="200" Housing="4" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" RequiresRiver="true" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_HANGING_GARDENS_QUOTE" QuoteAudio="Play_HANGINGGARDENS_QUOTE"/>
@@ -48,6 +48,8 @@
         <Delete BuildingType="BUILDING_ORACLE" />
         <Row BuildingType="BUILDING_ORACLE" YieldType="YIELD_CULTURE" YieldChange="2"/>
         <Row BuildingType="BUILDING_ORACLE" YieldType="YIELD_FAITH" YieldChange="2"/>
+        <Delete BuildingType="BUILDING_COLOSSEUM" />
+        <Row BuildingType="BUILDING_COLOSSEUM" YieldType="YIELD_CULTURE" YieldChange="2"/>
         <Delete BuildingType="BUILDING_COLOSSUS" />
         <Row BuildingType="BUILDING_COLOSSUS" YieldType="YIELD_GOLD" YieldChange="6"/>
         <Row BuildingType="BUILDING_TERRACOTTA_ARMY" YieldType="YIELD_CULTURE" YieldChange="4"/>
@@ -137,6 +139,34 @@
         <Update>
             <Where BuildingType="BUILDING_ELECTRONICS_FACTORY"/>
             <Set Description="LOC_SK_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_LIBRARY"/>
+            <Set Description="LOC_SK_BUILDING_LIBRARY_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_UNIVERSITY"/>
+            <Set Description="LOC_SK_BUILDING_UNIVERSITY_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_RESEARCH_LAB"/>
+            <Set Description="LOC_SK_BUILDING_RESEARCH_LAB_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_SUKIENNICE"/>
+            <Set Description="LOC_SK_BUILDING_SUKIENNICE_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_MARKET"/>
+            <Set Description="LOC_SK_BUILDING_MARKET_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_BANK"/>
+            <Set Description="LOC_SK_BUILDING_BANK_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_STOCK_EXCHANGE"/>
+            <Set Description="LOC_SK_BUILDING_STOCK_EXCHANGE_DESCRIPTION"/>
         </Update>
     </Buildings>
 

@@ -17,14 +17,14 @@
 		<File>/Assets/Resources/Buffered_Resource.xml</File>
 		<File>/Assets/Resources/Buffered_StrategicYields.xml</File>
 		<File>/Assets/Resources/Resources.xml</File>
-		<File>/Assets/Units/Units.xlm<File>
+		<File>/Assets/Units/Units.xlm</File>
 		<File>/Assets/Buildings/Text/Buildings_Text.xml</File>
         <File>/Assets/Districts/Text/Districts_Text.xml</File>
         <File>/Assets/Features/Text/Features_Text.xml</File>
         <File>/Assets/Improvements/Text/Improvements_Text.xml</File>
         <File>/Assets/Leaders/Text/Leaders_Text.xml</File>
         <File>/Assets/Resources/Text/Resources_Text.xml</File>
-        <File>/Assets/Units/Text/Units_Text.xlm<File>
+        <File>/Assets/Units/Text/Units_Text.xlm</File>
 	</Files>
 	<Settings>
 		<Custom id="SK_Resources_Text">
@@ -49,7 +49,7 @@
                 <File>/Assets/Resources/Buffered_Resource.xml</File>
                 <File>/Assets/Resources/Buffered_StrategicYields.xml</File>
                 <File>/Assets/Resources/Resources.xml</File>
-                <File>/Assets/Units/Units.xlm<File>
+                <File>/Assets/Units/Units.xlm</File>
 			</Items>
         </UpdateDatabase>
 		<LocalizedText id = "SK_TEXT">
@@ -60,7 +60,7 @@
                 <File>/Assets/Improvements/Text/Improvements_Text.xml</File>
                 <File>/Assets/Leaders/Text/Leaders_Text.xml</File>
                 <File>/Assets/Resources/Text/Resources_Text.xml</File>
-                <File>/Assets/Units/Text/Units_Text.xlm<File>
+                <File>/Assets/Units/Text/Units_Text.xlm</File>
 			</Items>
 		</LocalizedText>
 	</Components>

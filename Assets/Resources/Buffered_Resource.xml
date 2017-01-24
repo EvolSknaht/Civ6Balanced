@@ -32,6 +32,8 @@
 
         <!--Campus-->
         <Row Type="RESOURCE_MERCURY" Tag="CLASS_SK_CAMPUS_RESOURCE"/>
+        <Row Type="RESOURCE_TEA" Tag="CLASS_SK_CAMPUS_RESOURCE"/>
+        <Row Type="RESOURCE_TOBACCO" Tag="CLASS_SK_CAMPUS_RESOURCE"/>
 
         <!--Commercial-->
         <Row Type="RESOURCE_FURS" Tag="CLASS_SK_COMMERCIAL_RESOURCE"/>
@@ -129,6 +131,16 @@
             <SubjectRequirementSetId>SK_IS_COMMERCIAL_RESOURCE</SubjectRequirementSetId>
         </Row>
         <Row>
+            <ModifierId>SK_ADD_COMMERCIAL_ADJACENT_MODIFIER</ModifierId>
+            <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+            <SubjectRequirementSetId>SK_IS_COMMERCIAL_ADJACENT</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_COMMERCIAL_SECOND_ADJACENT_MODIFIER</ModifierId>
+            <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+            <SubjectRequirementSetId>SK_IS_COMMERCIAL_SECOND_ADJACENT</SubjectRequirementSetId>
+        </Row>
+        <Row>
             <ModifierId>SK_ADD_ENCAMPMENT_RESOURCE_YIELD</ModifierId>
             <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
             <SubjectRequirementSetId>SK_IS_ENCAMPMENT_RESOURCE</SubjectRequirementSetId>
@@ -213,7 +225,7 @@
         <Row>
             <ModifierId>SK_ADD_AQUEDUCT_RESOURCE_YIELD</ModifierId>
             <Name>Amount</Name>
-            <Value>2</Value>
+            <Value>1</Value>
         </Row>
         <Row>
             <ModifierId>SK_ADD_AQUEDUCT_FEATURE_YIELD</ModifierId>
@@ -223,7 +235,7 @@
         <Row>
             <ModifierId>SK_ADD_AQUEDUCT_FEATURE_YIELD</ModifierId>
             <Name>Amount</Name>
-            <Value>2</Value>
+            <Value>1</Value>
         </Row>
         <Row>
             <ModifierId>SK_ADD_AQUEDUCT_ADJACENT_MODIFIER</ModifierId>
@@ -253,7 +265,7 @@
         <Row>
             <ModifierId>SK_ADD_CAMPUS_RESOURCE_YIELD</ModifierId>
             <Name>Amount</Name>
-            <Value>2</Value>
+            <Value>1</Value>
         </Row>
         <Row>
             <ModifierId>SK_ADD_COMMERCIAL_RESOURCE_YIELD</ModifierId>
@@ -262,6 +274,26 @@
         </Row>
         <Row>
             <ModifierId>SK_ADD_COMMERCIAL_RESOURCE_YIELD</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_COMMERCIAL_ADJACENT_MODIFIER</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_GOLD</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_COMMERCIAL_ADJACENT_MODIFIER</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_COMMERCIAL_SECOND_ADJACENT_MODIFIER</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_GOLD</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_COMMERCIAL_SECOND_ADJACENT_MODIFIER</ModifierId>
             <Name>Amount</Name>
             <Value>1</Value>
         </Row>
@@ -343,7 +375,7 @@
         <Row>
             <ModifierId>SK_ADD_HOLY_RESOURCE_YIELD</ModifierId>
             <Name>Amount</Name>
-            <Value>2</Value>
+            <Value>1</Value>
         </Row>
         <Row>
             <ModifierId>SK_ADD_SHRINE_RESOURCE_YIELD</ModifierId>
@@ -442,6 +474,14 @@
             <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
         </Row>
         <Row>
+            <RequirementId>SK_REQUIRES_PLOT_IS_COMMERCIAL_ADJACENT</RequirementId>
+            <RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_IS_COMMERCIAL_SECOND_ADJACENT</RequirementId>
+            <RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+        </Row>
+        <Row>
             <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_ENCAMPMENT_RESOURCE</RequirementId>
             <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
         </Row>
@@ -506,7 +546,7 @@
         <Row>
             <RequirementId>SK_REQUIRES_PLOT_IS_AQUEDUCT_ADJACENT</RequirementId>
             <Name>MaxRange</Name>
-            <Value>2</Value>
+            <Value>1</Value>
         </Row>
         <Row>
             <RequirementId>SK_REQUIRES_PLOT_IS_BATH_ADJACENT</RequirementId>
@@ -521,7 +561,7 @@
         <Row>
             <RequirementId>SK_REQUIRES_PLOT_IS_BATH_ADJACENT</RequirementId>
             <Name>MaxRange</Name>
-            <Value>2</Value>
+            <Value>1</Value>
         </Row>
         <Row>
             <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_CAMPUS_RESOURCE</RequirementId>
@@ -532,6 +572,36 @@
             <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_COMMERCIAL_RESOURCE</RequirementId>
             <Name>Tag</Name>
             <Value>CLASS_SK_COMMERCIAL_RESOURCE</Value>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_IS_COMMERCIAL_ADJACENT</RequirementId>
+            <Name>DistrictType</Name>
+            <Value>DISTRICT_COMMERCIAL_HUB</Value>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_IS_COMMERCIAL_ADJACENT</RequirementId>
+            <Name>MinRange</Name>
+            <Value>0</Value>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_IS_COMMERCIAL_ADJACENT</RequirementId>
+            <Name>MaxRange</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_IS_COMMERCIAL_SECOND_ADJACENT</RequirementId>
+            <Name>DistrictType</Name>
+            <Value>DISTRICT_COMMERCIAL_HUB</Value>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_IS_COMMERCIAL_SECOND_ADJACENT</RequirementId>
+            <Name>MinRange</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_IS_COMMERCIAL_SECOND_ADJACENT</RequirementId>
+            <Name>MaxRange</Name>
+            <Value>2</Value>
         </Row>
         <Row>
             <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_ENCAMPMENT_RESOURCE</RequirementId>
@@ -610,6 +680,14 @@
             <RequirementSetId>SK_IS_COMMERCIAL_RESOURCE</RequirementSetId>
         </Row>
         <Row>
+            <RequirementId>SK_REQUIRES_PLOT_IS_COMMERCIAL_ADJACENT</RequirementId>
+            <RequirementSetId>SK_IS_COMMERCIAL_ADJACENT</RequirementSetId>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_IS_COMMERCIAL_SECOND_ADJACENT</RequirementId>
+            <RequirementSetId>SK_IS_COMMERCIAL_SECOND_ADJACENT</RequirementSetId>
+        </Row>
+        <Row>
             <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_ENCAMPMENT_RESOURCE</RequirementId>
             <RequirementSetId>SK_IS_ENCAMPMENT_RESOURCE</RequirementSetId>
         </Row>
@@ -676,6 +754,14 @@
             <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
         </Row>
         <Row>
+            <RequirementSetId>SK_IS_COMMERCIAL_ADJACENT</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>SK_IS_COMMERCIAL_SECOND_ADJACENT</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
             <RequirementSetId>SK_IS_ENCAMPMENT_RESOURCE</RequirementSetId>
             <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
         </Row>
@@ -734,6 +820,7 @@
             <DistrictType>DISTRICT_BATH</DistrictType>
             <ModifierId>SK_ADD_BATH_ADJACENT_MODIFIER</ModifierId>
         </Row>
+
         <Row>
             <DistrictType>DISTRICT_CAMPUS</DistrictType>
             <ModifierId>SK_ADD_CAMPUS_RESOURCE_YIELD</ModifierId>
@@ -815,6 +902,22 @@
         <Row>
             <BuildingType>BUILDING_ZOO</BuildingType>
             <ModifierId>SK_ADD_ENTERTAINMENT_RESOURCE_CULTURE_YIELD</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_SUKIENNICE</BuildingType>
+            <ModifierId>SK_ADD_COMMERCIAL_ADJACENT_MODIFIER</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MARKET</BuildingType>
+            <ModifierId>SK_ADD_COMMERCIAL_ADJACENT_MODIFIER</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_BANK</BuildingType>
+            <ModifierId>SK_ADD_COMMERCIAL_RESOURCE_YIELD</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+            <ModifierId>SK_ADD_COMMERCIAL_SECOND_ADJACENT_MODIFIER</ModifierId>
         </Row>
     </BuildingModifiers>
 </GameInfo>

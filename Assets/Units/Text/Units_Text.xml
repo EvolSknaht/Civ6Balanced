@@ -3,9 +3,7 @@
     <LocalizedText>
         <!-- en_US -->
         <Replace Tag="LOC_SK_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="en_US">
-            <Text>Chinese unique Medieval era unit. Ranged unit with a [ICON_Range] Range of 2 and high combat
-                strength.
-            </Text>
+            <Text>Chinese unique Medieval era unit. Ranged unit with a [ICON_Range] Range of 2 and high combat strength.</Text>
         </Replace>
         <!-- zh_Hans_CN -->
         <Replace Tag="LOC_SK_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" Language="zh_Hans_CN">

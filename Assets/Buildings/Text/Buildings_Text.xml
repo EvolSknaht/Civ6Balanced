@@ -6,13 +6,16 @@
             <Text>+1 [ICON_Food] Food to [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_CATTLE] Cattle, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_DEER] Deer, [ICON_RESOURCE_RICE] Rice, [ICON_RESOURCE_SHEEP] Sheep, and [ICON_RESOURCE_WHEAT] Wheat resources. City must be adjacent to a River.</Text>
         </Replace>
         <Replace Tag="LOC_SK_BUILDING_BARRACKS_DESCRIPTION" Language="en_US">
-            <Text>+25% combat experience for all melee and ranged land units trained in this city.[NEWLINE][NEWLINE]May not be built in an Encampment district that already has a Stable.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_COPPER] Copper resources.</Text>
+            <Text>+25% combat experience for all melee and ranged land units trained in this city.[NEWLINE][NEWLINE]May not be built in an Encampment district that already has a Stable.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_COPPER] Copper resource.</Text>
         </Replace>
         <Replace Tag="LOC_SK_BUILDING_STABLE_DESCRIPTION" Language="en_US">
-            <Text>+25% combat experience for all cavalry class units trained in this city. May not be built in an Encampment district that already has a Barracks.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_HORSES] Horse resources.</Text>
+            <Text>+25% combat experience for all cavalry class units trained in this city. May not be built in an Encampment district that already has a Barracks.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_HORSES] Horse resource.</Text>
         </Replace>
         <Replace Tag="LOC_SK_BUILDING_ARMORY_DESCRIPTION" Language="en_US">
             <Text>+25% combat experience for all land units trained in this city.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_IRON] Iron and [ICON_RESOURCE_NITER] Niter resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_MILITARY_ACADEMY_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+25% combat experience for all land units trained in this city. Faster Corps and Army training.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_NITER] Niter resource.</Text>
         </Replace>
         <Replace Tag="LOC_SK_BUILDING_SHRINE_DESCRIPTION" Language="en_US">
             <Text>Allows the purchasing of Missionaries. Missionaries can only be purchased with [ICON_Faith] Faith.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith to [ICON_RESOURCE_STONE] Stone, [ICON_RESOURCE_INCENSE] Incense, and [ICON_RESOURCE_WINE] Wine resources.</Text>
@@ -32,6 +35,33 @@
         <Replace Tag="LOC_SK_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" Language="en_US">
             <Text>A building unique to Japan. +10 [ICON_Production] Production to all cities within 6 tiles. After researching the Electricity technology this building provides an additional +4 [ICON_Culture] Culture to its city.</Text>
         </Replace>
+        <Replace Tag="LOC_SK_BUILDING_LIBRARY_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Science] Science to [ICON_RESOURCE_IRON] Iron resource.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_MADRASA_DESCRIPTION" Language="en_US">
+            <Text>A building unique to Arabia. Bonus [ICON_Faith] Faith equal to the adjacency bonus of the Campus district.[NEWLINE][NEWLINE]+1 [ICON_Science] Science to [ICON_RESOURCE_NITER] Niter and [ICON_RESOURCE_COAL] Coal resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_UNIVERSITY_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Science] Science to [ICON_RESOURCE_NITER] Niter and [ICON_RESOURCE_COAL] Coal resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_RESEARCH_LAB_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Science] Science to [ICON_RESOURCE_OIL] Oil and [ICON_RESOURCE_ALUMINUM] Aluminum resources.[NEWLINE][NEWLINE]+1 [ICON_Science] Science to [ICON_URANIUM] Uranium resource.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_SUKIENNICE_DESCRIPTION"  Language="en_US">
+            <Text>A building unique to Poland. International [ICON_TradeRoute] Trade Routes from this city gain +2 [ICON_Production] Production; domestic [ICON_TradeRoute] Trade Routes gain +4 [ICON_Gold] Gold.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold to adjacent tiles.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_MARKET_DESCRIPTION" Language="en_US">
+            <Text>[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold to adjacent tiles.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_MARKET_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Gold] Gold to adjacent tiles.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_BANK_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Gold] Gold to [ICON_RESOURCE_FURS] Furs, [ICON_RESOURCE_SALT] Salt, [ICON_RESOURCE_COTTON] Cotton, [ICON_RESOURCE_DYES] Dyes, [ICON_RESOURCE_SILK] Silk, [ICON_RESOURCE_SPICES] Spices, [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_TOBACCO] Tobacco, and [ICON_RESOURCE_SILVER] Silver resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_STOCK_EXCHANGE_DESCRIPTION" Language="en_US">
+            <Text>The addition range of +1 [ICON_Gold] Gold to adjacent extended to two away.</Text>
+        </Replace>
         <!-- zh_Hans_CN -->
         <Replace Tag="LOC_SK_BUILDING_WATER_MILL_DESCRIPTION" Language="zh_Hans_CN">
             <Text>[ICON_RESOURCE_BANANAS] 香蕉、 [ICON_RESOURCE_CATTLE] 牛、 [ICON_RESOURCE_CITRUS] 柑橘、 [ICON_RESOURCE_DEER] 鹿、 [ICON_RESOURCE_RICE] 大米、 [ICON_RESOURCE_SHEEP] 羊和 [ICON_RESOURCE_WHEAT] 小麦资源分别+1 [ICON_Food] 食物。城市必须靠近河流。</Text>
@@ -43,7 +73,10 @@
             <Text>在该城市训练的所有骑兵单位+25%战斗经验值。不能建在已有兵营的军营区域。[NEWLINE][NEWLINE][ICON_RESOURCE_HORSES] 马匹资源+1 [ICON_Production] 生产力。</Text>
         </Replace>
         <Replace Tag="LOC_SK_BUILDING_ARMORY_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>在该城市训练的所有陆地单位战斗经验值+25%。[NEWLINE][NEWLINE][ICON_RESOURCE_IRON] 铁和 [ICON_RESOURCE_NITER] 硝石资源分别+1 [ICON_Production] 生产力。</Text>
+            <Text>在该城市训练的所有陆地单位战斗经验值+25%。[NEWLINE][NEWLINE][ICON_RESOURCE_IRON] 铁资源+1 [ICON_Production] 生产力。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_MILITARY_ACADEMY_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>在该城市训练的所有陆地单位+25%战斗经验值。加快军团和军队训练。[NEWLINE][NEWLINE][ICON_RESOURCE_NITER] 硝石资源+1 [ICON_Production] 生产力。</Text>
         </Replace>
         <Replace Tag="LOC_SK_BUILDING_SHRINE_DESCRIPTION" Language="zh_Hans_CN">
             <Text>允许购买传教士。只能使用 [ICON_Faith] 信仰值进行购买。[NEWLINE][NEWLINE][ICON_RESOURCE_STONE] 石头、 [ICON_RESOURCE_INCENSE] 熏香和 [ICON_RESOURCE_WINE] 红酒资源分别+1 [ICON_Faith] 信仰值。</Text>
@@ -62,6 +95,30 @@
         </Replace>
         <Replace Tag="LOC_SK_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" Language="zh_Hans_CN">
             <Text>日本特色建筑。为6个单元格以内的所有城市+10 [ICON_Production] 生产力。研究完成电力后，此建筑为该城市提供额外+4 [ICON_Culture] 文化值。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_LIBRARY_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_IRON] 铁资源+1 [ICON_Science] 科研值。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_MADRASA_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>阿拉伯特色建筑。提供与学院区的相邻加成等量的 [ICON_Faith] 信仰值。[ICON_RESOURCE_NITER] 硝石和 [ICON_RESOURCE_COAL] 煤资源分别+1 [ICON_Science] 科研值。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_UNIVERSITY_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_NITER] 硝石和 [ICON_RESOURCE_COAL] 煤资源分别+1 [ICON_Science] 科研值。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_RESEARCH_LAB_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_OIL] 石油和 [ICON_RESOURCE_ALUMINUM] 铝资源分别+1 [ICON_Science] 科研值。[NEWLINE][NEWLINE][ICON_URANIUM] 铀资源+2 [ICON_Science] 科研值。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_SUKIENNICE_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>波兰特色建筑。从此城开始的国际 [ICON_TradeRoute] 贸易路线+2 [ICON_Production] 生产力；国内 [ICON_TradeRoute] 贸易路线+4 [ICON_Gold] 金币。[NEWLINE][NEWLINE]邻接地块+1 [ICON_Gold] 金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_MARKET_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>邻接地块+1 [ICON_Gold] 金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_BANK_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_FURS] 皮草、 [ICON_RESOURCE_SALT] 盐、 [ICON_RESOURCE_COTTON] 棉花、 [ICON_RESOURCE_DYES] 染料、 [ICON_RESOURCE_SILK] 丝绸、 [ICON_RESOURCE_SPICES] 香料、 [ICON_RESOURCE_SUGAR] 糖、 [ICON_RESOURCE_TOBACCO] 烟草和 [ICON_RESOURCE_SILVER] 白银资源分别+1 [ICON_Gold] 金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_STOCK_EXCHANGE_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>邻接+1 [ICON_Gold] 金币加成范围扩展到2格。</Text>
         </Replace>
     </LocalizedText>
 </GameData>

@@ -3,7 +3,13 @@
     <Modifiers>
         <!--Iron-->
         <Row>
-            <ModifierId>SKNAHT_ADD_IRON_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_IRON_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+            <OwnerRequirementSetId>PLAYER_HAS_TECH_BRONZE_WORKING</OwnerRequirementSetId>
+            <SubjectRequirementSetId>PLOT_HAS_IRON</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_IRON_RESOURCE_SCIENCE</ModifierId>
             <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
             <OwnerRequirementSetId>PLAYER_HAS_TECH_BRONZE_WORKING</OwnerRequirementSetId>
             <SubjectRequirementSetId>PLOT_HAS_IRON</SubjectRequirementSetId>
@@ -11,7 +17,13 @@
 
         <!--Niter-->
         <Row>
-            <ModifierId>SKNAHT_ADD_NITER_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_NITER_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+            <OwnerRequirementSetId>PLAYER_HAS_TECH_GUNPOWDER</OwnerRequirementSetId>
+            <SubjectRequirementSetId>PLOT_HAS_NITER</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_NITER_RESOURCE_SCIENCE</ModifierId>
             <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
             <OwnerRequirementSetId>PLAYER_HAS_TECH_GUNPOWDER</OwnerRequirementSetId>
             <SubjectRequirementSetId>PLOT_HAS_NITER</SubjectRequirementSetId>
@@ -19,7 +31,13 @@
 
         <!--Coal-->
         <Row>
-            <ModifierId>SKNAHT_ADD_COAL_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_COAL_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+            <OwnerRequirementSetId>PLAYER_HAS_TECH_STEAM_POWER</OwnerRequirementSetId>
+            <SubjectRequirementSetId>PLOT_HAS_COAL</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_COAL_RESOURCE_SCIENCE</ModifierId>
             <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
             <OwnerRequirementSetId>PLAYER_HAS_TECH_STEAM_POWER</OwnerRequirementSetId>
             <SubjectRequirementSetId>PLOT_HAS_COAL</SubjectRequirementSetId>
@@ -27,7 +45,13 @@
 
         <!--Oil-->
         <Row>
-            <ModifierId>SKNAHT_ADD_OIL_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_OIL_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+            <OwnerRequirementSetId>PLAYER_HAS_TECH_COMBUSTION</OwnerRequirementSetId>
+            <SubjectRequirementSetId>PLOT_HAS_OIL</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_OIL_RESOURCE_SCIENCE</ModifierId>
             <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
             <OwnerRequirementSetId>PLAYER_HAS_TECH_COMBUSTION</OwnerRequirementSetId>
             <SubjectRequirementSetId>PLOT_HAS_OIL</SubjectRequirementSetId>
@@ -35,7 +59,13 @@
 
         <!--Aluminum-->
         <Row>
-            <ModifierId>SKNAHT_ADD_ALUMINUM_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_ALUMINUM_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+            <OwnerRequirementSetId>PLAYER_HAS_TECH_ADVANCED_FLIGHT</OwnerRequirementSetId>
+            <SubjectRequirementSetId>PLOT_HAS_ALUMINUM</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_ALUMINUM_RESOURCE_SCIENCE</ModifierId>
             <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
             <OwnerRequirementSetId>PLAYER_HAS_TECH_ADVANCED_FLIGHT</OwnerRequirementSetId>
             <SubjectRequirementSetId>PLOT_HAS_ALUMINUM</SubjectRequirementSetId>
@@ -43,7 +73,7 @@
 
         <!--Uranium-->
         <Row>
-            <ModifierId>SKNAHT_ADD_URANIUM_RESOURCE_SCIENCE</ModifierId>
+            <ModifierId>SK_ADD_URANIUM_RESOURCE_SCIENCE</ModifierId>
             <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
             <OwnerRequirementSetId>PLAYER_HAS_TECH_NUCLEAR_FISSION</OwnerRequirementSetId>
             <SubjectRequirementSetId>PLOT_HAS_URANIUM</SubjectRequirementSetId>
@@ -52,72 +82,122 @@
     <ModifierArguments>
         <!--Iron-->
         <Row>
-            <ModifierId>SKNAHT_ADD_IRON_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_IRON_RESOURCE_PRODUCTION</ModifierId>
             <Name>YieldType</Name>
             <Value>YIELD_PRODUCTION</Value>
         </Row>
         <Row>
-            <ModifierId>SKNAHT_ADD_IRON_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_IRON_RESOURCE_PRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_IRON_RESOURCE_SCIENCE</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_SCIENCE</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_IRON_RESOURCE_SCIENCE</ModifierId>
             <Name>Amount</Name>
             <Value>1</Value>
         </Row>
 
         <!--Niter-->
         <Row>
-            <ModifierId>SKNAHT_ADD_NITER_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_NITER_RESOURCE_PRODUCTION</ModifierId>
             <Name>YieldType</Name>
             <Value>YIELD_PRODUCTION</Value>
         </Row>
         <Row>
-            <ModifierId>SKNAHT_ADD_NITER_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_NITER_RESOURCE_PRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_NITER_RESOURCE_SCIENCE</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_SCIENCE</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_NITER_RESOURCE_SCIENCE</ModifierId>
             <Name>Amount</Name>
             <Value>1</Value>
         </Row>
 
         <!--Coal-->
         <Row>
-            <ModifierId>SKNAHT_ADD_COAL_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_COAL_RESOURCE_PRODUCTION</ModifierId>
             <Name>YieldType</Name>
             <Value>YIELD_PRODUCTION</Value>
         </Row>
         <Row>
-            <ModifierId>SKNAHT_ADD_COAL_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_COAL_RESOURCE_PRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_COAL_RESOURCE_SCIENCE</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_SCIENCE</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_COAL_RESOURCE_SCIENCE</ModifierId>
             <Name>Amount</Name>
             <Value>1</Value>
         </Row>
 
         <!--Oil-->
         <Row>
-            <ModifierId>SKNAHT_ADD_OIL_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_OIL_RESOURCE_PRODUCTION</ModifierId>
             <Name>YieldType</Name>
             <Value>YIELD_PRODUCTION</Value>
         </Row>
         <Row>
-            <ModifierId>SKNAHT_ADD_OIL_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_OIL_RESOURCE_PRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_OIL_RESOURCE_SCIENCE</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_SCIENCE</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_OIL_RESOURCE_SCIENCE</ModifierId>
             <Name>Amount</Name>
             <Value>1</Value>
         </Row>
 
         <!--Aluminum-->
         <Row>
-            <ModifierId>SKNAHT_ADD_ALUMINUM_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_ALUMINUM_RESOURCE_PRODUCTION</ModifierId>
             <Name>YieldType</Name>
             <Value>YIELD_PRODUCTION</Value>
         </Row>
         <Row>
-            <ModifierId>SKNAHT_ADD_ALUMINUM_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_ALUMINUM_RESOURCE_PRODUCTION</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_ALUMINUM_RESOURCE_SCIENCE</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_SCIENCE</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_ALUMINUM_RESOURCE_SCIENCE</ModifierId>
             <Name>Amount</Name>
             <Value>1</Value>
         </Row>
 
         <!--Uranium-->
         <Row>
-            <ModifierId>SKNAHT_ADD_URANIUM_RESOURCE_SCIENCE</ModifierId>
+            <ModifierId>SK_ADD_URANIUM_RESOURCE_SCIENCE</ModifierId>
             <Name>YieldType</Name>
             <Value>YIELD_SCIENCE</Value>
         </Row>
         <Row>
-            <ModifierId>SKNAHT_ADD_URANIUM_RESOURCE_SCIENCE</ModifierId>
+            <ModifierId>SK_ADD_URANIUM_RESOURCE_SCIENCE</ModifierId>
             <Name>Amount</Name>
             <Value>2</Value>
         </Row>
@@ -190,7 +270,7 @@
             <RequirementSetId>PLAYER_HAS_TECH_BRONZE_WORKING</RequirementSetId>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_IRON_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_IRON_RESOURCE</RequirementId>
             <RequirementSetId>PLOT_HAS_IRON</RequirementSetId>
         </Row>
 
@@ -200,7 +280,7 @@
             <RequirementSetId>PLAYER_HAS_TECH_GUNPOWDER</RequirementSetId>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_NITER_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_NITER_RESOURCE</RequirementId>
             <RequirementSetId>PLOT_HAS_NITER</RequirementSetId>
         </Row>
 
@@ -210,7 +290,7 @@
             <RequirementSetId>PLAYER_HAS_TECH_STEAM_POWER</RequirementSetId>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_COAL_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_COAL_RESOURCE</RequirementId>
             <RequirementSetId>PLOT_HAS_COAL</RequirementSetId>
         </Row>
 
@@ -220,7 +300,7 @@
             <RequirementSetId>PLAYER_HAS_TECH_COMBUSTION</RequirementSetId>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_OIL_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_OIL_RESOURCE</RequirementId>
             <RequirementSetId>PLOT_HAS_OIL</RequirementSetId>
         </Row>
 
@@ -230,7 +310,7 @@
             <RequirementSetId>PLAYER_HAS_TECH_ADVANCED_FLIGHT</RequirementSetId>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_ALUMINUM_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_ALUMINUM_RESOURCE</RequirementId>
             <RequirementSetId>PLOT_HAS_ALUMINUM</RequirementSetId>
         </Row>
 
@@ -240,7 +320,7 @@
             <RequirementSetId>PLAYER_HAS_TECH_NUCLEAR_FISSION</RequirementSetId>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_URANIUM_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_URANIUM_RESOURCE</RequirementId>
             <RequirementSetId>PLOT_HAS_URANIUM</RequirementSetId>
         </Row>
     </RequirementSetRequirements>
@@ -251,7 +331,7 @@
             <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_IRON_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_IRON_RESOURCE</RequirementId>
             <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
         </Row>
 
@@ -261,7 +341,7 @@
             <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_NITER_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_NITER_RESOURCE</RequirementId>
             <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
         </Row>
 
@@ -271,7 +351,7 @@
             <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_COAL_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_COAL_RESOURCE</RequirementId>
             <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
         </Row>
 
@@ -281,7 +361,7 @@
             <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_OIL_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_OIL_RESOURCE</RequirementId>
             <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
         </Row>
 
@@ -291,7 +371,7 @@
             <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_ALUMINUM_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_ALUMINUM_RESOURCE</RequirementId>
             <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
         </Row>
 
@@ -301,7 +381,7 @@
             <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_URANIUM_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_URANIUM_RESOURCE</RequirementId>
             <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
         </Row>
     </Requirements>
@@ -313,9 +393,9 @@
             <Value>TECH_BRONZE_WORKING</Value>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_IRON_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_IRON_RESOURCE</RequirementId>
             <Name>Tag</Name>
-            <Value>CLASS_SKNAHT_IRON_RESOURCE</Value>
+            <Value>CLASS_SK_IRON_RESOURCE</Value>
         </Row>
 
         <!--Niter-->
@@ -325,9 +405,9 @@
             <Value>TECH_GUNPOWDER</Value>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_NITER_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_NITER_RESOURCE</RequirementId>
             <Name>Tag</Name>
-            <Value>CLASS_SKNAHT_NITER_RESOURCE</Value>
+            <Value>CLASS_SK_NITER_RESOURCE</Value>
         </Row>
 
         <!--Coal-->
@@ -337,9 +417,9 @@
             <Value>TECH_STEAM_POWER</Value>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_COAL_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_COAL_RESOURCE</RequirementId>
             <Name>Tag</Name>
-            <Value>CLASS_SKNAHT_COAL_RESOURCE</Value>
+            <Value>CLASS_SK_COAL_RESOURCE</Value>
         </Row>
 
         <!--Oil-->
@@ -349,9 +429,9 @@
             <Value>TECH_COMBUSTION</Value>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_OIL_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_OIL_RESOURCE</RequirementId>
             <Name>Tag</Name>
-            <Value>CLASS_SKNAHT_OIL_RESOURCE</Value>
+            <Value>CLASS_SK_OIL_RESOURCE</Value>
         </Row>
 
         <!--Aluminum-->
@@ -361,9 +441,9 @@
             <Value>TECH_ADVANCED_FLIGHT</Value>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_ALUMINUM_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_ALUMINUM_RESOURCE</RequirementId>
             <Name>Tag</Name>
-            <Value>CLASS_SKNAHT_ALUMINUM_RESOURCE</Value>
+            <Value>CLASS_SK_ALUMINUM_RESOURCE</Value>
         </Row>
 
         <!--Uranium-->
@@ -373,58 +453,79 @@
             <Value>TECH_NUCLEAR_FISSION</Value>
         </Row>
         <Row>
-            <RequirementId>SKNAHT_REQUIRES_PLOT_HAS_TAG_URANIUM_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_URANIUM_RESOURCE</RequirementId>
             <Name>Tag</Name>
-            <Value>CLASS_SKNAHT_URANIUM_RESOURCE</Value>
+            <Value>CLASS_SK_URANIUM_RESOURCE</Value>
         </Row>
     </RequirementArguments>
 
     <DistrictModifiers>
         <Row>
-            <DistrictType>DISTRICT_CAMPUS</DistrictType>
-            <ModifierId>SKNAHT_ADD_URANIUM_RESOURCE_SCIENCE</ModifierId>
+            <DistrictType>DISTRICT_ENCAMPMENT</DistrictType>
+            <ModifierId>SK_ADD_IRON_RESOURCE_PRODUCTION</ModifierId>
         </Row>
         <Row>
             <DistrictType>DISTRICT_ENCAMPMENT</DistrictType>
-            <ModifierId>SKNAHT_ADD_IRON_RESOURCE_PRODUCTION</ModifierId>
-        </Row>
-        <Row>
-            <DistrictType>DISTRICT_ENCAMPMENT</DistrictType>
-            <ModifierId>SKNAHT_ADD_NITER_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_NITER_RESOURCE_PRODUCTION</ModifierId>
         </Row>
         <Row>
             <DistrictType>DISTRICT_INDUSTRIAL_ZONE</DistrictType>
-            <ModifierId>SKNAHT_ADD_COAL_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_COAL_RESOURCE_PRODUCTION</ModifierId>
         </Row>
         <Row>
             <DistrictType>DISTRICT_INDUSTRIAL_ZONE</DistrictType>
-            <ModifierId>SKNAHT_ADD_OIL_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_OIL_RESOURCE_PRODUCTION</ModifierId>
         </Row>
         <Row>
             <DistrictType>DISTRICT_INDUSTRIAL_ZONE</DistrictType>
-            <ModifierId>SKNAHT_ADD_ALUMINUM_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_ALUMINUM_RESOURCE_PRODUCTION</ModifierId>
         </Row>
         <Row>
             <DistrictType>DISTRICT_HANSA</DistrictType>
-            <ModifierId>SKNAHT_ADD_COAL_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_COAL_RESOURCE_PRODUCTION</ModifierId>
         </Row>
         <Row>
             <DistrictType>DISTRICT_HANSA</DistrictType>
-            <ModifierId>SKNAHT_ADD_OIL_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_OIL_RESOURCE_PRODUCTION</ModifierId>
         </Row>
         <Row>
             <DistrictType>DISTRICT_HANSA</DistrictType>
-            <ModifierId>SKNAHT_ADD_ALUMINUM_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_ALUMINUM_RESOURCE_PRODUCTION</ModifierId>
         </Row>
     </DistrictModifiers>
+
     <BuildingModifiers>
         <Row>
             <BuildingType>BUILDING_ARMORY</BuildingType>
-            <ModifierId>SKNAHT_ADD_IRON_RESOURCE_PRODUCTION</ModifierId>
+            <ModifierId>SK_ADD_IRON_RESOURCE_PRODUCTION</ModifierId>
         </Row>
         <Row>
-            <BuildingType>BUILDING_ARMORY</BuildingType>
-            <ModifierId>SKNAHT_ADD_NITER_RESOURCE_PRODUCTION</ModifierId>
+            <BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
+            <ModifierId>SK_ADD_NITER_RESOURCE_PRODUCTION</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_LIBRARY</BuildingType>
+            <ModifierId>SK_ADD_IRON_RESOURCE_SCIENCE</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_UNIVERSITY</BuildingType>
+            <ModifierId>SK_ADD_NITER_RESOURCE_SCIENCE</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_UNIVERSITY</BuildingType>
+            <ModifierId>SK_ADD_COAL_RESOURCE_SCIENCE</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_RESEARCH_LAB</BuildingType>
+            <ModifierId>SK_ADD_OIL_RESOURCE_SCIENCE</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_RESEARCH_LAB</BuildingType>
+            <ModifierId>SK_ADD_ALUMINUM_RESOURCE_SCIENCE</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_RESEARCH_LAB</BuildingType>
+            <ModifierId>SK_ADD_URANIUM_RESOURCE_SCIENCE</ModifierId>
         </Row>
     </BuildingModifiers>
 </GameInfo>
