@@ -3,139 +3,39 @@
     <LocalizedText>
         <!-- en_US -->
         <Replace Tag="LOC_SK_IMPROVEMENT_CAMP_DESCRIPTION" Language="en_US">
-            <Text>Unlocks the Builder ability to construct Camps.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold and +1
-                [ICON_Production] Production. Can only be built on [ICON_RESOURCE_FURS] Fur, [ICON_RESOURCE_IVORY]
-                Ivory, [ICON_RESOURCE_DEER] Deer, or [ICON_RESOURCE_TRUFFLES] Truffle resources.[NEWLINE][NEWLINE]If
-                built on a Luxury resource like [ICON_RESOURCE_FURS] Fur, [ICON_RESOURCE_TRUFFLES] Truffles, or
-                [ICON_RESOURCE_IVORY] Ivory, the city will gain use of that resource.
-            </Text>
+            <Text>Unlocks the Builder ability to construct Camps.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold and +1 [ICON_Production] Production. Can only be built on [ICON_RESOURCE_FURS] Fur, [ICON_RESOURCE_IVORY] Ivory, [ICON_RESOURCE_DEER] Deer, or [ICON_RESOURCE_TRUFFLES] Truffle resources.[NEWLINE][NEWLINE]If built on a Luxury resource like [ICON_RESOURCE_FURS] Fur, [ICON_RESOURCE_TRUFFLES] Truffles, or [ICON_RESOURCE_IVORY] Ivory, the city will gain use of that resource.</Text>
         </Replace>
         <Replace Tag="LOC_SK_IMPROVEMENT_QUARRY_DESCRIPTION" Language="en_US">
-            <Text>Unlocks the Builder ability to construct Quarries.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold and +1
-                [ICON_Production] Production. Can only be built on [ICON_RESOURCE_STONE] Stone, [ICON_RESOURCE_MARBLE]
-                Marble, or [ICON_RESOURCE_GYPSUM] Gypsum resources.[NEWLINE][NEWLINE]If built on a Luxury resource, the
-                city will gain use of that resource.
-            </Text>
+            <Text>Unlocks the Builder ability to construct Quarries.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold and +1 [ICON_Production] Production. Can only be built on [ICON_RESOURCE_STONE] Stone, [ICON_RESOURCE_MARBLE] Marble, or [ICON_RESOURCE_GYPSUM] Gypsum resources.[NEWLINE][NEWLINE]If built on a Luxury resource, the city will gain use of that resource.</Text>
         </Replace>
         <Replace Tag="LOC_SK_IMPROVEMENT_PLANTATION_DESCRIPTION" Language="en_US">
-            <Text>Unlocks the Builder ability to construct Plantations.[NEWLINE][NEWLINE]+1 [ICON_Food] Food and +1
-                [ICON_Gold] Gold. Can only be built on [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_CITRUS] Citrus,
-                [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_COFFEE] Coffee, [ICON_RESOURCE_COTTON] Cotton,
-                [ICON_RESOURCE_DYES] Dyes, [ICON_RESOURCE_SILK] Silk, [ICON_RESOURCE_SPICES] Spices,
-                [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_TEA] Tea, [ICON_RESOURCE_TOBACCO] Tobacco, or
-                [ICON_RESOURCE_WINE] Wine resources.[NEWLINE][NEWLINE]If built on a Luxury resource, the city will gain
-                use of that resource.
-            </Text>
+            <Text>Unlocks the Builder ability to construct Plantations.[NEWLINE][NEWLINE]+1 [ICON_Food] Food and +1 [ICON_Gold] Gold. Can only be built on [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_COFFEE] Coffee, [ICON_RESOURCE_COTTON] Cotton, [ICON_RESOURCE_DYES] Dyes, [ICON_RESOURCE_SILK] Silk, [ICON_RESOURCE_SPICES] Spices, [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_TEA] Tea, [ICON_RESOURCE_TOBACCO] Tobacco, or [ICON_RESOURCE_WINE] Wine resources.[NEWLINE][NEWLINE]If built on a Luxury resource, the city will gain use of that resource.</Text>
         </Replace>
         <Replace Tag="LOC_SK_IMPROVEMENT_FISHING_BOATS_DESCRIPTION" Language="en_US">
-            <Text>Unlocks the Builder ability to construct Fishing Boats.[NEWLINE][NEWLINE]+1 [ICON_Food] Food and +1
-                [ICON_Gold] Gold. Can only be built on Coast or Ocean resources.[NEWLINE][NEWLINE]If built on
-                [ICON_RESOURCE_PEARLS] Pearls or [ICON_RESOURCE_WHALES] Whales, the city will gain use of that resource.
-            </Text>
+            <Text>Unlocks the Builder ability to construct Fishing Boats.[NEWLINE][NEWLINE]+1 [ICON_Food] Food and +1 [ICON_Gold] Gold. Can only be built on Coast or Ocean resources.[NEWLINE][NEWLINE]If built on [ICON_RESOURCE_PEARLS] Pearls or [ICON_RESOURCE_WHALES] Whales, the city will gain use of that resource.</Text>
         </Replace>
         <Replace Tag="LOC_SK_IMPROVEMENT_SPHINX_DESCRIPTION" Language="en_US">
-            <Text>Unlocks the Builder ability to construct a Sphinx, unique to Egypt.[NEWLINE][NEWLINE]+2 [ICON_Faith]
-                Faith and +2 [ICON_Culture] Culture. +2 [ICON_Faith] Faith if next to a wonder. Cannot be built next to
-                another Sphinx. Can be built on Floodplains.
-            </Text>
+            <Text>Unlocks the Builder ability to construct a Sphinx, unique to Egypt.[NEWLINE][NEWLINE]+2 [ICON_Faith] Faith and +2 [ICON_Culture] Culture. +2 [ICON_Faith] Faith if next to a wonder. Cannot be built next to another Sphinx. Can be built on Floodplains.</Text>
         </Replace>
         <Replace Tag="LOC_SK_IMPROVEMENT_CHATEAU_DESCRIPTION" Language="en_US">
-            <Text>Unlocks the Builder ability to construct a Chateau, unique to France.[NEWLINE][NEWLINE]+2
-                [ICON_Culture] Culture and +2 [ICON_Gold] Gold. +2 [ICON_Culture] Culture if next to a wonder. +1
-                [ICON_Gold] Gold if next to a Luxury resource. Can only be built adjacent to Rivers.
-            </Text>
+            <Text>Unlocks the Builder ability to construct a Chateau, unique to France.[NEWLINE][NEWLINE]+2 [ICON_Culture] Culture and +2 [ICON_Gold] Gold. +2 [ICON_Culture] Culture if next to a wonder. +1 [ICON_Gold] Gold if next to a Luxury resource. Can only be built adjacent to Rivers.</Text>
         </Replace>
         <Replace Tag="LOC_SK_IMPROVEMENT_STEPWELL_DESCRIPTION" Language="en_US">
-            <Text>Unlocks the Builder ability to construct a Stepwell, unique to India.[NEWLINE][NEWLINE]+1 [ICON_Food]
-                Food, +1 [ICON_Faith] Faith and +1 [ICON_Housing] Housing. +1 [ICON_Faith] Faith if adjacent to a Holy
-                Site district. +1 [ICON_Food] Food if adjacent to a Farm. Cannot be built on Hills or adjacent to
-                another Stepwell.
-            </Text>
+            <Text>Unlocks the Builder ability to construct a Stepwell, unique to India.[NEWLINE][NEWLINE]+1 [ICON_Food] Food, +1 [ICON_Faith] Faith and +1 [ICON_Housing] Housing. +1 [ICON_Faith] Faith if adjacent to a Holy Site district. +1 [ICON_Food] Food if adjacent to a Farm. Cannot be built on Hills or adjacent to another Stepwell.</Text>
         </Replace>
         <Replace Tag="LOC_SK_IMPROVEMENT_MISSION_DESCRIPTION" Language="en_US">
-            <Text>Unlocks the Builder ability to construct a Mission, unique to Spain.[NEWLINE][NEWLINE]+4 [ICON_Faith]
-                Faith and +4 [ICON_Science] Science. +2 [ICON_Faith] Faith if on a different continent than your
-                [ICON_Capital] Capital. +1 [ICON_Science] Science if built next to a Campus district.
-            </Text>
+            <Text>Unlocks the Builder ability to construct a Mission, unique to Spain.[NEWLINE][NEWLINE]+4 [ICON_Faith] Faith and +4 [ICON_Science] Science. +2 [ICON_Faith] Faith if on a different continent than your [ICON_Capital] Capital. +1 [ICON_Science] Science if built next to a Campus district.</Text>
         </Replace>
         <Replace Tag="LOC_SK_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="en_US">
-            <Text>Unlocks the Builder ability to construct a Ziggurat, unique to Sumeria.[NEWLINE][NEWLINE]+1
-                [ICON_Science] Science and +2 [ICON_Gold] Gold. +1 [ICON_Culture] Culture if next to River. Cannot be
-                built on Hills.
-            </Text>
+            <Text>Unlocks the Builder ability to construct a Ziggurat, unique to Sumeria.[NEWLINE][NEWLINE]+1 [ICON_Science] Science and +2 [ICON_Gold] Gold. +1 [ICON_Culture] Culture if next to River. Cannot be built on Hills.</Text>
         </Replace>
         <Replace Tag="LOC_SK_IMPROVEMENT_KURGAN_DESCRIPTION" Language="en_US">
-            <Text>Unlocks the Builder ability to construct a Kurgan, unique to Scythia.[NEWLINE][NEWLINE]+1 [ICON_Faith]
-                Faith. +2 [ICON_Gold] Gold. +1 [ICON_Faith] Faith for each adjacent Pasture. Cannot be built on Hills.
-            </Text>
+            <Text>Unlocks the Builder ability to construct a Kurgan, unique to Scythia.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith. +2 [ICON_Gold] Gold. +1 [ICON_Faith] Faith for each adjacent Pasture. Cannot be built on Hills.</Text>
         </Replace>
         <Replace Tag="LOC_SK_IMPROVEMENT_GREAT_WALL_DESCRIPTION" Language="en_US">
-            <Text>Unlocks the Builder ability to construct the Great Wall, unique to China.[NEWLINE][NEWLINE]Provides an
-                increase to [ICON_Strength] Defense. +1 [ICON_Gold] Gold and +1 [ICON_Culture] Culture. Bonus to
-                [ICON_Gold] Gold if adjacent to other segments. Additional [ICON_Culture] Culture and [ICON_Tourism]
-                Tourism as you advance through the Technology Tree for adjacent segments.
-            </Text>
+            <Text>Unlocks the Builder ability to construct the Great Wall, unique to China.[NEWLINE][NEWLINE]Provides an increase to [ICON_Strength] Defense. +1 [ICON_Gold] Gold and +1 [ICON_Culture] Culture. Bonus to [ICON_Gold] Gold if adjacent to other segments. Additional [ICON_Culture] Culture and [ICON_Tourism] Tourism as you advance through the Technology Tree for adjacent segments.</Text>
         </Replace>
         <!-- zh_Hans_CN -->
-        <Replace Tag="LOC_SK_IMPROVEMENT_CAMP_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>解锁建造者建造营地的能力。[NEWLINE][NEWLINE]+1 [ICON_Gold] 金币和+1 [ICON_Production] 生产力。只能用 [ICON_RESOURCE_FURS]
-                毛皮资源、 [ICON_RESOURCE_IVORY] 象牙资源、 [ICON_RESOURCE_DEER] 鹿资源、或 [ICON_RESOURCE_TRUFFLES]
-                松露资源建造而成。[NEWLINE][NEWLINE]如果建在 [ICON_RESOURCE_FURS] 毛皮、 [ICON_RESOURCE_TRUFFLES] 松露或
-                [ICON_RESOURCE_IVORY] 象牙这样的奢侈资源，城市将能使用这种资源。
-            </Text>
-        </Replace>
-        <Replace Tag="LOC_SK_IMPROVEMENT_QUARRY_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>解锁建造者建造采石场的能力。[NEWLINE][NEWLINE]+1 [ICON_Gold] 金币和+1 [ICON_Production] 生产力。只能建在 [ICON_RESOURCE_STONE]
-                石头、 [ICON_RESOURCE_MARBLE] 大理石、或 [ICON_RESOURCE_GYPSUM] 石膏资源上。[NEWLINE][NEWLINE]如果建在奢侈资源上，城市将能使用这种资源。
-            </Text>
-        </Replace>
-        <Replace Tag="LOC_SK_IMPROVEMENT_PLANTATION_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>解锁建造者建造种植园的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物和+1 [ICON_Gold] 金币。只能建在 [ICON_RESOURCE_BANANAS] 香蕉、
-                [ICON_RESOURCE_CITRUS] 柑橘、 [ICON_RESOURCE_COCOA] 可可豆、 [ICON_RESOURCE_COFFEE] 咖啡、 [ICON_RESOURCE_COTTON]
-                棉花、 [ICON_RESOURCE_DYES] 染料、 [ICON_RESOURCE_SILK] 丝绸、 [ICON_RESOURCE_SPICES] 香料、 [ICON_RESOURCE_SUGAR]
-                糖、 [ICON_RESOURCE_TEA] 茶、 [ICON_RESOURCE_TOBACCO] 烟草或 [ICON_RESOURCE_WINE]
-                葡萄酒资源上。[NEWLINE][NEWLINE]如果建造在奢侈资源上，城市将能使用这种资源。
-            </Text>
-        </Replace>
-        <Replace Tag="LOC_SK_IMPROVEMENT_SPHINX_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>解锁建造者建造埃及特色狮身人面像的能力。[NEWLINE][NEWLINE]+2 [ICON_Faith] 信仰值和+2 [ICON_Culture] 文化值。如果紧挨着1个奇观，+2
-                [ICON_Faith] 信仰值。不能建在另一个狮身人面像旁边。建在泛滥平原上。
-            </Text>
-        </Replace>
-        <Replace Tag="LOC_SK_IMPROVEMENT_FISHING_BOATS_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>解锁建造者建造渔船的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物和+1 [ICON_Gold] 金币。只能在海岸或海洋资源上建造。[NEWLINE][NEWLINE]如果在
-                [ICON_RESOURCE_PEARLS] 珍珠或 [ICON_RESOURCE_WHALES] 鲸鱼资源上建造，城市将能使用这些资源。
-            </Text>
-        </Replace>
-        <Replace Tag="LOC_SK_IMPROVEMENT_CHATEAU_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>解锁建造者建造法国特色城堡的能力。[NEWLINE][NEWLINE]+2 [ICON_Culture] 文化值和+2 [ICON_Gold] 金币。如果紧挨一处奇观，+2 [ICON_Culture]
-                文化值。如果紧挨一种奢侈资源，+1 [ICON_Gold] 金币。只能建在靠近河流的地方。
-            </Text>
-        </Replace>
-        <Replace Tag="LOC_SK_IMPROVEMENT_STEPWELL_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>解锁建造者建造印度特色梯井的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物，+2 [ICON_Faith] 信仰值和+1 [ICON_Housing]
-                住房。如果靠近圣地地区，+1 [ICON_Faith] 信仰值。如果靠近农场，+1 [ICON_Food] 食物。不能建在丘陵上，不能靠近另一个梯井。
-            </Text>
-        </Replace>
-        <Replace Tag="LOC_SK_IMPROVEMENT_MISSION_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>解锁建造者建造传教团的能力，西班牙特色改良设施。[NEWLINE][NEWLINE]+4 [ICON_Faith] 信仰值和+1 [ICON_Science] 科研值。如果在您[ICON_Capital]
-                首都所在大陆以外的大陆上，+2[ICON_Faith] 信仰值。如果紧挨学院区建造，+1 [ICON_Science] 科技值。
-            </Text>
-        </Replace>
-        <Replace Tag="LOC_SK_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>解锁建造者建造苏美尔特色金字形神塔的能力。[NEWLINE][NEWLINE]+1 [ICON_Science] 科技值和+2 [ICON_Gold] 金币。如果紧挨着河流，+1
-                [ICON_Culture] 文化值。不能建在丘陵上。
-            </Text>
-        </Replace>
-        <Replace Tag="LOC_SK_IMPROVEMENT_KURGAN_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>解锁建造者建造塞西亚特色坟墩的能力。[NEWLINE][NEWLINE]+1 [ICON_Faith] 信仰值。+2 [ICON_Gold] 金币。每个相邻牧场+1 [ICON_Faith]
-                信仰值。不能建在丘陵上。
-            </Text>
-        </Replace>
-        <Replace Tag="LOC_SK_IMPROVEMENT_GREAT_WALL_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>解锁建造者建造长城（中国特有）的能力。[NEWLINE][NEWLINE]提高[ICON_Strength] 防御力。+1 [ICON_Gold] 金币和+1 [ICON_Culture]
-                文化值。如果和其他段相邻，获得 [ICON_Gold] 金币加成。随着您在科技不断取得进步，与长城相邻也可获得额外的 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。
-            </Text>
-        </Replace>
+
     </LocalizedText>
 </GameData>

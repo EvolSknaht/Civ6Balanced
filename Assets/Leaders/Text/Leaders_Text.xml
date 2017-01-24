@@ -3,58 +3,35 @@
     <LocalizedText>
         <!-- en_US -->
         <Replace Tag="LOC_SK_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION" Language="en_US">
-            <Text>After recruiting or patronizing a [ICON_GreatPerson] Great Person, 25% of its [ICON_GreatPerson] Great
-                Person point cost is refunded.
-            </Text>
+            <Text>After recruiting or patronizing a [ICON_GreatPerson] Great Person, 25% of its [ICON_GreatPerson] Great Person point cost is refunded.</Text>
         </Replace>
         <Replace Tag="LOC_SK_TRAIT_LEADER_MEDITERRANEAN_DESCRIPTION" Language="en_US">
-            <Text>Your [ICON_TradeRoute] Trade Routes to other civilizations provide +6 [ICON_Gold] Gold for Egypt.
-                Other civilizations' [ICON_TradeRoute] Trade Routes to Egypt provide +2 [ICON_Food] Food for them and +2
-                [ICON_Gold] Gold for Egypt.
-            </Text>
+            <Text>Your [ICON_TradeRoute] Trade Routes to other civilizations provide +6 [ICON_Gold] Gold for Egypt. Other civilizations' [ICON_TradeRoute] Trade Routes to Egypt provide +2 [ICON_Food] Food for them and +2 [ICON_Gold] Gold for Egypt.</Text>
         </Replace>
         <Replace Tag="LOC_SK_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION" Language="en_US">
-            <Text>+10 [ICON_Faith] Faith for each civilization (including India) they have met that has founded a
-                Religion and is not currently at war. Opposing civilizations receive double the war weariness for
-                fighting against Gandhi.
-            </Text>
+            <Text>+10 [ICON_Faith] Faith for each civilization (including India) they have met that has founded a Religion and is not currently at war. Opposing civilizations receive double the war weariness for fighting against Gandhi.</Text>
         </Replace>
         <Replace Tag="LOC_SK_TRAIT_LEADER_FIRST_EMPEROR_DESCRIPTION" Language="en_US">
-            <Text>When building Ancient, Classical and Medieval wonders you may spend Builder charges to complete 15% of
-                the original wonder cost. Builders receive an additional charge.
-            </Text>
+            <Text>When building Ancient, Classical and Medieval wonders you may spend Builder charges to complete 15% of the original wonder cost. Builders receive an additional charge.</Text>
         </Replace>
         <Replace Tag="LOC_SK_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="en_US">
-            <Text>Automatically receive the final Great Prophet when the next-to-last one is claimed (if you have not
-                earned a Great Prophet already). +2 [ICON_Science] Science and +2 [ICON_Culture] Culture for each
-                foreign city following Arabia's Religion.
-            </Text>
+            <Text>Automatically receive the final Great Prophet when the next-to-last one is claimed (if you have not earned a Great Prophet already). +2 [ICON_Science] Science and +2 [ICON_Culture] Culture for each foreign city following Arabia's Religion.</Text>
         </Replace>
         <Replace Tag="LOC_SK_TRAIT_CIVILIZATION_ITERU_DESCRIPTION" Language="en_US">
-            <Text>+25% [ICON_Production] Production towards districts and wonders if placed next to a River. Floodplains
-                do not block placement of districts and wonders.
-            </Text>
+            <Text>+25% [ICON_Production] Production towards districts and wonders if placed next to a River. Floodplains do not block placement of districts and wonders.</Text>
         </Replace>
         <Replace Tag="LOC_SK_TRAIT_CIVILIZATION_WONDER_TOURISM_DESCRIPTION" Language="en_US">
-            <Text>+30% [ICON_Production] Production toward Medieval, Renaissance, and Industrial era wonders.
-                [ICON_Tourism] Tourism from wonders of any era is doubled.
-            </Text>
+            <Text>+30% [ICON_Production] Production toward Medieval, Renaissance, and Industrial era wonders. [ICON_Tourism] Tourism from wonders of any era is doubled.</Text>
         </Replace>
         <Replace Tag="LOC_SK_TRAIT_CIVILIZATION_NKISI_DESCRIPTION" Language="en_US">
-            <Text>+2 [ICON_Food] Food, +2 [ICON_Production] Production, and +4 [ICON_Gold] Gold from each
-                [ICON_GreatWork_Relic] Relic, [ICON_GreatWork_Artifact] Artifact, and Sculpture
-                [ICON_GreatWork_Sculpture] Great Work of Art in addition to the usual [ICON_Culture] Culture. Palace has
-                slots for 5 Great Works.
-            </Text>
+            <Text>+2 [ICON_Food] Food, +2 [ICON_Production] Production, and +4 [ICON_Gold] Gold from each [ICON_GreatWork_Relic] Relic, [ICON_GreatWork_Artifact] Artifact, and Sculpture [ICON_GreatWork_Sculpture] Great Work of Art in addition to the usual [ICON_Culture] Culture. Palace has slots for 5 Great Works.</Text>
         </Replace>
         <!-- zh_Hans_CN -->
         <Replace Tag="LOC_SK_TRAIT_LEADER_MAGNANIMOUS_DESCRIPTION" Language="zh_Hans_CN">
             <Text>招募或赞助一位 [ICON_GreatPerson] 伟人后，将返还所消耗 [ICON_GreatPerson] 伟人点数的25%。</Text>
         </Replace>
         <Replace Tag="LOC_SK_TRAIT_LEADER_MEDITERRANEAN_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>您前往其他文明的 [ICON_TradeRoute] 贸易路线为埃及+6 [ICON_Gold] 金币。其他文明来埃及的 [ICON_TradeRoute] 贸易路线能为他们+2 [ICON_Food]
-                食物，为埃及+2 [ICON_Gold] 金币。
-            </Text>
+            <Text>您前往其他文明的 [ICON_TradeRoute] 贸易路线为埃及+6 [ICON_Gold] 金币。其他文明来埃及的 [ICON_TradeRoute] 贸易路线能为他们+2 [ICON_Food] 食物，为埃及+2 [ICON_Gold] 金币。</Text>
         </Replace>
         <Replace Tag="LOC_SK_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION" Language="zh_Hans_CN">
             <Text>当遇见的每个已创建了宗教且不在战争状态下的文明（包括印度）获得+10信仰值 [ICON_Faith] 。与甘地交战的文明获得双倍厌战情绪。</Text>
@@ -63,9 +40,7 @@
             <Text>建造远古、古典和中世纪奇观时，可以消耗建造者劳动力来推进15%的奇观建造进程。建造者会获得额外建造劳动力。</Text>
         </Replace>
         <Replace Tag="LOC_SK_TRAIT_CIVILIZATION_LAST_PROPHET_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>当倒数第二个大预言家被招募后（如果您尚未获得大预言家），则自动获得最后一个大预言家。可从每座信奉阿拉伯宗教的外国城市+2 [ICON_Science] 科技值和+2 [ICON_Culture]
-                文化值。
-            </Text>
+            <Text>当倒数第二个大预言家被招募后（如果您尚未获得大预言家），则自动获得最后一个大预言家。可从每座信奉阿拉伯宗教的外国城市+2 [ICON_Science] 科技值和+2 [ICON_Culture] 文化值。</Text>
         </Replace>
         <Replace Tag="LOC_SK_TRAIT_CIVILIZATION_ITERU_DESCRIPTION" Language="zh_Hans_CN">
             <Text>区域和奇观可建在泛滥平原上，如建在河边则+25% [ICON_Production] 生产力。</Text>
@@ -74,9 +49,7 @@
             <Text>为中世纪、文艺复兴时期和工业时代的奇观+30% [ICON_Production] 生产力。 所有奇观的 [ICON_Tourism] 旅游业绩都翻倍。</Text>
         </Replace>
         <Replace Tag="LOC_SK_TRAIT_CIVILIZATION_NKISI_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>除了通常的 [ICON_Culture] 文化值，还会从每个 [ICON_GreatWork_Relic] 遗物、 [ICON_GreatWork_Artifact] 文物以及
-                [ICON_GreatWork_Sculpture] 艺术巨作中获得+2 [ICON_Food] 食物、+2 [ICON_Science] 科技值、+4 [ICON_Gold] 金币。宫殿有5个巨作槽位。
-            </Text>
+            <Text>除了通常的 [ICON_Culture] 文化值，还会从每个 [ICON_GreatWork_Relic] 遗物、 [ICON_GreatWork_Artifact] 文物以及 [ICON_GreatWork_Sculpture] 艺术巨作中获得+2 [ICON_Food] 食物、+2 [ICON_Science] 科技值、+4 [ICON_Gold] 金币。宫殿有5个巨作槽位。</Text>
         </Replace>
     </LocalizedText>
 </GameData>

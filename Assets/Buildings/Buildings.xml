@@ -140,17 +140,5 @@
             <Set Description="LOC_SK_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION"/>
         </Update>
     </Buildings>
-    <RequirementSetRequirements>
-        <DELETE RequirementSetId="CITY_HAS_CHICHEN_ITZA_REQUIREMENTS" RequirementId="REQUIRES_CITY_HAS_CHICHEN_ITZA"/>
-        <Row>
-            <RequirementSetId>CITY_HAS_CHICHEN_ITZA_REQUIREMENTS</RequirementSetId>
-            <RequirementId>REQUIRES_PLAYER</RequirementId>
-        </Row>
-        <DELETE RequirementSetId="CITY_HAS_PETRA_REQUIREMENTS" RequirementId="REQUIRES_CITY_HAS_PETRA"/>
-        <Row>
-            <RequirementSetId>CITY_HAS_PETRA_REQUIREMENTS</RequirementSetId>
-            <RequirementId>REQUIRES_PLAYER</RequirementId>
-        </Row>
-    </RequirementSetRequirements>
 
 </GameInfo>
