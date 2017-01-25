@@ -62,6 +62,27 @@
         <Replace Tag="LOC_SK_BUILDING_STOCK_EXCHANGE_DESCRIPTION" Language="en_US">
             <Text>The addition range of +1 [ICON_Gold] Gold to adjacent extended to two away.</Text>
         </Replace>
+        <Replace Tag="LOC_SK_BUILDING_WORKSHOP_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Production] Production to [ICON_RESOURCE_GYPSUM] Gypsum and [ICON_RESOURCE_MARBLE] Marble resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_LIGHTHOUSE_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Food] Food to [ICON_RESOURCE_FISH] Fish, [ICON_RESOURCE_CRABS] Crabs, [ICON_RESOURCE_WHALES] Whales, and [ICON_RESOURCE_PEARLS] Pearls resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_SHIPYARD_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Production] Production to [ICON_RESOURCE_FISH] Fish, [ICON_RESOURCE_CRABS] Crabs, [ICON_RESOURCE_WHALES] Whales, and [ICON_RESOURCE_PEARLS] Pearls resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_SEAPORT_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Production] Production to coast tiles.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_AMPHITHEATER_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Culture] Culture to [ICON_RESOURCE_COFFEE] Coffee and [ICON_RESOURCE_TEA] Tea resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_MUSEUM_ART_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Culture] Culture to [ICON_RESOURCE_MARBLE] Marble, [ICON_RESOURCE_INCENSE] Incense and [ICON_RESOURCE_WINE] Wine resources.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="en_US">
+            <Text>+1 [ICON_Culture] Culture to [ICON_RESOURCE_SILK] Silk, [ICON_RESOURCE_JADE] Jade and [ICON_RESOURCE_DIAMONDS] Diamonds resources.</Text>
+        </Replace>
         <!-- zh_Hans_CN -->
         <Replace Tag="LOC_SK_BUILDING_WATER_MILL_DESCRIPTION" Language="zh_Hans_CN">
             <Text>[ICON_RESOURCE_BANANAS] 香蕉、 [ICON_RESOURCE_CATTLE] 牛、 [ICON_RESOURCE_CITRUS] 柑橘、 [ICON_RESOURCE_DEER] 鹿、 [ICON_RESOURCE_RICE] 大米、 [ICON_RESOURCE_SHEEP] 羊和 [ICON_RESOURCE_WHEAT] 小麦资源分别+1 [ICON_Food] 食物。城市必须靠近河流。</Text>
@@ -119,6 +140,27 @@
         </Replace>
         <Replace Tag="LOC_SK_BUILDING_STOCK_EXCHANGE_DESCRIPTION" Language="zh_Hans_CN">
             <Text>邻接+1 [ICON_Gold] 金币加成范围扩展到2格。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_WORKSHOP_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_GYPSUM] 石膏和 [ICON_RESOURCE_MARBLE] 大理石资源分别+1 [ICON_Production] 生产力。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_LIGHTHOUSE_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_FISH] 鱼, [ICON_RESOURCE_CRABS] 螃蟹, [ICON_RESOURCE_WHALES] 鲸鱼和 [ICON_RESOURCE_PEARLS] 珍珠资源+1 [ICON_Food] 食物。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_SHIPYARD_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_FISH] 鱼, [ICON_RESOURCE_CRABS] 螃蟹, [ICON_RESOURCE_WHALES] 鲸鱼和 [ICON_RESOURCE_PEARLS] 珍珠资源+1 [ICON_Production] 生产力。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_SEAPORT_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>浅海地块+1 [ICON_Production] 生产力。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_AMPHITHEATER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_COFFEE] 咖啡和 [ICON_RESOURCE_TEA] 茶资源+1 [ICON_Culture] 文化值。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_MUSEUM_ART_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_MARBLE] 大理石、 [ICON_RESOURCE_INCENSE] 熏香和 [ICON_RESOURCE_WINE] 红酒资源 [ICON_Culture] 文化值。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_SILK] 丝绸、 [ICON_RESOURCE_JADE] 玉和 [ICON_RESOURCE_DIAMONDS] 钻石资源+1 [ICON_Culture] 文化值。</Text>
         </Replace>
     </LocalizedText>
 </GameData>

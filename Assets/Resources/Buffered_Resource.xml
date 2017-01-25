@@ -98,10 +98,10 @@
         <Row Type="RESOURCE_DIAMONDS" Tag="CLASS_SK_MUSEUM_ARTIFACT_RESOURCE"/>
 
         <!--Sea-->
-        <Row Type="RESOURCE_CRABS" Tag="CLASS_SK_SEA_RESOURCE"/>
-        <Row Type="RESOURCE_FISH" Tag="CLASS_SK_SEA_RESOURCE"/>
         <Row Type="RESOURCE_PEARLS" Tag="CLASS_SK_SEA_RESOURCE"/>
         <Row Type="RESOURCE_WHALES" Tag="CLASS_SK_SEA_RESOURCE"/>
+        <Row Type="RESOURCE_CRABS" Tag="CLASS_SK_SEA_RESOURCE"/>
+        <Row Type="RESOURCE_FISH" Tag="CLASS_SK_SEA_RESOURCE"/>
 
         <!--Strategic Resource-->
         <Row Type="RESOURCE_IRON" Tag="CLASS_SK_IRON_RESOURCE"/>
@@ -236,6 +236,11 @@
             <ModifierId>SK_ADD_SEA_RESOURCE_GOLD</ModifierId>
             <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
             <SubjectRequirementSetId>SK_IS_SEA_RESOURCE</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>SK_COAST_PRODUCTION_MODIFIER</ModifierId>
+            <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+            <SubjectRequirementSetId>SK_PLOT_IS_COAST_REQUIREMENTS</SubjectRequirementSetId>
         </Row>
     </Modifiers>
     <ModifierArguments>
@@ -489,6 +494,16 @@
             <Name>Amount</Name>
             <Value>1</Value>
         </Row>
+        <Row>
+            <ModifierId>SK_COAST_PRODUCTION_MODIFIER</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_PRODUCTION</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_COAST_PRODUCTION_MODIFIER</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
     </ModifierArguments>
     <Requirements>
         <Row>
@@ -578,6 +593,11 @@
         <Row>
             <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_SEA_RESOURCE</RequirementId>
             <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
+        </Row>
+        <Row>
+            <RequirementId>SK_PLOT_IS_COAST</RequirementId>
+            <RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+            <Inverse>false</Inverse>
         </Row>
     </Requirements>
     <RequirementArguments>
@@ -731,6 +751,11 @@
             <Name>Tag</Name>
             <Value>CLASS_SK_SEA_RESOURCE</Value>
         </Row>
+        <Row>
+            <RequirementId>SK_PLOT_IS_COAST</RequirementId>
+            <Name>TerrainType</Name>
+            <Value>TERRAIN_COAST</Value>
+        </Row>
     </RequirementArguments>
     <RequirementSetRequirements>
         <Row>
@@ -821,6 +846,10 @@
             <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_SEA_RESOURCE</RequirementId>
             <RequirementSetId>SK_IS_SEA_RESOURCE</RequirementSetId>
         </Row>
+        <Row>
+            <RequirementId>SK_PLOT_IS_COAST_REQUIREMENTS</RequirementId>
+            <RequirementSetId>SK_PLOT_IS_COAST</RequirementSetId>
+        </Row>
     </RequirementSetRequirements>
     <RequirementSets>
         <Row>
@@ -909,6 +938,10 @@
         </Row>
         <Row>
             <RequirementSetId>SK_IS_SEA_RESOURCE</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>SK_PLOT_IS_COAST_REQUIREMENTS</RequirementSetId>
             <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
         </Row>
     </RequirementSets>
@@ -1021,5 +1054,19 @@
             <BuildingType>BUILDING_WORKSHOP</BuildingType>
             <ModifierId>SK_ADD_WORKSHOP_RESOURCE_YIELD</ModifierId>
         </Row>
+        <Row>
+            <BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+            <ModifierId>SK_ADD_SEA_RESOURCE_FOOD</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_SHIPYARD</BuildingType>
+            <ModifierId>SK_ADD_SEA_RESOURCE_PRODUCTION</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_SEAPORT</BuildingType>
+            <ModifierId>SK_COAST_PRODUCTION_MODIFIER</ModifierId>
+        </Row>
+
+
     </BuildingModifiers>
 </GameInfo>

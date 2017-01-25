@@ -168,6 +168,33 @@
             <Where BuildingType="BUILDING_STOCK_EXCHANGE"/>
             <Set Description="LOC_SK_BUILDING_STOCK_EXCHANGE_DESCRIPTION"/>
         </Update>
+        <Update>
+            <Where BuildingType="BUILDING_WORKSHOP"/>
+            <Set Description="LOC_SK_BUILDING_WORKSHOP_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_LIGHTHOUSE"/>
+            <Set Description="LOC_SK_BUILDING_LIGHTHOUSE_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_SHIPYARD"/>
+            <Set Description="LOC_SK_BUILDING_SHIPYARD_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_SEAPORT"/>
+            <Set Description="LOC_SK_BUILDING_SEAPORT_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_AMPHITHEATER"/>
+            <Set Description="LOC_SK_BUILDING_AMPHITHEATER_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_MUSEUM_ART"/>
+            <Set Description="LOC_SK_BUILDING_MUSEUM_ART_DESCRIPTION"/>
+        </Update>
+        <Update>
+            <Where BuildingType="BUILDING_MUSEUM_ARTIFACT"/>
+            <Set Description="LOC_SK_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION"/>
+        </Update>
     </Buildings>
-
 </GameInfo>
