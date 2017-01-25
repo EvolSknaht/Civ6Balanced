@@ -19,6 +19,8 @@
         <Row Tag="CLASS_SK_INDUSTRIAL_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
         <Row Tag="CLASS_SK_WORKSHOP_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
         <Row Tag="CLASS_SK_AMPHITHEATER_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
+        <Row Tag="CLASS_SK_MUSEUM_ART_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
+        <Row Tag="CLASS_SK_MUSEUM_ARTIFACT_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
         <Row Tag="CLASS_SK_SEA_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
 
         <Row Tag="CLASS_SK_IRON_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
@@ -1066,7 +1068,5 @@
             <BuildingType>BUILDING_SEAPORT</BuildingType>
             <ModifierId>SK_COAST_PRODUCTION_MODIFIER</ModifierId>
         </Row>
-
-
     </BuildingModifiers>
 </GameInfo>
