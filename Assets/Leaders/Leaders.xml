@@ -318,7 +318,6 @@
             <Value>true</Value>
         </Row>
     </ModifierArguments>
-
     <Traits>
         <Update>
             <Where TraitType="TRAIT_LEADER_MAGNANIMOUS"/>

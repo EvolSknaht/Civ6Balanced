@@ -13,7 +13,7 @@
         <Row ResourceType="RESOURCE_COFFEE" TerrainType="TERRAIN_GRASS"/>
         <Row ResourceType="RESOURCE_COFFEE" TerrainType="TERRAIN_PLAINS"/>
         <Delete ResourceType="RESOURCE_FURS" />
-        <Row ResourceType="RESOURCE_IVORY" TerrainType="TERRAIN_PLAINS"/>
+        <Row ResourceType="RESOURCE_FURS" TerrainType="TERRAIN_PLAINS"/>
         <Row ResourceType="RESOURCE_FURS" TerrainType="TERRAIN_TUNDRA"/>
         <Delete ResourceType="RESOURCE_GYPSUM" />
         <Row ResourceType="RESOURCE_GYPSUM" TerrainType="TERRAIN_PLAINS"/>
