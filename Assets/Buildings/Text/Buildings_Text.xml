@@ -145,10 +145,10 @@
             <Text>[ICON_RESOURCE_GYPSUM] 石膏和 [ICON_RESOURCE_MARBLE] 大理石资源分别+1 [ICON_Production] 生产力。</Text>
         </Replace>
         <Replace Tag="LOC_SK_BUILDING_LIGHTHOUSE_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>[ICON_RESOURCE_FISH] 鱼, [ICON_RESOURCE_CRABS] 螃蟹, [ICON_RESOURCE_WHALES] 鲸鱼和 [ICON_RESOURCE_PEARLS] 珍珠资源+1 [ICON_Food] 食物。</Text>
+            <Text>[ICON_RESOURCE_FISH] 鱼、 [ICON_RESOURCE_CRABS] 螃蟹、 [ICON_RESOURCE_WHALES] 鲸鱼和 [ICON_RESOURCE_PEARLS] 珍珠资源+1 [ICON_Food] 食物。</Text>
         </Replace>
         <Replace Tag="LOC_SK_BUILDING_SHIPYARD_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>[ICON_RESOURCE_FISH] 鱼, [ICON_RESOURCE_CRABS] 螃蟹, [ICON_RESOURCE_WHALES] 鲸鱼和 [ICON_RESOURCE_PEARLS] 珍珠资源+1 [ICON_Production] 生产力。</Text>
+            <Text>[ICON_RESOURCE_FISH] 鱼、 [ICON_RESOURCE_CRABS] 螃蟹、 [ICON_RESOURCE_WHALES] 鲸鱼和 [ICON_RESOURCE_PEARLS] 珍珠资源+1 [ICON_Production] 生产力。</Text>
         </Replace>
         <Replace Tag="LOC_SK_BUILDING_SEAPORT_DESCRIPTION" Language="zh_Hans_CN">
             <Text>浅海地块+1 [ICON_Production] 生产力。</Text>

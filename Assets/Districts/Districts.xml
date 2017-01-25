@@ -21,8 +21,10 @@
         <Row DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldChangeId="Coast_Gold"/>
     </District_Adjacencies>
     <Adjacency_YieldChanges>
-        <Delete ID="Wonder_Culture"/>
-        <Row ID="Wonder_Culture" Description="LOC_DISTRICT_WONDER_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentWonder="true"/>
+        <Update>
+            <Where  ID="Wonder_Culture"/>
+            <Set YieldChange="2"/>
+        </Update>
         <Row ID="Resource_Gold" Description="LOC_SK_DISTRICT_RESOURCE_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
         <Row ID="Coast_Culture" Description="LOC_SK_DISTRICT_COAST_CULTURE" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_COAST"/>
         <Row ID="Coast_Gold" Description="LOC_SK_DISTRICT_COAST_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_COAST"/>
