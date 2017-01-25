@@ -44,6 +44,12 @@
         <Replace Tag="LOC_SK_DISTRICT_ROYAL_NAVY_DOCKYARD_DESCRIPTION" Language="en_US">
             <Text>A district unique to England for naval activity in your city. Replaces the Harbor district. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land.[NEWLINE][NEWLINE]+1 [ICON_Movement] Movement for all naval units built in Dockyard[NEWLINE]+4 [ICON_Gold] Gold when built on a foreign continent[NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity</Text>
         </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_RESOURCE_GOLD" Language="en_US">
+            <Text>+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?resource; other?resources;}.</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_COAST_CULTURE" Language="en_US">
+            <Text>+{1_num} [ICON_Culture] Culture from the adjacent Coast {1_Num : plural 1?tile; other?tiles;}.</Text>
+        </Replace>
         <!-- zh_Hans_CN -->
         <Replace Tag="LOC_SK_DISTRICT_AQUEDUCT_DESCRIPTION" Language="zh_Hans_CN">
             <Text>区域从相邻的河流、湖泊、绿洲或山脉引水，为该城市提供淡水资源。没有淡水资源的城市最多获得6个 [ICON_Housing] 住房。相反，已有淡水资源的城市 [ICON_Housing] 住房数量+2。必须靠近城市中心修建。[NEWLINE][NEWLINE]邻接地块+1 [ICON_Food] 食物。[NEWLINE]绿洲+1 [ICON_Food] 食物。</Text>
@@ -86,6 +92,12 @@
         </Replace>
         <Replace Tag="LOC_SK_DISTRICT_ROYAL_NAVY_DOCKYARD_DESCRIPTION" Language="zh_Hans_CN">
             <Text>您城市里的英国特色海军活动区。取代港口。同时移除该单元格的上船、下船 [ICON_Movement] 移动力减益。必须建在靠近陆地的海岸或湖泊地形上。[NEWLINE][NEWLINE]为造船厂所建的所有海军单位+1 [ICON_Movement] 移动力[NEWLINE]当建造在海外大陆时，+4 [ICON_Gold] 金币[NEWLINE]+1 [ICON_TradeRoute] 贸易路线容量</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_RESOURCE_GOLD" Language="zh_Hans_CN">
+            <Text>+{1_num} [ICON_Gold] 金币来自相邻{1_Num : plural 1?资源; other?资源;}。</Text>
+        </Replace>
+        <Replace Tag="LOC_SK_DISTRICT_COAST_CULTURE" Language="en_US">
+            <Text>+{1_num} [ICON_Culture] 文化值来自相邻海岸{1_Num : plural 1?单元格; other?单元格;}。</Text>
         </Replace>
     </LocalizedText>
 </GameData>

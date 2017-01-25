@@ -15,8 +15,10 @@
         <Row Tag="CLASS_SK_ENTERTAINMENT_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
         <Row Tag="CLASS_SK_WATER_MILL_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
         <Row Tag="CLASS_SK_HOLY_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
+        <Row Tag="CLASS_SK_SHRINE_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
         <Row Tag="CLASS_SK_INDUSTRIAL_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
-        <Row Tag="CLASS_SK_THEATER_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
+        <Row Tag="CLASS_SK_WORKSHOP_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
+        <Row Tag="CLASS_SK_AMPHITHEATER_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
         <Row Tag="CLASS_SK_SEA_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
 
         <Row Tag="CLASS_SK_IRON_RESOURCE" Vocabulary="RESOURCE_CLASS"/>
@@ -29,6 +31,23 @@
     <TypeTags>
         <!--Aqueduct-->
         <Row Type="FEATURE_OASIS" Tag="CLASS_SK_AQUEDUCT_FEATURE"/>
+
+        <!--WATER_MILL-->
+        <Row Type="RESOURCE_BANANAS" Tag="CLASS_SK_WATER_MILL_RESOURCE"/>
+        <Row Type="RESOURCE_CATTLE" Tag="CLASS_SK_WATER_MILL_RESOURCE"/>
+        <Row Type="RESOURCE_CITRUS" Tag="CLASS_SK_WATER_MILL_RESOURCE"/>
+        <Row Type="RESOURCE_DEER" Tag="CLASS_SK_WATER_MILL_RESOURCE"/>
+        <Row Type="RESOURCE_SHEEP" Tag="CLASS_SK_WATER_MILL_RESOURCE"/>
+
+        <!--Encampment-->
+        <Row Type="RESOURCE_COPPER" Tag="CLASS_SK_ENCAMPMENT_RESOURCE"/>
+        <Row Type="RESOURCE_HORSES" Tag="CLASS_SK_ENCAMPMENT_RESOURCE"/>
+
+        <!--Stables-->
+        <Row Type="RESOURCE_HORSES" Tag="CLASS_SK_STABLES_RESOURCE"/>
+
+        <!--Barracks-->
+        <Row Type="RESOURCE_COPPER" Tag="CLASS_SK_BARRACKS_RESOURCE"/>
 
         <!--Campus-->
         <Row Type="RESOURCE_MERCURY" Tag="CLASS_SK_CAMPUS_RESOURCE"/>
@@ -46,44 +65,37 @@
         <Row Type="RESOURCE_TOBACCO" Tag="CLASS_SK_COMMERCIAL_RESOURCE"/>
         <Row Type="RESOURCE_SILVER" Tag="CLASS_SK_COMMERCIAL_RESOURCE"/>
 
-        <!--Encampment-->
-        <Row Type="RESOURCE_COPPER" Tag="CLASS_SK_ENCAMPMENT_RESOURCE"/>
-        <Row Type="RESOURCE_HORSES" Tag="CLASS_SK_ENCAMPMENT_RESOURCE"/>
-
-        <!--Stables-->
-        <Row Type="RESOURCE_HORSES" Tag="CLASS_SK_STABLES_RESOURCE"/>
-
-        <!--Barracks-->
-        <Row Type="RESOURCE_COPPER" Tag="CLASS_SK_BARRACKS_RESOURCE"/>
-
         <!--Entertainment-->
         <Row Type="RESOURCE_COCOA" Tag="CLASS_SK_ENTERTAINMENT_RESOURCE"/>
         <Row Type="RESOURCE_TRUFFLES" Tag="CLASS_SK_ENTERTAINMENT_RESOURCE"/>
         <Row Type="RESOURCE_IVORY" Tag="CLASS_SK_ENTERTAINMENT_RESOURCE"/>
 
-        <!--WATER_MILL-->
-        <Row Type="RESOURCE_BANANAS" Tag="CLASS_SK_WATER_MILL_RESOURCE"/>
-        <Row Type="RESOURCE_CATTLE" Tag="CLASS_SK_WATER_MILL_RESOURCE"/>
-        <Row Type="RESOURCE_CITRUS" Tag="CLASS_SK_WATER_MILL_RESOURCE"/>
-        <Row Type="RESOURCE_DEER" Tag="CLASS_SK_WATER_MILL_RESOURCE"/>
-        <Row Type="RESOURCE_RICE" Tag="CLASS_SK_WATER_MILL_RESOURCE"/>
-        <Row Type="RESOURCE_SHEEP" Tag="CLASS_SK_WATER_MILL_RESOURCE"/>
-        <Row Type="RESOURCE_WHEAT" Tag="CLASS_SK_WATER_MILL_RESOURCE"/>
-
         <!--Holy-->
         <Row Type="RESOURCE_STONE" Tag="CLASS_SK_HOLY_RESOURCE"/>
-        <Row Type="RESOURCE_INCENSE" Tag="CLASS_SK_HOLY_RESOURCE"/>
-        <Row Type="RESOURCE_WINE" Tag="CLASS_SK_HOLY_RESOURCE"/>
+        <!--Shrine-->
+        <Row Type="RESOURCE_INCENSE" Tag="CLASS_SK_SHRINE_RESOURCE"/>
+        <Row Type="RESOURCE_WINE" Tag="CLASS_SK_SHRINE_RESOURCE"/>
+        <Row Type="RESOURCE_DYES" Tag="CLASS_SK_SHRINE_RESOURCE"/>
+        <Row Type="RESOURCE_FURS" Tag="CLASS_SK_SHRINE_RESOURCE"/>
 
         <!--Industrial-->
-        <Row Type="RESOURCE_GYPSUM" Tag="CLASS_SK_INDUSTRIAL_RESOURCE"/>
+        <Row Type="RESOURCE_STONE" Tag="CLASS_SK_INDUSTRIAL_RESOURCE"/>
 
-        <!--Theater-->
-        <Row Type="RESOURCE_COFFEE" Tag="CLASS_SK_THEATER_RESOURCE"/>
-        <Row Type="RESOURCE_TEA" Tag="CLASS_SK_THEATER_RESOURCE"/>
-        <Row Type="RESOURCE_MARBLE" Tag="CLASS_SK_THEATER_RESOURCE"/>
-        <Row Type="RESOURCE_DIAMONDS" Tag="CLASS_SK_THEATER_RESOURCE"/>
-        <Row Type="RESOURCE_JADE" Tag="CLASS_SK_THEATER_RESOURCE"/>
+        <!--Workshop-->
+        <Row Type="RESOURCE_GYPSUM" Tag="CLASS_SK_WORKSHOP_RESOURCE"/>
+        <Row Type="RESOURCE_MARBLE" Tag="CLASS_SK_WORKSHOP_RESOURCE"/>
+
+        <!--Amphitheater-->
+        <Row Type="RESOURCE_COFFEE" Tag="CLASS_SK_AMPHITHEATER_RESOURCE"/>
+        <Row Type="RESOURCE_TEA" Tag="CLASS_SK_AMPHITHEATER_RESOURCE"/>
+        <!--Museum art-->
+        <Row Type="RESOURCE_MARBLE" Tag="CLASS_SK_MUSEUM_ART_RESOURCE"/>
+        <Row Type="RESOURCE_INCENSE" Tag="CLASS_SK_MUSEUM_ART_RESOURCE"/>
+        <Row Type="RESOURCE_WINE" Tag="CLASS_SK_MUSEUM_ART_RESOURCE"/>
+        <!--Museum artifact-->
+        <Row Type="RESOURCE_SILK" Tag="CLASS_SK_MUSEUM_ARTIFACT_RESOURCE"/>
+        <Row Type="RESOURCE_JADE" Tag="CLASS_SK_MUSEUM_ARTIFACT_RESOURCE"/>
+        <Row Type="RESOURCE_DIAMONDS" Tag="CLASS_SK_MUSEUM_ARTIFACT_RESOURCE"/>
 
         <!--Sea-->
         <Row Type="RESOURCE_CRABS" Tag="CLASS_SK_SEA_RESOURCE"/>
@@ -183,7 +195,7 @@
         <Row>
             <ModifierId>SK_ADD_SHRINE_RESOURCE_YIELD</ModifierId>
             <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-            <SubjectRequirementSetId>SK_IS_HOLY_RESOURCE</SubjectRequirementSetId>
+            <SubjectRequirementSetId>SK_IS_SHRINE_RESOURCE</SubjectRequirementSetId>
         </Row>
         <Row>
             <ModifierId>SK_ADD_INDUSTRIAL_RESOURCE_YIELD</ModifierId>
@@ -191,14 +203,24 @@
             <SubjectRequirementSetId>SK_IS_INDUSTRIAL_RESOURCE</SubjectRequirementSetId>
         </Row>
         <Row>
-            <ModifierId>SK_ADD_THEATER_RESOURCE_YIELD</ModifierId>
+            <ModifierId>SK_ADD_WORKSHOP_RESOURCE_YIELD</ModifierId>
             <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-            <SubjectRequirementSetId>SK_IS_THEATER_RESOURCE</SubjectRequirementSetId>
+            <SubjectRequirementSetId>SK_IS_WORKSHOP_RESOURCE</SubjectRequirementSetId>
         </Row>
         <Row>
             <ModifierId>SK_ADD_AMPHITHEATER_RESOURCE_YIELD</ModifierId>
             <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-            <SubjectRequirementSetId>SK_IS_THEATER_RESOURCE</SubjectRequirementSetId>
+            <SubjectRequirementSetId>SK_IS_AMPHITHEATER_RESOURCE</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_MUSEUM_ART_RESOURCE_YIELD</ModifierId>
+            <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+            <SubjectRequirementSetId>SK_IS_MUSEUM_ART_RESOURCE</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_MUSEUM_ART_ARTIFACT_RESOURCE_YIELD</ModifierId>
+            <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+            <SubjectRequirementSetId>SK_IS_MUSEUM_ARTIFACT_RESOURCE</SubjectRequirementSetId>
         </Row>
         <Row>
             <ModifierId>SK_ADD_SEA_RESOURCE_FOOD</ModifierId>
@@ -398,14 +420,14 @@
             <Value>1</Value>
         </Row>
         <Row>
-            <ModifierId>SK_ADD_THEATER_RESOURCE_YIELD</ModifierId>
+            <ModifierId>SK_ADD_WORKSHOP_RESOURCE_YIELD</ModifierId>
             <Name>YieldType</Name>
-            <Value>YIELD_CULTURE</Value>
+            <Value>YIELD_PRODUCTION</Value>
         </Row>
         <Row>
-            <ModifierId>SK_ADD_THEATER_RESOURCE_YIELD</ModifierId>
+            <ModifierId>SK_ADD_WORKSHOP_RESOURCE_YIELD</ModifierId>
             <Name>Amount</Name>
-            <Value>2</Value>
+            <Value>1</Value>
         </Row>
         <Row>
             <ModifierId>SK_ADD_AMPHITHEATER_RESOURCE_YIELD</ModifierId>
@@ -414,6 +436,26 @@
         </Row>
         <Row>
             <ModifierId>SK_ADD_AMPHITHEATER_RESOURCE_YIELD</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_MUSEUM_ART_RESOURCE_YIELD</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_CULTURE</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_MUSEUM_ART_RESOURCE_YIELD</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_MUSEUM_ARTIFACT_RESOURCE_YIELD</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_CULTURE</Value>
+        </Row>
+        <Row>
+            <ModifierId>SK_ADD_MUSEUM_ARTIFACT_RESOURCE_YIELD</ModifierId>
             <Name>Amount</Name>
             <Value>1</Value>
         </Row>
@@ -510,11 +552,27 @@
             <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
         </Row>
         <Row>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_SHRINE_RESOURCE</RequirementId>
+            <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
+        </Row>
+        <Row>
             <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_INDUSTRIAL_RESOURCE</RequirementId>
             <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
         </Row>
         <Row>
-            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_THEATER_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_WORKSHOP_RESOURCE</RequirementId>
+            <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_AMPHITHEATER_RESOURCE</RequirementId>
+            <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_MUSEUM_ART_RESOURCE</RequirementId>
+            <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_MUSEUM_ARTIFACT_RESOURCE</RequirementId>
             <RequirementType>REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES</RequirementType>
         </Row>
         <Row>
@@ -639,14 +697,34 @@
             <Value>CLASS_SK_HOLY_RESOURCE</Value>
         </Row>
         <Row>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_SHRINE_RESOURCE</RequirementId>
+            <Name>Tag</Name>
+            <Value>CLASS_SK_SHRINE_RESOURCE</Value>
+        </Row>
+        <Row>
             <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_INDUSTRIAL_RESOURCE</RequirementId>
             <Name>Tag</Name>
             <Value>CLASS_SK_INDUSTRIAL_RESOURCE</Value>
         </Row>
         <Row>
-            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_THEATER_RESOURCE</RequirementId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_WORKSHOP_RESOURCE</RequirementId>
             <Name>Tag</Name>
-            <Value>CLASS_SK_THEATER_RESOURCE</Value>
+            <Value>CLASS_SK_WORKSHOP_RESOURCE</Value>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_AMPHITHEATER_RESOURCE</RequirementId>
+            <Name>Tag</Name>
+            <Value>CLASS_SK_AMPHITHEATER_RESOURCE</Value>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_MUSEUM_ART_RESOURCE</RequirementId>
+            <Name>Tag</Name>
+            <Value>CLASS_SK_MUSEUM_ART_RESOURCE</Value>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_MUSEUM_ARTIFACT_RESOURCE</RequirementId>
+            <Name>Tag</Name>
+            <Value>CLASS_SK_MUSEUM_ARTIFACT_RESOURCE</Value>
         </Row>
         <Row>
             <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_SEA_RESOURCE</RequirementId>
@@ -716,12 +794,28 @@
             <RequirementSetId>SK_IS_HOLY_RESOURCE</RequirementSetId>
         </Row>
         <Row>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_SHRINE_RESOURCE</RequirementId>
+            <RequirementSetId>SK_IS_SHRINE_RESOURCE</RequirementSetId>
+        </Row>
+        <Row>
             <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_INDUSTRIAL_RESOURCE</RequirementId>
             <RequirementSetId>SK_IS_INDUSTRIAL_RESOURCE</RequirementSetId>
         </Row>
         <Row>
-            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_THEATER_RESOURCE</RequirementId>
-            <RequirementSetId>SK_IS_THEATER_RESOURCE</RequirementSetId>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_WORKSHOP_RESOURCE</RequirementId>
+            <RequirementSetId>SK_IS_WORKSHOP_RESOURCE</RequirementSetId>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_AMPHITHEATER_RESOURCE</RequirementId>
+            <RequirementSetId>SK_IS_AMPHITHEATER_RESOURCE</RequirementSetId>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_MUSEUM_ART_RESOURCE</RequirementId>
+            <RequirementSetId>SK_IS_MUSEUM_ART_RESOURCE</RequirementSetId>
+        </Row>
+        <Row>
+            <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_MUSEUM_ARTIFACT_RESOURCE</RequirementId>
+            <RequirementSetId>SK_IS_MUSEUM_ARTIFACT_RESOURCE</RequirementSetId>
         </Row>
         <Row>
             <RequirementId>SK_REQUIRES_PLOT_HAS_TAG_SEA_RESOURCE</RequirementId>
@@ -790,11 +884,27 @@
             <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
         </Row>
         <Row>
+            <RequirementSetId>SK_IS_SHRINE_RESOURCE</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
             <RequirementSetId>SK_IS_INDUSTRIAL_RESOURCE</RequirementSetId>
             <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
         </Row>
         <Row>
-            <RequirementSetId>SK_IS_THEATER_RESOURCE</RequirementSetId>
+            <RequirementSetId>SK_IS_WORKSHOP_RESOURCE</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>SK_IS_AMPHITHEATER_RESOURCE</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>SK_IS_MUSEUM_ART_RESOURCE</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>SK_IS_MUSEUM_ARTIFACT_RESOURCE</RequirementSetId>
             <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
         </Row>
         <Row>
@@ -826,16 +936,8 @@
             <ModifierId>SK_ADD_CAMPUS_RESOURCE_YIELD</ModifierId>
         </Row>
         <Row>
-            <DistrictType>DISTRICT_COMMERCIAL_HUB</DistrictType>
-            <ModifierId>SK_ADD_COMMERCIAL_RESOURCE_YIELD</ModifierId>
-        </Row>
-        <Row>
             <DistrictType>DISTRICT_ENCAMPMENT</DistrictType>
             <ModifierId>SK_ADD_ENCAMPMENT_RESOURCE_YIELD</ModifierId>
-        </Row>
-        <Row>
-            <DistrictType>DISTRICT_ENTERTAINMENT_COMPLEX</DistrictType>
-            <ModifierId>SK_ADD_ENTERTAINMENT_RESOURCE_CULTURE_YIELD</ModifierId>
         </Row>
         <Row>
             <DistrictType>DISTRICT_ENTERTAINMENT_COMPLEX</DistrictType>
@@ -843,7 +945,7 @@
         </Row>
         <Row>
             <DistrictType>DISTRICT_STREET_CARNIVAL</DistrictType>
-            <ModifierId>SK_ADD_ENTERTAINMENT_RESOURCE_CULTURE_YIELD</ModifierId>
+            <ModifierId>SK_ADD_ENTERTAINMENT_RESOURCE_GOLD_YIELD</ModifierId>
         </Row>
         <Row>
             <DistrictType>DISTRICT_HOLY_SITE</DistrictType>
@@ -860,14 +962,6 @@
         <Row>
             <DistrictType>DISTRICT_HANSA</DistrictType>
             <ModifierId>SK_ADD_INDUSTRIAL_RESOURCE_YIELD</ModifierId>
-        </Row>
-        <Row>
-            <DistrictType>DISTRICT_THEATER</DistrictType>
-            <ModifierId>SK_ADD_THEATER_RESOURCE_YIELD</ModifierId>
-        </Row>
-        <Row>
-            <DistrictType>DISTRICT_ACROPOLIS</DistrictType>
-            <ModifierId>SK_ADD_THEATER_RESOURCE_YIELD</ModifierId>
         </Row>
     </DistrictModifiers>
     <BuildingModifiers>
@@ -896,11 +990,15 @@
             <ModifierId>SK_ADD_AMPHITHEATER_RESOURCE_YIELD</ModifierId>
         </Row>
         <Row>
-            <BuildingType>BUILDING_ARENA</BuildingType>
-            <ModifierId>SK_ADD_ENTERTAINMENT_RESOURCE_GOLD_YIELD</ModifierId>
+            <BuildingType>BUILDING_MUSEUM_ART</BuildingType>
+            <ModifierId>SK_ADD_MUSEUM_ART_RESOURCE_YIELD</ModifierId>
         </Row>
         <Row>
-            <BuildingType>BUILDING_ZOO</BuildingType>
+            <BuildingType>BUILDING_MUSEUM_ARTIFACT</BuildingType>
+            <ModifierId>SK_ADD_MUSEUM_ARTIFACT_RESOURCE_YIELD</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ARENA</BuildingType>
             <ModifierId>SK_ADD_ENTERTAINMENT_RESOURCE_CULTURE_YIELD</ModifierId>
         </Row>
         <Row>
@@ -918,6 +1016,10 @@
         <Row>
             <BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
             <ModifierId>SK_ADD_COMMERCIAL_SECOND_ADJACENT_MODIFIER</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <ModifierId>SK_ADD_WORKSHOP_RESOURCE_YIELD</ModifierId>
         </Row>
     </BuildingModifiers>
 </GameInfo>

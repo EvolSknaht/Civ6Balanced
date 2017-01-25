@@ -461,14 +461,6 @@
 
     <DistrictModifiers>
         <Row>
-            <DistrictType>DISTRICT_ENCAMPMENT</DistrictType>
-            <ModifierId>SK_ADD_IRON_RESOURCE_PRODUCTION</ModifierId>
-        </Row>
-        <Row>
-            <DistrictType>DISTRICT_ENCAMPMENT</DistrictType>
-            <ModifierId>SK_ADD_NITER_RESOURCE_PRODUCTION</ModifierId>
-        </Row>
-        <Row>
             <DistrictType>DISTRICT_INDUSTRIAL_ZONE</DistrictType>
             <ModifierId>SK_ADD_COAL_RESOURCE_PRODUCTION</ModifierId>
         </Row>
@@ -526,6 +518,22 @@
         <Row>
             <BuildingType>BUILDING_RESEARCH_LAB</BuildingType>
             <ModifierId>SK_ADD_URANIUM_RESOURCE_SCIENCE</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_FACTORY</BuildingType>
+            <ModifierId>SK_ADD_COAL_RESOURCE_PRODUCTION</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_FACTORY</BuildingType>
+            <ModifierId>SK_ADD_OIL_RESOURCE_PRODUCTION</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POWER_PLANT</BuildingType>
+            <ModifierId>SK_ADD_ALUMINUM_RESOURCE_PRODUCTION</ModifierId>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POWER_PLANT</BuildingType>
+            <ModifierId>SK_ADD_URANIUM_RESOURCE_PRODUCTION</ModifierId>
         </Row>
     </BuildingModifiers>
 </GameInfo>
