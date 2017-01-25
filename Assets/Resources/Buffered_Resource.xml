@@ -220,7 +220,7 @@
             <SubjectRequirementSetId>SK_IS_MUSEUM_ART_RESOURCE</SubjectRequirementSetId>
         </Row>
         <Row>
-            <ModifierId>SK_ADD_MUSEUM_ART_ARTIFACT_RESOURCE_YIELD</ModifierId>
+            <ModifierId>SK_ADD_MUSEUM_ARTIFACT_RESOURCE_YIELD</ModifierId>
             <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
             <SubjectRequirementSetId>SK_IS_MUSEUM_ARTIFACT_RESOURCE</SubjectRequirementSetId>
         </Row>
