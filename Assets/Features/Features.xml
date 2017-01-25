@@ -25,21 +25,21 @@
     </Feature_YieldChanges>
     <Feature_AdjacentYields>
         <Delete FeatureType="FEATURE_EVEREST"/>
-        <Row FeatureType="FEATURE_EVEREST" YieldType="YIELD_FAITH" YieldChange="4"/>
+        <Row FeatureType="FEATURE_EVEREST" YieldType="YIELD_FAITH" YieldChange="3"/>
         <Delete FeatureType="FEATURE_TSINGY"/>
         <Row FeatureType="FEATURE_TSINGY" YieldType="YIELD_GOLD" YieldChange="1"/>
         <Row FeatureType="FEATURE_TSINGY" YieldType="YIELD_CULTURE" YieldChange="1"/>
         <Row FeatureType="FEATURE_TSINGY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
         <Delete FeatureType="FEATURE_GALAPAGOS"/>
-        <Row FeatureType="FEATURE_GALAPAGOS" YieldType="YIELD_GOLD" YieldChange="2"/>
-        <Row FeatureType="FEATURE_GALAPAGOS" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+        <Row FeatureType="FEATURE_GALAPAGOS" YieldType="YIELD_SCIENCE" YieldChange="3"/>
         <Delete FeatureType="FEATURE_PIOPIOTAHI"/>
         <Row FeatureType="FEATURE_PIOPIOTAHI" YieldType="YIELD_CULTURE" YieldChange="2"/>
-        <Row FeatureType="FEATURE_PIOPIOTAHI" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Row FeatureType="FEATURE_PIOPIOTAHI" YieldType="YIELD_GOLD" YieldChange="1"/>
         <Delete FeatureType="FEATURE_YOSEMITE"/>
-        <Row FeatureType="FEATURE_YOSEMITE" YieldType="YIELD_GOLD" YieldChange="2"/>
+        <Row FeatureType="FEATURE_YOSEMITE" YieldType="YIELD_GOLD" YieldChange="1"/>
         <Row FeatureType="FEATURE_YOSEMITE" YieldType="YIELD_SCIENCE" YieldChange="2"/>
         <Delete FeatureType="FEATURE_KILIMANJARO"/>
-        <Row FeatureType="FEATURE_KILIMANJARO" YieldType="YIELD_FOOD" YieldChange="3"/>
+        <Row FeatureType="FEATURE_KILIMANJARO" YieldType="YIELD_FOOD" YieldChange="2"/>
+        <Row FeatureType="FEATURE_KILIMANJARO" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
     </Feature_AdjacentYields>
 </GameInfo>
