@@ -125,7 +125,7 @@
         <Delete ModifierId="TRAIT_HERMITAGEPRODUCTION" />
         <Delete ModifierId="TRAIT_RUHRVALLEYPRODUCTION" />
         <Delete ModifierId="TRAIT_OXFORDUNIVERSITYPRODUCTION" />
-        <Delete ModifierId="TRAIT_TRAIT_BIGBENPRODUCTION" />
+        <Delete ModifierId="TRAIT_BIGBENPRODUCTION" />
         <Row>
             <ModifierId>TRAIT_ALHAMBRAPRODUCTION</ModifierId>
             <Name>BuildingType</Name>
